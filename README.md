@@ -24,6 +24,11 @@ const mihaela = {
     funFact: "I combine code and design thinking for pixel-perfect results! ✨"
 };
 ```
+<div align="center">
+
+### 💭 _"Nothing is impossible when you believe, work hard, and stay committed"_
+
+</div>
 
 ## 🛠️ Tech Stack
 
