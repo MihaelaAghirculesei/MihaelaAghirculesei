@@ -10,6 +10,10 @@
 
 </div>
 
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=MihaelaAghirculesei&title=Visitors" alt="Visitors"/>
+</p>
+
 ## 🌟 About Me
 ```javascript
 const mihaela = {
