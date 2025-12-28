@@ -62,14 +62,12 @@
 ![Performance](https://img.shields.io/badge/Web_Performance-FF5722?style=for-the-badge&logo=speedtest&logoColor=white)
 ![Testing](https://img.shields.io/badge/Testing-43A047?style=for-the-badge&logo=testing-library&logoColor=white)
 
-## 📈 GitHub Stats
-
+## 📈 GitHub Statistics
 <div align="center">
 
-![Mihaela's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MihaelaAghirculesei&show_icons=true&theme=radical&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true)
+![Streak Stats](https://streak-stats.demolab.com?user=MihaelaAghirculesei&theme=radical&hide_border=true)
 
-</div>
+</div> 
 
 ## 🌐 Connect With Me
 
