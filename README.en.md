@@ -3,9 +3,9 @@
 # Hi there! 👋 I'm Mihaela Aghirculesei
 
 ### 🌐 Language / Sprache
-[![Deutsch](https://img.shields.io/badge/Sprache-Deutsch-red?style=for-the-badge&logo=deutschland&logoColor=white)](README.md)
-[![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge&logo=earth-americas&logoColor=white)](README.en.md)
-[![Italiano](https://img.shields.io/badge/lingua-Italiano-green?style=for-the-badge&logo=italy&logoColor=white)](README.it.md)
+[![Deutsch](https://img.shields.io/badge/Sprache-Deutsch-red?style=for-the-badge)](README.md)
+[![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](README.en.md)
+[![Italiano](https://img.shields.io/badge/lingua-Italiano-green?style=for-the-badge)](README.it.md)
 
 **Frontend Developer** specializing in Angular & TypeScript
 
@@ -78,7 +78,7 @@ A modern, web-based Pokédex with comprehensive PokéAPI integration. The applic
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-0052CC?style=flat-square&logo=rest&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-0052CC?style=flat-square)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
