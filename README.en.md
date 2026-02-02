@@ -103,9 +103,9 @@ A modern, web-based Pokédex with comprehensive PokéAPI integration. The applic
 ## 🚀 Currently
 
 - 🔨 **Working on:** [Birthday Memories](https://github.com/MihaelaAghirculesei/birthday-reminder-app)
-- 📚 **Learning:** Offline-first architecture, core Angular skills, testing strategies, API integration & authentication, cross-platform development, advanced TypeScript & RxJS, data management
+- 📚 **Proficient in:** NGRX (store, effects, selectors), Facade pattern, Angular Signals, offline-first architecture with IndexedDB, testing (unit/e2e), PWA with Service Worker, OAuth 2.0
 - 💼 **Open to:** Frontend Developer roles (Angular/TypeScript focus)
-- 💬 **Ask me about:** Angular, TypeScript, RxJS, UI/UX design
+- 💬 **Ask me about:** Angular 19, NGRX, TypeScript, RxJS, Angular Signals, PWA, testing with Jasmine/Cypress
 
 ---
 
