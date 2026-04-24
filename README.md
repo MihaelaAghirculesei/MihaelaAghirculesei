@@ -29,11 +29,11 @@ Ich bin eine Frontend-Entwicklerin mit Leidenschaft für die Erstellung intuitiv
 ```typescript
 const mihaela = {
   location: "🌍 Europa",
-  code: ["TypeScript", "JavaScript", "HTML", "CSS"],
+  code: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
   technologies: {
     frontend: ["Angular 17 & 19", "RxJS", "NgRx", "Material Design", "PWA"],
     mobile: ["Capacitor 7 (Android)"],
-    backend: ["Firebase", "Firestore", "Google Calendar API", "IndexedDB"],
+    backend: ["FastAPI", "SQLAlchemy", "Firebase", "Firestore", "Google Calendar API", "IndexedDB"],
     tools: ["Git", "VS Code", "Figma", "Angular CLI", "Cypress"]
   },
   currentFocus: "Fortgeschrittene Angular-Patterns, Offline-First-Architektur & Mobile",
@@ -65,6 +65,14 @@ Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und C
 
 **Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 15 E2E
 
+                                                                                                                                  
+### 🐍 [Todo Platform API](https://github.com/MihaelaAghirculesei/todo-platform/tree/feature/backend-api)
+Eine RESTful Todo API mit FastAPI und SQLAlchemy 2.0, gebaut auf einer sauberen Schichtarchitektur (Router → Service → Repository
+→ SQLite). Vollständige CRUD-Implementierung mit Eingabevalidierung und 23/23 Tests.
+
+**Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • Pytest • Pydantic 2
+
+
 ---
 
 ## 🛠️ Tech Stack
@@ -85,11 +93,19 @@ Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und C
 ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 
+**Backend**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
 **Testing**
 
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=white)
 ![Karma](https://img.shields.io/badge/Karma-56C2E6?style=flat-square)
 ![Jasmine](https://img.shields.io/badge/Jasmine-8A4182?style=flat-square&logo=jasmine&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
 **Tools & Backend**
 
