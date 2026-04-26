@@ -129,7 +129,7 @@ Eine RESTful Todo API mit FastAPI und SQLAlchemy 2.0, gebaut auf einer sauberen 
 
 ### Meistgenutzte Sprachen
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true" width="30%"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
 
 </div>
 
