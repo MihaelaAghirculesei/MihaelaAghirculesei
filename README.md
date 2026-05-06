@@ -66,11 +66,15 @@ Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und C
 **Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 15 E2E
 
                                                                                                                                   
-### 🐍 [Todo Platform API](https://github.com/MihaelaAghirculesei/todo-platform/tree/feature/backend-api)
-Eine RESTful Todo API mit FastAPI und SQLAlchemy 2.0, gebaut auf einer sauberen Schichtarchitektur (Router → Service → Repository
-→ SQLite). Vollständige CRUD-Implementierung mit Eingabevalidierung und 23/23 Tests.
+### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform)                                           
+Eine fullstack Todo-App mit einer RESTful API (FastAPI + SQLAlchemy 2.0) und einem React-Frontend. Saubere
+Schichtarchitektur (Router → Service → Repository), vollständige CRUD-Implementierung mit Eingabevalidierung und 23/23 
+Tests. SQLite lokal · PostgreSQL in Produktion.
 
-**Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • Pytest • Pydantic 2
+🌐 **Live:** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
+
+**Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest 
+  • Pydantic 2
 
 
 ---
@@ -99,6 +103,7 @@ Eine RESTful Todo API mit FastAPI und SQLAlchemy 2.0, gebaut auf einer sauberen 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 **Testing**
 
