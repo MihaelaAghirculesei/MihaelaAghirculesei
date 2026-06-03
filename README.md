@@ -7,9 +7,9 @@
 [![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](README.en.md)
 [![Italiano](https://img.shields.io/badge/lingua-Italiano-green?style=for-the-badge)](README.it.md)
 
-**Frontend-Entwicklerin** spezialisiert auf Angular & TypeScript
+**Fullstack-Entwicklerin** spezialisiert auf Angular, TypeScript & Python
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Erstelle+Sch%C3%B6ne+Benutzeroberfl%C3%A4chen;TypeScript+%2B+Angular+Expertin;Clean+Code+Enthusiastin)](https://github.com/MihaelaAghirculesei)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack-Entwicklerin+%7C+Angular+%26+Python;TypeScript+%2B+FastAPI+Expertin;Clean+Code+Enthusiastin)](https://github.com/MihaelaAghirculesei)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
 
@@ -24,7 +24,7 @@
 
 ## 👩‍💻 Über Mich
 
-Ich bin eine Frontend-Entwicklerin mit Leidenschaft für die Erstellung intuitiver und performanter Benutzeroberflächen. Ich spezialisiere mich auf die Entwicklung skalierbarer Angular-Anwendungen mit sauberem, wartbarem Code.
+Ich bin eine Fullstack-Entwicklerin mit Leidenschaft für die Erstellung intuitiver und performanter Anwendungen. Ich spezialisiere mich auf skalierbare Angular-Frontends und Python-Backends mit sauberem, wartbarem Code.
 
 ```typescript
 const mihaela = {
@@ -36,8 +36,8 @@ const mihaela = {
     backend: ["FastAPI", "SQLAlchemy", "Firebase", "Firestore", "Google Calendar API", "IndexedDB"],
     tools: ["Git", "VS Code", "Figma", "Angular CLI", "Cypress"]
   },
-  currentFocus: "Fortgeschrittene Angular-Patterns, Offline-First-Architektur & Mobile",
-  openTo: "Frontend-Entwickler-Positionen"
+  currentFocus: "Fortgeschrittene Angular-Patterns, Python-Backend-Entwicklung & Mobile",
+  openTo: "Fullstack-Entwickler-Positionen"
 };
 ```
 
@@ -65,16 +65,12 @@ Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und C
 
 **Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 15 E2E
 
-                                                                                                                                  
-### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform)                                           
-Eine fullstack Todo-App mit einer RESTful API (FastAPI + SQLAlchemy 2.0) und einem React-Frontend. Saubere
-Schichtarchitektur (Router → Service → Repository), vollständige CRUD-Implementierung mit Eingabevalidierung und 23/23 
-Tests. SQLite lokal · PostgreSQL in Produktion.
+### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform)
+Eine fullstack Todo-App mit einer RESTful API (FastAPI + SQLAlchemy 2.0) und einem React-Frontend. Saubere Schichtarchitektur (Router → Service → Repository), vollständige CRUD-Implementierung mit Eingabevalidierung und 23/23 Tests. SQLite lokal · PostgreSQL in Produktion.
 
 🌐 **Live:** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
 
-**Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest 
-  • Pydantic 2
+**Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
 
 
 ---
@@ -91,11 +87,14 @@ Tests. SQLite lokal · PostgreSQL in Produktion.
 ![Material Design](https://img.shields.io/badge/Material_Design-757575?style=flat-square&logo=material-design&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=sass&logoColor=white)
 
 **Mobile & PWA**
 
 ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+![Angular SSR](https://img.shields.io/badge/Angular_SSR-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Workbox](https://img.shields.io/badge/Workbox-FF6D00?style=flat-square)
 
 **Backend**
 
@@ -104,6 +103,8 @@ Tests. SQLite lokal · PostgreSQL in Produktion.
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic_2-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![IndexedDB](https://img.shields.io/badge/IndexedDB-003B57?style=flat-square)
 
 **Testing**
 
@@ -111,6 +112,8 @@ Tests. SQLite lokal · PostgreSQL in Produktion.
 ![Karma](https://img.shields.io/badge/Karma-56C2E6?style=flat-square)
 ![Jasmine](https://img.shields.io/badge/Jasmine-8A4182?style=flat-square&logo=jasmine&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
 
 **Tools & Backend**
 
@@ -121,6 +124,9 @@ Tests. SQLite lokal · PostgreSQL in Produktion.
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Google Calendar API](https://img.shields.io/badge/Google_Calendar_API-4285F4?style=flat-square&logo=google-calendar&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
+![Scrum](https://img.shields.io/badge/Scrum-6DB33F?style=flat-square)
 
 ---
 
