@@ -7,9 +7,9 @@
 [![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](README.en.md)
 [![Italiano](https://img.shields.io/badge/lingua-Italiano-green?style=for-the-badge)](README.it.md)
 
-**Sviluppatrice Frontend** specializzata in Angular & TypeScript
+**Sviluppatrice Fullstack** specializzata in Angular, TypeScript & Python
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Creo+Interfacce+Bellissime;Esperta+TypeScript+%2B+Angular;Entusiasta+del+Clean+Code)](https://github.com/MihaelaAghirculesei)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Sviluppatrice+Fullstack+%7C+Angular+%26+Python;Esperta+TypeScript+%2B+FastAPI;Entusiasta+del+Clean+Code)](https://github.com/MihaelaAghirculesei)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
 
@@ -24,20 +24,20 @@
 
 ## 👩‍💻 Chi Sono
 
-Sono una sviluppatrice frontend appassionata della creazione di interfacce utente intuitive e performanti. Mi specializzo nello sviluppo di applicazioni Angular scalabili con codice pulito e manutenibile.
+Sono una sviluppatrice fullstack appassionata della creazione di applicazioni intuitive e performanti. Mi specializzo in frontend Angular scalabili e backend Python con codice pulito e manutenibile.
 
 ```typescript
 const mihaela = {
   location: "🌍 Europa",
-  code: ["TypeScript", "JavaScript", "HTML", "CSS"],
+  code: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
   technologies: {
     frontend: ["Angular 17 & 19", "RxJS", "NgRx", "Material Design", "PWA"],
     mobile: ["Capacitor 7 (Android)"],
-    backend: ["Firebase", "Firestore", "Google Calendar API", "IndexedDB"],
+    backend: ["FastAPI", "SQLAlchemy", "Firebase", "Firestore", "Google Calendar API", "IndexedDB", "SQLite"],
     tools: ["Git", "VS Code", "Figma", "Angular CLI", "Cypress"]
   },
-  currentFocus: "Pattern avanzati Angular, architettura offline-first & mobile",
-  openTo: "Opportunità come Sviluppatrice Frontend"
+  currentFocus: "Pattern avanzati Angular, sviluppo backend Python & mobile",
+  openTo: "Opportunità come Sviluppatrice Fullstack"
 };
 ```
 
@@ -65,6 +65,11 @@ Un'app multipiattaforma per ricordare i compleanni con architettura offline-firs
 
 **Tech:** Angular 19 (Signals, SSR, standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB offline-first • PWA • Cypress 15 E2E
 
+### 🐍 [Todo Platform API](https://github.com/MihaelaAghirculesei/todo-platform/tree/feature/backend-api)
+Una API RESTful per Todo costruita con FastAPI e SQLAlchemy 2.0, su un'architettura a strati pulita (Router → Service → Repository → SQLite). Implementazione CRUD completa con validazione degli input e 23/23 test superati.
+
+**Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • Pytest • Pydantic 2
+
 ---
 
 ## 🛠️ Stack Tecnologico
@@ -79,11 +84,14 @@ Un'app multipiattaforma per ricordare i compleanni con architettura offline-firs
 ![Material Design](https://img.shields.io/badge/Material_Design-757575?style=flat-square&logo=material-design&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=sass&logoColor=white)
 
 **Mobile & PWA**
 
 ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+![Angular SSR](https://img.shields.io/badge/Angular_SSR-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Workbox](https://img.shields.io/badge/Workbox-FF6D00?style=flat-square)
 
 **Backend**
 
@@ -91,12 +99,18 @@ Un'app multipiattaforma per ricordare i compleanni con architettura offline-firs
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic_2-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![IndexedDB](https://img.shields.io/badge/IndexedDB-003B57?style=flat-square)
 
 **Testing**
 
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=white)
 ![Karma](https://img.shields.io/badge/Karma-56C2E6?style=flat-square)
 ![Jasmine](https://img.shields.io/badge/Jasmine-8A4182?style=flat-square&logo=jasmine&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
 
 **Strumenti**
 
@@ -107,6 +121,9 @@ Un'app multipiattaforma per ricordare i compleanni con architettura offline-firs
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Google Calendar API](https://img.shields.io/badge/Google_Calendar_API-4285F4?style=flat-square&logo=google-calendar&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
+![Scrum](https://img.shields.io/badge/Scrum-6DB33F?style=flat-square)
 
 ---
 
