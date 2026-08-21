@@ -133,11 +133,11 @@ A RESTful Todo API built with FastAPI and SQLAlchemy 2.0, on a clean layered arc
 
 | GitHub Stats | GitHub Streak |
 |--------------|---------------|
-| <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=MihaelaAghirculesei&show_icons=true&theme=radical&hide_border=true&count_private=true" width="100%"/> | <img src="https://github-readme-streak-stats-eight.vercel.app/?user=MihaelaAghirculesei&theme=radical&hide_border=true" width="100%"/> |
+| <img src="https://github-readme-stats-iota-gray-47.vercel.app/api?username=MihaelaAghirculesei&show_icons=true&theme=radical&hide_border=true&count_private=true" width="100%"/> | <img src="https://github-readme-streak-stats-blush-zeta.vercel.app/?user=MihaelaAghirculesei&theme=radical&hide_border=true" width="100%"/> |
 
 ### Top Languages
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
+<img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
 
 </div>
 
