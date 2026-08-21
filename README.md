@@ -72,7 +72,6 @@ Eine fullstack Todo-App mit einer RESTful API (FastAPI + SQLAlchemy 2.0) und ein
 
 **Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
 
-
 ---
 
 ## 🛠️ Tech Stack
@@ -115,7 +114,7 @@ Eine fullstack Todo-App mit einer RESTful API (FastAPI + SQLAlchemy 2.0) und ein
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
 
-**Tools & Backend**
+**Tools**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
