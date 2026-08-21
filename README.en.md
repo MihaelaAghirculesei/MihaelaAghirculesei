@@ -65,10 +65,12 @@ A cross-platform birthday reminder app with offline-first architecture and cloud
 
 **Tech:** Angular 19 (Signals, SSR, standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB offline-first • PWA • Cypress 15 E2E
 
-### 🐍 [Todo Platform API](https://github.com/MihaelaAghirculesei/todo-platform/tree/feature/backend-api)
-A RESTful Todo API built with FastAPI and SQLAlchemy 2.0, on a clean layered architecture (Router → Service → Repository → SQLite). Full CRUD implementation with input validation and 23/23 tests passing.
+### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform)
+A fullstack Todo app with a RESTful API (FastAPI + SQLAlchemy 2.0) and a React frontend. Clean layered architecture (Router → Service → Repository), full CRUD implementation with input validation, and 23/23 tests passing. SQLite locally · PostgreSQL in production.
 
-**Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • Pytest • Pydantic 2
+🌐 **Live:** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
+
+**Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
 
 ---
 
