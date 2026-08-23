@@ -177,6 +177,15 @@ Un'app Todo fullstack con una API RESTful (FastAPI + SQLAlchemy 2.0) e un fronte
 
 ---
 
+## 🌍 Lingue & Disponibilità
+
+- **Rumeno, Italiano** — Madrelingua
+- **Tedesco** — Livello avanzato/negoziale (esperienza lavorativa esclusivamente in tedesco)
+- **Inglese** — B1 (lettura/scrittura), A1 (parlato, in miglioramento)
+
+🇪🇺 Cittadinanza UE (Romania & Italia) — pieno diritto di lavoro in Germania e in tutta l'UE, nessun visto o sponsorizzazione richiesti.
+
+---
 
 ## 📫 Mettiamoci in Contatto
 
