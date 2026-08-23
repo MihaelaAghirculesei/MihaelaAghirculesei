@@ -59,7 +59,7 @@ Sviluppo autonomo di applicazioni web – dalla raccolta requisiti al deployment
 ## 🎨 Progetti in Evidenza
 
 ### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Progetto cliente
-Sito portfolio pronto per la produzione per una fotografa – realizzato in autonomia dall'architettura al deployment live (402 commit, 50 pull request mergiate).
+Sito portfolio pronto per la produzione per una fotografa – realizzato in autonomia dall'architettura al deployment live (402 commit, 48 pull request mergiate).
 
 - **Qualità:** copertura test ≥95% (Codecov), Lighthouse ≥95 (Accessibility), ≥90 (SEO), CLS ≤ 0,1 – garantita da gate CI bloccanti su ogni pull request
 - **CI/CD:** pipeline GitHub Actions completa con lint, type-check, test unit/E2E, gate di coverage, budget dimensione bundle (≤500 KB) e audit Lighthouse automatizzato
