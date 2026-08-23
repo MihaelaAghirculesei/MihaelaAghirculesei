@@ -177,6 +177,15 @@ A fullstack Todo app with a RESTful API (FastAPI + SQLAlchemy 2.0) and a React f
 
 ---
 
+## 🌍 Languages & Availability
+
+- **Romanian, Italian** — Native
+- **German** — Business fluent (professional experience exclusively in German)
+- **English** — B1 (reading/writing), A1 (speaking, actively improving)
+
+🇪🇺 EU citizenship (Romania & Italy) — full right to work in Germany & the entire EU, no visa or sponsorship required.
+
+---
 
 ## 📫 Let's Connect
 
