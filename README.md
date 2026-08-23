@@ -80,9 +80,9 @@ Ein actionreiches 2D-Jump-and-Run-Spiel mit Pepe als Hauptfigur. Sammle Münzen 
 **Tech:** HTML5 Canvas Game Engine • Vanilla JavaScript ES6+ • OOP-Designmuster • Custom Audio Pooling • Pixelgenaue Kollisionserkennung • Mobile Touch-Steuerung • 60 FPS Performance-Optimierung
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
-Ein moderner, webbasierter Pokédex mit umfassender PokéAPI-Integration. Die Anwendung bietet eine intuitive und interaktive Erfahrung für Pokémon-Fans.
+Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständiger Keyboard-Navigation. Offline-First-PWA mit 243 Unit- und 21 E2E-Tests bei 100 % Coverage, abgesichert durch automatisiertes CI/CD.
 
-**Tech:** Vanilla JavaScript ES6+ • PWA-Architektur • RESTful API-Integration • Performance-Optimierung • Barrierefreies Design
+**Tech:** TypeScript (Strict Mode) • Vite • Vitest • Playwright • Workbox PWA • Lighthouse CI • Husky + lint-staged
 
 ### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
 Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und Cloud-Synchronisierung. Native Android-Benachrichtigungen via Capacitor, bidirektionale Google Calendar-Synchronisierung und Echtzeit-Firestore-Sync für angemeldete Nutzer.
