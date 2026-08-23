@@ -24,19 +24,20 @@
 
 ## 👩‍💻 Chi Sono
 
-Sono una sviluppatrice fullstack appassionata della creazione di applicazioni intuitive e performanti. Mi specializzo in frontend Angular scalabili e backend Python con codice pulito e manutenibile.
+Sviluppatrice software con qualifica certificata TÜV e applicazioni reali in produzione — tra cui un sito web per un cliente che ho realizzato in autonomia, dall'architettura al deployment. Mi concentro su applicazioni web basate su TypeScript con Angular e React/Next.js, supportate da test automatizzati, quality gate in CI e accessibilità conforme WCAG. Da diversi anni di esperienza nel coordinamento di progetti porto inoltre una sensibilità consolidata per la chiarificazione dei requisiti, la gestione delle scadenze e una comunicazione chiara tra i reparti.
 
 ```typescript
 const mihaela = {
   location: "🌍 Europa",
   code: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
   technologies: {
-    frontend: ["Angular 17 & 19", "RxJS", "NgRx", "Material Design", "PWA"],
+    frontend: ["Angular 17 & 19", "React 18/19", "Next.js 16", "RxJS", "NgRx", "Tailwind CSS", "Material Design", "PWA"],
     mobile: ["Capacitor 7 (Android)"],
-    backend: ["FastAPI", "SQLAlchemy", "Firebase", "Firestore", "Google Calendar API", "IndexedDB", "SQLite"],
-    tools: ["Git", "VS Code", "Figma", "Angular CLI", "Cypress"]
+    backend: ["FastAPI", "SQLAlchemy", "PostgreSQL", "Firebase", "Firestore", "Google Calendar API", "IndexedDB", "SQLite"],
+    quality: ["Vitest", "Playwright", "Cypress", "axe-core", "GitHub Actions CI/CD"],
+    tools: ["Git", "VS Code", "Figma", "Vercel"]
   },
-  currentFocus: "Pattern avanzati Angular, sviluppo backend Python & mobile",
+  currentFocus: "Production-grade React/Next.js apps, advanced Angular patterns & Python backends",
   openTo: "Opportunità come Sviluppatrice Fullstack"
 };
 ```
