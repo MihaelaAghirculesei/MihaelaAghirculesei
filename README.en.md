@@ -43,6 +43,18 @@ const mihaela = {
 
 ---
 
+## 💼 Background
+
+**Freelance Web & App Development** — Self-employed · since 10/2025
+End-to-end development of web applications for clients – from requirements gathering to deployment, including a booking website with an appointment scheduling system and automated communication. More of my own projects below ↓
+
+**TÜV-certified Software Developer Qualification** — Developer Akademie GmbH · 10/2024 – 10/2025
+18 modules, 12+ projects – several as part of SCRUM/Kanban teams. Focus: Angular, TypeScript, REST APIs, Firebase, test automation, UI/UX (Figma).
+
+*Before that: several years of experience as a project coordinator on technical development projects (automotive/IT) – requirements management, Jira, stakeholder alignment across international teams of up to 150 people.*
+
+---
+
 ## 🎨 Featured Projects
 
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/)
