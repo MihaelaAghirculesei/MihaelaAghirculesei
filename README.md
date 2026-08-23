@@ -43,6 +43,18 @@ const mihaela = {
 
 ---
 
+## 💼 Werdegang
+
+**Freelance Web- & App-Entwicklung** — Selbstständig · seit 10/2025
+Eigenverantwortliche Entwicklung von Web-Anwendungen – von der Anforderungsaufnahme bis zum Deployment, mit Schwerpunkt auf Terminbuchungssystemen und automatisierten Kommunikationslösungen. Weitere eigene Projekte siehe unten ↓
+
+**TÜV-zertifizierte Qualifizierung zur Softwareentwicklerin** — Developer Akademie GmbH · 10/2024 – 10/2025
+18 Module, 12+ Projekte – davon mehrere im Team nach SCRUM/Kanban. Schwerpunkte: Angular, TypeScript, REST-APIs, Firebase, Testautomatisierung, UI/UX (Figma).
+
+*Davor: mehrjährige Erfahrung als Projektkoordinatorin in technischen Entwicklungsprojekten (Automotive/IT) – Anforderungsmanagement, Jira, Abstimmung mit Stakeholdern in internationalen Teams bis zu 150 Personen.*
+
+---
+
 ## 🎨 Ausgewählte Projekte
 
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/)
