@@ -61,6 +61,8 @@ Eigenverantwortliche Entwicklung von Web-Anwendungen – von der Anforderungsauf
 ### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Kundenprojekt
 Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich von der Architektur bis zum Live-Deployment umgesetzt (402 Commits, 48 gemergte Pull Requests).
 
+<img src="imgs/alina-moments.png" width="800"/>
+
 - **Qualität:** ≥95 % Testabdeckung (Codecov), Lighthouse ≥95 (Accessibility), ≥90 (SEO), CLS ≤ 0,1 – abgesichert durch CI-Gates bei jedem Pull Request
 - **CI/CD:** GitHub-Actions-Pipeline mit Lint, Type-Check, Unit-/E2E-Tests, Coverage-Gate, Bundle-Size-Budget (≤ 500 kB) und automatisiertem Lighthouse-Audit
 - **Sicherheit:** Nonce-basierte CSP, atomares Rate-Limiting, HMAC-Authentifizierung für Rezensions-Moderation, HSTS
@@ -72,25 +74,35 @@ Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich 
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/)
 Eine moderne Projektmanagement-Plattform für effektive Teamzusammenarbeit. Mit Angular 17 und Firebase bietet Join Echtzeit-Synchronisierung, intuitive Kanban-Boards und leistungsstarke Tools für Ihr Team.
 
+<img src="imgs/join-board.png" width="800"/>
+
 **Tech:** Angular 17 Standalone Components • Firebase Realtime Database • Drag & Drop-Oberfläche (Angular CDK) • Multi-User-Authentifizierung
 
 ### 🚀 [El Pollo Loco](https://el-pollo-loco-aghirculesei.pages.dev/)
 Ein actionreiches 2D-Jump-and-Run-Spiel mit Pepe als Hauptfigur. Sammle Münzen und Flaschen, besiege Gegner und meistere herausfordernde Level in diesem spannenden Abenteuer.
+
+<img src="imgs/el-pollo-loco.png" width="800"/>
 
 **Tech:** HTML5 Canvas Game Engine • Vanilla JavaScript ES6+ • OOP-Designmuster • Custom Audio Pooling • Pixelgenaue Kollisionserkennung • Mobile Touch-Steuerung • 60 FPS Performance-Optimierung
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
 Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständiger Keyboard-Navigation. Offline-First-PWA mit 243 Unit- und 21 E2E-Tests bei 100 % Coverage, abgesichert durch automatisiertes CI/CD.
 
+<img src="imgs/pokedex.png" width="800"/>
+
 **Tech:** TypeScript (Strict Mode) • Vite • Vitest • Playwright • Workbox PWA • Lighthouse CI • Husky + lint-staged
 
 ### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
 Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und Cloud-Synchronisierung. Native Android-Benachrichtigungen via Capacitor, bidirektionale Google Calendar-Synchronisierung und Echtzeit-Firestore-Sync für angemeldete Nutzer.
 
+<img src="imgs/birthday-memories.png" width="800"/>
+
 **Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 15 E2E
 
 ### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform) · Teamprojekt (2 Entwickler)
-Eine fullstack Todo-App mit einer RESTful API (FastAPI + SQLAlchemy 2.0) und einem React-Frontend. Saubere Schichtarchitektur (Router → Service → Repository), vollständige CRUD-Implementierung mit Eingabevalidierung und 23/23 Tests. SQLite lokal · PostgreSQL in Produktion.
+Eine fullstack Todo-App mit RESTful API und React-Frontend, entwickelt im Team. **Mein Beitrag: das komplette Backend** (FastAPI + SQLAlchemy 2.0) — saubere Schichtarchitektur (Router → Service → Repository) mit vollständiger CRUD-Implementierung, Eingabevalidierung und 23/23 Tests. Die REST-API wurde so entworfen, dass mein Teampartner unabhängig das React-Frontend dagegen entwickeln konnte. SQLite lokal · PostgreSQL in Produktion.
+
+<img src="imgs/todo-platform.png" width="800"/>
 
 🌐 **Live:** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
 
