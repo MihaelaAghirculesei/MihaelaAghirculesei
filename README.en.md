@@ -59,7 +59,7 @@ End-to-end development of web applications for clients – from requirements gat
 ## 🎨 Featured Projects
 
 ### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Client project
-Production-grade portfolio website for a photographer – built end-to-end on my own, from architecture to live deployment (402 commits, 50 merged pull requests).
+Production-grade portfolio website for a photographer – built end-to-end on my own, from architecture to live deployment (402 commits, 48 merged pull requests).
 
 - **Quality:** ≥95% test coverage (Codecov), Lighthouse ≥95 (Accessibility), ≥90 (SEO), CLS ≤ 0.1 – enforced by blocking CI gates on every pull request
 - **CI/CD:** Full GitHub Actions pipeline with lint, type-check, unit/E2E tests, coverage gate, bundle-size budget (≤500 KB), and automated Lighthouse audits
