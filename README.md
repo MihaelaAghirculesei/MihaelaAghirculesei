@@ -89,7 +89,7 @@ Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und C
 
 **Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 15 E2E
 
-### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform)
+### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform) · Teamprojekt (2 Entwickler)
 Eine fullstack Todo-App mit einer RESTful API (FastAPI + SQLAlchemy 2.0) und einem React-Frontend. Saubere Schichtarchitektur (Router → Service → Repository), vollständige CRUD-Implementierung mit Eingabevalidierung und 23/23 Tests. SQLite lokal · PostgreSQL in Produktion.
 
 🌐 **Live:** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
