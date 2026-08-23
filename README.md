@@ -59,7 +59,7 @@ Eigenverantwortliche Entwicklung von Web-Anwendungen – von der Anforderungsauf
 ## 🎨 Ausgewählte Projekte
 
 ### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Kundenprojekt
-Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich von der Architektur bis zum Live-Deployment umgesetzt (402 Commits, 50 gemergte Pull Requests).
+Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich von der Architektur bis zum Live-Deployment umgesetzt (402 Commits, 48 gemergte Pull Requests).
 
 - **Qualität:** ≥95 % Testabdeckung (Codecov), Lighthouse ≥95 (Accessibility), ≥90 (SEO), CLS ≤ 0,1 – abgesichert durch CI-Gates bei jedem Pull Request
 - **CI/CD:** GitHub-Actions-Pipeline mit Lint, Type-Check, Unit-/E2E-Tests, Coverage-Gate, Bundle-Size-Budget (≤ 500 kB) und automatisiertem Lighthouse-Audit
