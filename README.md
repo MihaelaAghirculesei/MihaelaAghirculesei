@@ -177,6 +177,15 @@ Eine fullstack Todo-App mit einer RESTful API (FastAPI + SQLAlchemy 2.0) und ein
 
 ---
 
+## 🌍 Sprachen & Verfügbarkeit
+
+- **Rumänisch, Italienisch** — Muttersprache
+- **Deutsch** — verhandlungssicher (Berufserfahrung ausschließlich auf Deutsch)
+- **Englisch** — B1 (Lesen/Schreiben), A1 (Sprechen, im Aufbau)
+
+🇪🇺 EU-Staatsangehörigkeit (Rumänien & Italien) — uneingeschränkte Arbeitserlaubnis in Deutschland & der gesamten EU, keine Visum- oder Sponsoring-Anforderungen.
+
+---
 
 ## 📫 Kontakt
 
