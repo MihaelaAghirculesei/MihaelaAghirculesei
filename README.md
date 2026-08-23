@@ -71,7 +71,7 @@ Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich 
 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
-### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/)
+### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Teamprojekt (5 Entwickler)
 Eine moderne Projektmanagement-Plattform für effektive Teamzusammenarbeit. Mit Angular 17 und Firebase bietet Join Echtzeit-Synchronisierung, intuitive Kanban-Boards und leistungsstarke Tools für Ihr Team.
 
 <img src="imgs/join-board.png" width="800"/>
