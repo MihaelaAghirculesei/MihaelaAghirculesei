@@ -71,7 +71,7 @@ Production-grade portfolio website for a photographer – built end-to-end on my
 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
-### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/)
+### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Team project (5 developers)
 A modern project management platform for effective team collaboration. Built with Angular 17 and Firebase, Join offers real-time synchronization, intuitive Kanban boards, and powerful tools for your team.
 
 <img src="imgs/join-board.png" width="800"/>
