@@ -24,19 +24,20 @@
 
 ## 👩‍💻 About Me
 
-I'm a fullstack developer passionate about creating intuitive, performant applications. I specialize in building scalable Angular frontends and Python backends with clean, maintainable code.
+Software developer with a TÜV-certified qualification and live, production applications — including a client website I built end-to-end, from architecture to deployment, on my own. My focus is on TypeScript-based web applications with Angular and React/Next.js, backed by automated tests, CI quality gates, and WCAG-compliant accessibility. From several years of experience in project coordination, I also bring a trained eye for requirements clarification, schedule management, and clear communication across departments.
 
 ```typescript
 const mihaela = {
   location: "🌍 Europe",
   code: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
   technologies: {
-    frontend: ["Angular 17 & 19", "RxJS", "NgRx", "Material Design", "PWA"],
+    frontend: ["Angular 17 & 19", "React 18/19", "Next.js 16", "RxJS", "NgRx", "Tailwind CSS", "Material Design", "PWA"],
     mobile: ["Capacitor 7 (Android)"],
-    backend: ["FastAPI", "SQLAlchemy", "Firebase", "Firestore", "Google Calendar API", "IndexedDB", "SQLite"],
-    tools: ["Git", "VS Code", "Figma", "Angular CLI", "Cypress"]
+    backend: ["FastAPI", "SQLAlchemy", "PostgreSQL", "Firebase", "Firestore", "Google Calendar API", "IndexedDB", "SQLite"],
+    quality: ["Vitest", "Playwright", "Cypress", "axe-core", "GitHub Actions CI/CD"],
+    tools: ["Git", "VS Code", "Figma", "Vercel"]
   },
-  currentFocus: "Advanced Angular patterns, Python backend development & mobile",
+  currentFocus: "Production-grade React/Next.js apps, advanced Angular patterns & Python backends",
   openTo: "Fullstack Developer opportunities"
 };
 ```
