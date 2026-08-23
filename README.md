@@ -58,6 +58,17 @@ Eigenverantwortliche Entwicklung von Web-Anwendungen – von der Anforderungsauf
 
 ## 🎨 Ausgewählte Projekte
 
+### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Kundenprojekt
+Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich von der Architektur bis zum Live-Deployment umgesetzt (402 Commits, 50 gemergte Pull Requests).
+
+- **Qualität:** ≥95 % Testabdeckung (Codecov), Lighthouse ≥95 (Accessibility), ≥90 (SEO), CLS ≤ 0,1 – abgesichert durch CI-Gates bei jedem Pull Request
+- **CI/CD:** GitHub-Actions-Pipeline mit Lint, Type-Check, Unit-/E2E-Tests, Coverage-Gate, Bundle-Size-Budget (≤ 500 kB) und automatisiertem Lighthouse-Audit
+- **Sicherheit:** Nonce-basierte CSP, atomares Rate-Limiting, HMAC-Authentifizierung für Rezensions-Moderation, HSTS
+- **Barrierefreiheit:** WCAG 2.1 AA – vollständige Tastaturnavigation, Focus-Trap, automatisierte axe-core-Audits
+- **Mehrsprachigkeit:** 4 Sprachen (DE/EN/RO/IT) mit next-intl, lokalisiertes Routing, mehrsprachiges SEO
+
+**Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
+
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/)
 Eine moderne Projektmanagement-Plattform für effektive Teamzusammenarbeit. Mit Angular 17 und Firebase bietet Join Echtzeit-Synchronisierung, intuitive Kanban-Boards und leistungsstarke Tools für Ihr Team.
 
