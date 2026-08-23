@@ -80,9 +80,9 @@ An action-packed 2D jump-and-run game featuring Pepe as the main character. Coll
 **Tech:** HTML5 canvas game engine • Vanilla JavaScript ES6+ • OOP design patterns • Custom audio pooling • Pixel-perfect collision detection • Mobile touch controls • 60 FPS performance optimization
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
-A modern, web-based Pokédex with comprehensive PokéAPI integration. The application provides an intuitive and interactive experience for Pokémon fans.
+Single-page app with PokéAPI integration, real-time search, and full keyboard navigation. Offline-first PWA with 243 unit and 21 E2E tests at 100% coverage, backed by automated CI/CD.
 
-**Tech:** Vanilla JavaScript ES6+ • PWA architecture • RESTful API integration • Performance optimization • Accessibility-first design
+**Tech:** TypeScript (strict mode) • Vite • Vitest • Playwright • Workbox PWA • Lighthouse CI • Husky + lint-staged
 
 ### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
 A cross-platform birthday reminder app with offline-first architecture and cloud sync. Features native Android notifications via Capacitor, two-way Google Calendar sync, and real-time Firestore sync for authenticated users.
