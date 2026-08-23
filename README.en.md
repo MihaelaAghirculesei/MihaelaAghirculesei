@@ -58,6 +58,17 @@ End-to-end development of web applications for clients – from requirements gat
 
 ## 🎨 Featured Projects
 
+### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Client project
+Production-grade portfolio website for a photographer – built end-to-end on my own, from architecture to live deployment (402 commits, 50 merged pull requests).
+
+- **Quality:** ≥95% test coverage (Codecov), Lighthouse ≥95 (Accessibility), ≥90 (SEO), CLS ≤ 0.1 – enforced by blocking CI gates on every pull request
+- **CI/CD:** Full GitHub Actions pipeline with lint, type-check, unit/E2E tests, coverage gate, bundle-size budget (≤500 KB), and automated Lighthouse audits
+- **Security:** Per-request nonce-based CSP, atomic rate limiting, stateless HMAC authentication for review moderation, HSTS
+- **Accessibility:** WCAG 2.1 AA – full keyboard navigation, focus trap, automated axe-core audits
+- **i18n:** 4 languages (DE/EN/RO/IT) with next-intl, localized routing, multilingual SEO
+
+**Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
+
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/)
 A modern project management platform for effective team collaboration. Built with Angular 17 and Firebase, Join offers real-time synchronization, intuitive Kanban boards, and powerful tools for your team.
 
