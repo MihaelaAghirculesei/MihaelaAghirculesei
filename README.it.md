@@ -89,7 +89,7 @@ Un'app multipiattaforma per ricordare i compleanni con architettura offline-firs
 
 **Tech:** Angular 19 (Signals, SSR, standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB offline-first • PWA • Cypress 15 E2E
 
-### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform)
+### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform) · Progetto in team (2 sviluppatori)
 Un'app Todo fullstack con una API RESTful (FastAPI + SQLAlchemy 2.0) e un frontend React. Architettura a strati pulita (Router → Service → Repository), implementazione CRUD completa con validazione degli input e 23/23 test superati. SQLite in locale · PostgreSQL in produzione.
 
 🌐 **Live:** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
