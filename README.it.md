@@ -111,6 +111,9 @@ Un'app Todo fullstack con una API RESTful (FastAPI + SQLAlchemy 2.0) e un fronte
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=sass&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 **Mobile & PWA**
 
@@ -128,6 +131,7 @@ Un'app Todo fullstack con una API RESTful (FastAPI + SQLAlchemy 2.0) e un fronte
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic_2-E92063?style=flat-square&logo=pydantic&logoColor=white)
 ![IndexedDB](https://img.shields.io/badge/IndexedDB-003B57?style=flat-square)
+![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
 
 **Testing**
 
@@ -137,6 +141,7 @@ Un'app Todo fullstack con una API RESTful (FastAPI + SQLAlchemy 2.0) e un fronte
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
+![axe-core](https://img.shields.io/badge/axe--core-6633CC?style=flat-square)
 
 **Strumenti**
 
@@ -150,6 +155,9 @@ Un'app Todo fullstack con una API RESTful (FastAPI + SQLAlchemy 2.0) e un fronte
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
 ![Scrum](https://img.shields.io/badge/Scrum-6DB33F?style=flat-square)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![WCAG 2.1 AA](https://img.shields.io/badge/WCAG_2.1_AA-005A9C?style=flat-square)
 
 ---
 
