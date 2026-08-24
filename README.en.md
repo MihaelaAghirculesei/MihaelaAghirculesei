@@ -92,14 +92,14 @@ Production-grade portfolio website for a photographer – built end-to-end on my
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Team project (5 developers)
-A modern project management platform for effective team collaboration. Built with Angular 17 and Firebase, Join offers real-time synchronization, intuitive Kanban boards, and powerful tools for your team.
+A modern project management platform for effective team collaboration (478 team commits, 24 unit tests). Built with Angular 17 and Firebase, Join offers real-time synchronization, intuitive Kanban boards, and powerful tools for your team.
 
 <img src="imgs/join-board.png" width="800"/>
 
 **Tech:** Angular 17 standalone components • Firebase Realtime Database • Drag & Drop interface (Angular CDK) • Multi-user authentication
 
 ### 🚀 [El Pollo Loco](https://el-pollo-loco-aghirculesei.pages.dev/)
-An action-packed 2D jump-and-run game featuring Pepe as the main character. Collect coins and bottles, defeat enemies, and master challenging levels in this exciting adventure.
+An action-packed 2D jump-and-run game featuring Pepe as the main character (207 commits, 20 object-oriented classes). Collect coins and bottles, defeat enemies, and master challenging levels in this exciting adventure.
 
 <img src="imgs/el-pollo-loco.png" width="800"/>
 
@@ -113,14 +113,14 @@ Single-page app with PokéAPI integration, real-time search, and full keyboard n
 **Tech:** TypeScript (strict mode) • Vite • Vitest • Playwright • Workbox PWA • Lighthouse CI • Husky + lint-staged
 
 ### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
-A cross-platform birthday reminder app with offline-first architecture and cloud sync. Features native Android notifications via Capacitor, two-way Google Calendar sync, and real-time Firestore sync for authenticated users.
+A cross-platform birthday reminder app with offline-first architecture and cloud sync (1,074 commits, 117 unit and 20 E2E tests). Features native Android notifications via Capacitor, two-way Google Calendar sync, and real-time Firestore sync for authenticated users.
 
 <img src="imgs/birthday-memories.png" width="800"/>
 
-**Tech:** Angular 19 (Signals, SSR, standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB offline-first • PWA • Cypress 15 E2E
+**Tech:** Angular 19 (Signals, SSR, standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB offline-first • PWA • Cypress 20 E2E • Sentry
 
 ### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform) · Team project (2 developers)
-A fullstack Todo app with a RESTful API and React frontend, built as a team. **My contribution: the complete backend** (FastAPI + SQLAlchemy 2.0) — clean layered architecture (Router → Service → Repository) with full CRUD implementation, input validation, and 23/23 tests passing. The REST API was designed so my teammate could build the React frontend against it independently. SQLite locally · PostgreSQL in production.
+A fullstack Todo app with a RESTful API and React frontend, built as a team (84 team commits). **My contribution: the complete backend** (FastAPI + SQLAlchemy 2.0) — clean layered architecture (Router → Service → Repository) with full CRUD implementation, input validation, and 23/23 tests passing. The REST API was designed so my teammate could build the React frontend against it independently. SQLite locally · PostgreSQL in production.
 
 <img src="imgs/todo-platform.png" width="800"/>
 
