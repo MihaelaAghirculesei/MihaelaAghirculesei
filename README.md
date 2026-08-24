@@ -94,14 +94,14 @@ Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Teamprojekt (5 Entwickler)
-Eine moderne Projektmanagement-Plattform für effektive Teamzusammenarbeit. Mit Angular 17 und Firebase bietet Join Echtzeit-Synchronisierung, intuitive Kanban-Boards und leistungsstarke Tools für Ihr Team.
+Eine moderne Projektmanagement-Plattform für effektive Teamzusammenarbeit (478 Commits im Team, 24 Unit-Tests). Mit Angular 17 und Firebase bietet Join Echtzeit-Synchronisierung, intuitive Kanban-Boards und leistungsstarke Tools für Ihr Team.
 
 <img src="imgs/join-board.png" width="800"/>
 
 **Tech:** Angular 17 Standalone Components • Firebase Realtime Database • Drag & Drop-Oberfläche (Angular CDK) • Multi-User-Authentifizierung
 
 ### 🚀 [El Pollo Loco](https://el-pollo-loco-aghirculesei.pages.dev/)
-Ein actionreiches 2D-Jump-and-Run-Spiel mit Pepe als Hauptfigur. Sammle Münzen und Flaschen, besiege Gegner und meistere herausfordernde Level in diesem spannenden Abenteuer.
+Ein actionreiches 2D-Jump-and-Run-Spiel mit Pepe als Hauptfigur (207 Commits, 20 objektorientierte Klassen). Sammle Münzen und Flaschen, besiege Gegner und meistere herausfordernde Level in diesem spannenden Abenteuer.
 
 <img src="imgs/el-pollo-loco.png" width="800"/>
 
@@ -115,14 +115,14 @@ Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständige
 **Tech:** TypeScript (Strict Mode) • Vite • Vitest • Playwright • Workbox PWA • Lighthouse CI • Husky + lint-staged
 
 ### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
-Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und Cloud-Synchronisierung. Native Android-Benachrichtigungen via Capacitor, bidirektionale Google Calendar-Synchronisierung und Echtzeit-Firestore-Sync für angemeldete Nutzer.
+Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und Cloud-Synchronisierung (1.074 Commits, 117 Unit- und 20 E2E-Tests). Native Android-Benachrichtigungen via Capacitor, bidirektionale Google Calendar-Synchronisierung und Echtzeit-Firestore-Sync für angemeldete Nutzer.
 
 <img src="imgs/birthday-memories.png" width="800"/>
 
-**Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 15 E2E
+**Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 20 E2E • Sentry
 
 ### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform) · Teamprojekt (2 Entwickler)
-Eine fullstack Todo-App mit RESTful API und React-Frontend, entwickelt im Team. **Mein Beitrag: das komplette Backend** (FastAPI + SQLAlchemy 2.0) — saubere Schichtarchitektur (Router → Service → Repository) mit vollständiger CRUD-Implementierung, Eingabevalidierung und 23/23 Tests. Die REST-API wurde so entworfen, dass mein Teampartner unabhängig das React-Frontend dagegen entwickeln konnte. SQLite lokal · PostgreSQL in Produktion.
+Eine fullstack Todo-App mit RESTful API und React-Frontend, entwickelt im Team (84 Commits im Team). **Mein Beitrag: das komplette Backend** (FastAPI + SQLAlchemy 2.0) — saubere Schichtarchitektur (Router → Service → Repository) mit vollständiger CRUD-Implementierung, Eingabevalidierung und 23/23 Tests. Die REST-API wurde so entworfen, dass mein Teampartner unabhängig das React-Frontend dagegen entwickeln konnte. SQLite lokal · PostgreSQL in Produktion.
 
 <img src="imgs/todo-platform.png" width="800"/>
 
