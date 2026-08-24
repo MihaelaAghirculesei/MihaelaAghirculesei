@@ -9,6 +9,8 @@
 
 **Fullstack-Entwicklerin** spezialisiert auf Angular, TypeScript & Python
 
+[![Offen für neue Projekte](https://img.shields.io/badge/Offen_für_neue_Projekte-1a7f37?style=for-the-badge)](mailto:aghirculesei@gmail.com)
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack-Entwicklerin+%7C+Angular+%26+Python;TypeScript+%2B+FastAPI+Expertin;Clean+Code+Enthusiastin)](https://github.com/MihaelaAghirculesei)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
