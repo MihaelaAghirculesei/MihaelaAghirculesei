@@ -24,7 +24,7 @@
 
 ## 👩‍💻 About Me
 
-Software developer with a TÜV-certified qualification and live, production applications — including a client website I built end-to-end, from architecture to deployment, on my own. My focus is on TypeScript-based web applications with Angular and React/Next.js, backed by automated tests, CI quality gates, and WCAG-compliant accessibility. From several years of experience in project coordination, I also bring a trained eye for requirements clarification, schedule management, and clear communication across departments.
+Software developer with a TÜV-certified qualification in Germany and several live, production applications — including a client website I built end-to-end, from architecture to deployment, on my own. My focus is on TypeScript-based web applications with Angular and React/Next.js, backed by automated tests, CI quality gates, and WCAG-compliant accessibility. From several years of experience in project coordination, I also bring a trained eye for requirements clarification, schedule management, and clear communication across departments.
 
 ```typescript
 const mihaela = {
