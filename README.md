@@ -93,12 +93,14 @@ Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich 
 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
-### ⚡ [ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub) · 🚧 In Entwicklung
+### ⚡ [ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub) ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
 Dashboard für EV-Ladeinfrastruktur, aktuell in aktiver Entwicklung – bereits live und funktionsfähig. Weitere Details folgen nach Fertigstellung.
+
+<img src="imgs/chargehub.png" width="800"/>
 
 🌐 **Live:** [charge-hub-one.vercel.app](https://charge-hub-one.vercel.app/de)
 
-**Tech:** Nuxt 4 • Vue 3 • Vuetify 3 • TypeScript • Pinia
+**Tech:** Nuxt 4 • Vue 3 • Vuetify 3 • TypeScript • Pinia • MapLibre GL • Chart.js
 
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Teamprojekt (5 Entwickler)
 Eine moderne Projektmanagement-Plattform für effektive Teamzusammenarbeit (478 Commits im Team, 24 Unit-Tests). Mit Angular 17 und Firebase bietet Join Echtzeit-Synchronisierung, intuitive Kanban-Boards und leistungsstarke Tools für Ihr Team.
