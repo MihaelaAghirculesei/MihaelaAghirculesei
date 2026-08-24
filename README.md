@@ -24,7 +24,7 @@
 
 ## 👩‍💻 Über Mich
 
-Softwareentwicklerin mit TÜV-zertifizierter Qualifizierung und produktiven Anwendungen im Live-Betrieb – darunter eine Kundenwebsite, die ich eigenverantwortlich von der Architektur bis zum Deployment umgesetzt habe. Mein Schwerpunkt liegt auf TypeScript-basierten Web-Anwendungen mit Angular und React/Next.js, abgesichert durch automatisierte Tests, CI-Quality-Gates und WCAG-konforme Barrierefreiheit. Aus mehreren Jahren Erfahrung in Projektkoordination bringe ich zusätzlich ein geschultes Gespür für Anforderungsklärung, Terminsteuerung und klare Kommunikation zwischen Fachbereichen mit.
+Softwareentwicklerin mit TÜV-zertifizierter Qualifizierung in Deutschland und mehreren produktiven Anwendungen im Live-Betrieb – darunter eine Kundenwebsite, die ich eigenverantwortlich von der Architektur bis zum Deployment umgesetzt habe. Mein Schwerpunkt liegt auf TypeScript-basierten Web-Anwendungen mit Angular und React/Next.js, abgesichert durch automatisierte Tests, CI-Quality-Gates und WCAG-konforme Barrierefreiheit. Aus mehreren Jahren Erfahrung in Projektkoordination bringe ich zusätzlich ein geschultes Gespür für Anforderungsklärung, Terminsteuerung und klare Kommunikation zwischen Fachbereichen mit.
 
 ```typescript
 const mihaela = {
