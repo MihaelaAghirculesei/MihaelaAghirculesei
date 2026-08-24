@@ -24,7 +24,7 @@
 
 ## 👩‍💻 Chi Sono
 
-Sviluppatrice software con qualifica certificata TÜV e applicazioni reali in produzione — tra cui un sito web per un cliente che ho realizzato in autonomia, dall'architettura al deployment. Mi concentro su applicazioni web basate su TypeScript con Angular e React/Next.js, supportate da test automatizzati, quality gate in CI e accessibilità conforme WCAG. Da diversi anni di esperienza nel coordinamento di progetti porto inoltre una sensibilità consolidata per la chiarificazione dei requisiti, la gestione delle scadenze e una comunicazione chiara tra i reparti.
+Sviluppatrice software con qualifica certificata TÜV in Germania e diverse applicazioni reali in produzione — tra cui un sito web per un cliente che ho realizzato in autonomia, dall'architettura al deployment. Mi concentro su applicazioni web basate su TypeScript con Angular e React/Next.js, supportate da test automatizzati, quality gate in CI e accessibilità conforme WCAG. Da diversi anni di esperienza nel coordinamento di progetti porto inoltre una sensibilità consolidata per la chiarificazione dei requisiti, la gestione delle scadenze e una comunicazione chiara tra i reparti.
 
 ```typescript
 const mihaela = {
