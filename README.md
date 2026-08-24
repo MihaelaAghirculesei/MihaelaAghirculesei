@@ -22,9 +22,25 @@
 
 ---
 
+## 📊 GitHub-Statistiken
+
+<div align="center">
+
+| GitHub Stats | GitHub Streak |
+|--------------|---------------|
+| <img src="https://github-readme-stats-iota-gray-47.vercel.app/api?username=MihaelaAghirculesei&show_icons=true&theme=radical&hide_border=true&count_private=true" width="100%"/> | <img src="https://github-readme-streak-stats-blush-zeta.vercel.app/?user=MihaelaAghirculesei&theme=radical&hide_border=true" width="100%"/> |
+
+### Meistgenutzte Sprachen
+
+<img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
+
+</div>
+
+---
+
 ## 👩‍💻 Über Mich
 
-Softwareentwicklerin mit TÜV-zertifizierter Qualifizierung und produktiven Anwendungen im Live-Betrieb – darunter eine Kundenwebsite, die ich eigenverantwortlich von der Architektur bis zum Deployment umgesetzt habe. Mein Schwerpunkt liegt auf TypeScript-basierten Web-Anwendungen mit Angular und React/Next.js, abgesichert durch automatisierte Tests, CI-Quality-Gates und WCAG-konforme Barrierefreiheit. Aus mehreren Jahren Erfahrung in Projektkoordination bringe ich zusätzlich ein geschultes Gespür für Anforderungsklärung, Terminsteuerung und klare Kommunikation zwischen Fachbereichen mit.
+Softwareentwicklerin mit TÜV-zertifizierter Qualifizierung in Deutschland und mehreren produktiven Anwendungen im Live-Betrieb – darunter eine Kundenwebsite, die ich eigenverantwortlich von der Architektur bis zum Deployment umgesetzt habe. Mein Schwerpunkt liegt auf TypeScript-basierten Web-Anwendungen mit Angular und React/Next.js, abgesichert durch automatisierte Tests, CI-Quality-Gates und WCAG-konforme Barrierefreiheit. Aus mehreren Jahren Erfahrung in Projektkoordination bringe ich zusätzlich ein geschultes Gespür für Anforderungsklärung, Terminsteuerung und klare Kommunikation zwischen Fachbereichen mit.
 
 ```typescript
 const mihaela = {
@@ -71,7 +87,7 @@ Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich 
 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
-### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/)
+### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Teamprojekt (5 Entwickler)
 Eine moderne Projektmanagement-Plattform für effektive Teamzusammenarbeit. Mit Angular 17 und Firebase bietet Join Echtzeit-Synchronisierung, intuitive Kanban-Boards und leistungsstarke Tools für Ihr Team.
 
 <img src="imgs/join-board.png" width="800"/>
@@ -170,22 +186,6 @@ Eine fullstack Todo-App mit RESTful API und React-Frontend, entwickelt im Team. 
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![WCAG 2.1 AA](https://img.shields.io/badge/WCAG_2.1_AA-005A9C?style=flat-square)
-
----
-
-## 📊 GitHub-Statistiken
-
-<div align="center">
-
-| GitHub Stats | GitHub Streak |
-|--------------|---------------|
-| <img src="https://github-readme-stats-iota-gray-47.vercel.app/api?username=MihaelaAghirculesei&show_icons=true&theme=radical&hide_border=true&count_private=true" width="100%"/> | <img src="https://github-readme-streak-stats-blush-zeta.vercel.app/?user=MihaelaAghirculesei&theme=radical&hide_border=true" width="100%"/> |
-
-### Meistgenutzte Sprachen
-
-<img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
-
-</div>
 
 ---
 

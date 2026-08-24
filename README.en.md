@@ -22,9 +22,25 @@
 
 ---
 
+## 📊 GitHub Stats
+
+<div align="center">
+
+| GitHub Stats | GitHub Streak |
+|--------------|---------------|
+| <img src="https://github-readme-stats-iota-gray-47.vercel.app/api?username=MihaelaAghirculesei&show_icons=true&theme=radical&hide_border=true&count_private=true" width="100%"/> | <img src="https://github-readme-streak-stats-blush-zeta.vercel.app/?user=MihaelaAghirculesei&theme=radical&hide_border=true" width="100%"/> |
+
+### Top Languages
+
+<img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
+
+</div>
+
+---
+
 ## 👩‍💻 About Me
 
-Software developer with a TÜV-certified qualification and live, production applications — including a client website I built end-to-end, from architecture to deployment, on my own. My focus is on TypeScript-based web applications with Angular and React/Next.js, backed by automated tests, CI quality gates, and WCAG-compliant accessibility. From several years of experience in project coordination, I also bring a trained eye for requirements clarification, schedule management, and clear communication across departments.
+Software developer with a TÜV-certified qualification in Germany and several live, production applications — including a client website I built end-to-end, from architecture to deployment, on my own. My focus is on TypeScript-based web applications with Angular and React/Next.js, backed by automated tests, CI quality gates, and WCAG-compliant accessibility. From several years of experience in project coordination, I also bring a trained eye for requirements clarification, schedule management, and clear communication across departments.
 
 ```typescript
 const mihaela = {
@@ -71,7 +87,7 @@ Production-grade portfolio website for a photographer – built end-to-end on my
 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
-### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/)
+### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Team project (5 developers)
 A modern project management platform for effective team collaboration. Built with Angular 17 and Firebase, Join offers real-time synchronization, intuitive Kanban boards, and powerful tools for your team.
 
 <img src="imgs/join-board.png" width="800"/>
@@ -170,22 +186,6 @@ A fullstack Todo app with a RESTful API and React frontend, built as a team. **M
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![WCAG 2.1 AA](https://img.shields.io/badge/WCAG_2.1_AA-005A9C?style=flat-square)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-| GitHub Stats | GitHub Streak |
-|--------------|---------------|
-| <img src="https://github-readme-stats-iota-gray-47.vercel.app/api?username=MihaelaAghirculesei&show_icons=true&theme=radical&hide_border=true&count_private=true" width="100%"/> | <img src="https://github-readme-streak-stats-blush-zeta.vercel.app/?user=MihaelaAghirculesei&theme=radical&hide_border=true" width="100%"/> |
-
-### Top Languages
-
-<img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
-
-</div>
 
 ---
 
