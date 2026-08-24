@@ -93,6 +93,13 @@ Sito portfolio pronto per la produzione per una fotografa – realizzato in auto
 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
+### ⚡ [ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub) · 🚧 In Sviluppo
+Dashboard per infrastruttura di ricarica EV, attualmente in sviluppo attivo – già online e funzionante. Altri dettagli in arrivo al completamento.
+
+🌐 **Live:** [charge-hub-one.vercel.app](https://charge-hub-one.vercel.app/de)
+
+**Tech:** Nuxt 4 • Vue 3 • Vuetify 3 • TypeScript • Pinia
+
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Progetto in team (5 sviluppatori)
 Una moderna piattaforma di project management per una collaborazione efficace del team (478 commit del team, 24 unit test). Costruita con Angular 17 e Firebase, Join offre sincronizzazione in tempo reale, bacheche Kanban intuitive e strumenti potenti per il tuo team.
 
