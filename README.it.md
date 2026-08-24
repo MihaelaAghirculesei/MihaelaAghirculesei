@@ -22,6 +22,22 @@
 
 ---
 
+## 📊 Statistiche GitHub
+
+<div align="center">
+
+| Statistiche GitHub | Streak GitHub |
+|--------------|---------------|
+| <img src="https://github-readme-stats-iota-gray-47.vercel.app/api?username=MihaelaAghirculesei&show_icons=true&theme=radical&hide_border=true&count_private=true" width="100%"/> | <img src="https://github-readme-streak-stats-blush-zeta.vercel.app/?user=MihaelaAghirculesei&theme=radical&hide_border=true" width="100%"/> |
+
+### Linguaggi Più Usati
+
+<img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
+
+</div>
+
+---
+
 ## 👩‍💻 Chi Sono
 
 Sviluppatrice software con qualifica certificata TÜV in Germania e diverse applicazioni reali in produzione — tra cui un sito web per un cliente che ho realizzato in autonomia, dall'architettura al deployment. Mi concentro su applicazioni web basate su TypeScript con Angular e React/Next.js, supportate da test automatizzati, quality gate in CI e accessibilità conforme WCAG. Da diversi anni di esperienza nel coordinamento di progetti porto inoltre una sensibilità consolidata per la chiarificazione dei requisiti, la gestione delle scadenze e una comunicazione chiara tra i reparti.
@@ -170,22 +186,6 @@ Un'app Todo fullstack con API RESTful e frontend React, sviluppata in team. **Il
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![WCAG 2.1 AA](https://img.shields.io/badge/WCAG_2.1_AA-005A9C?style=flat-square)
-
----
-
-## 📊 Statistiche GitHub
-
-<div align="center">
-
-| Statistiche GitHub | Streak GitHub |
-|--------------|---------------|
-| <img src="https://github-readme-stats-iota-gray-47.vercel.app/api?username=MihaelaAghirculesei&show_icons=true&theme=radical&hide_border=true&count_private=true" width="100%"/> | <img src="https://github-readme-streak-stats-blush-zeta.vercel.app/?user=MihaelaAghirculesei&theme=radical&hide_border=true" width="100%"/> |
-
-### Linguaggi Più Usati
-
-<img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
-
-</div>
 
 ---
 
