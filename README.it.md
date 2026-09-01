@@ -86,7 +86,7 @@ Sito portfolio pronto per la produzione per una fotografa – realizzato in auto
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Pacchetto npm open-source
-CLI che analizza un intero sito web per violazioni WCAG 2.1 AA e mappa ogni riscontro alla clausola EN 301 549 / BFSG che infrange – producendo un report di conformità citabile in JSON/HTML/PDF. Costruito come ~25 pull request revisionate singolarmente, ognuna con un architecture decision record.
+CLI che analizza un intero sito web per violazioni WCAG 2.1 AA e mappa ogni riscontro alla clausola EN 301 549 / BFSG che infrange – producendo un report di conformità citabile in JSON/HTML/PDF. Costruito in 28 pull request revisionate singolarmente, la maggior parte con un architecture decision record.
 
 <img src="imgs/bfsg-scanner.png" width="800"/>
 

@@ -86,7 +86,7 @@ Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Open-Source npm-Paket
-Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüft und jeden Fund der EN-301-549-/BFSG-Klausel zuordnet, gegen die er verstößt – als zitierfähigen Konformitätsbericht in JSON/HTML/PDF. Entwickelt als ~25 einzeln reviewte Pull Requests, jeder mit einem Architecture Decision Record.
+Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüft und jeden Fund der EN-301-549-/BFSG-Klausel zuordnet, gegen die er verstößt – als zitierfähigen Konformitätsbericht in JSON/HTML/PDF. Entwickelt in 28 einzeln reviewten Pull Requests, die meisten mit einem Architecture Decision Record.
 
 <img src="imgs/bfsg-scanner.png" width="800"/>
 

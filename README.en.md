@@ -86,7 +86,7 @@ Production-grade portfolio website for a photographer – built end-to-end on my
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Open-source npm package
-A CLI that scans an entire website for WCAG 2.1 AA violations and maps every finding to the EN 301 549 / BFSG clause it breaches – producing a citeable conformance report in JSON/HTML/PDF. Built as ~25 individually reviewed pull requests, each with an architecture decision record.
+A CLI that scans an entire website for WCAG 2.1 AA violations and maps every finding to the EN 301 549 / BFSG clause it breaches – producing a citeable conformance report in JSON/HTML/PDF. Built as 28 individually reviewed pull requests, most with an architecture decision record.
 
 <img src="imgs/bfsg-scanner.png" width="800"/>
 
