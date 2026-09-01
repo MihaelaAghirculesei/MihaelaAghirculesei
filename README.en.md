@@ -1,17 +1,18 @@
 <div align="center">
 
-# Hi there! 👋 I'm Mihaela Aghirculesei
+# Mihaela Aghirculesei
 
 ### 🌐 Language / Sprache
 [![Deutsch](https://img.shields.io/badge/Sprache-Deutsch-red?style=for-the-badge)](README.md)
 [![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](README.en.md)
 [![Italiano](https://img.shields.io/badge/lingua-Italiano-green?style=for-the-badge)](README.it.md)
 
-**Fullstack Developer** specializing in Angular, TypeScript & Python
+**Fullstack Developer with a Frontend Focus** — Angular · TypeScript · Python / FastAPI
 
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-1a7f37?style=for-the-badge)](mailto:aghirculesei@gmail.com)
+[![Location](https://img.shields.io/badge/Wolfsburg_·_Remote_(EU)-30363d?style=for-the-badge)](#-availability)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack+Developer+%7C+Angular+%26+Python;TypeScript+%2B+FastAPI+Expert;Clean+Code+Enthusiast)](https://github.com/MihaelaAghirculesei)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack+Developer+with+a+Frontend+Focus;Angular+%26+TypeScript+at+the+core;Python+%2F+FastAPI+back+ends;Accessibility+%26+CI+quality+gates)](https://github.com/MihaelaAghirculesei)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
 
