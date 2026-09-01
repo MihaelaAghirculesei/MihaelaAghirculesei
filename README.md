@@ -25,6 +25,31 @@
 
 ---
 
+## 👩‍💻 Über mich
+
+Softwareentwicklerin mit B.Sc. Wirtschaftsinformatik und TÜV-zertifizierter Qualifizierung. Ich baue wartbare Web-Anwendungen mit **Angular & TypeScript**, ergänzt um **Python/FastAPI-Backends** und **Next.js / React**. Mehrere Anwendungen laufen im Live-Betrieb – darunter eine Kundenwebsite, die ich eigenverantwortlich von der Architektur bis zum Deployment umgesetzt habe.
+
+Davor mehrere Jahre **Projektkoordination** in Automotive- und IT-Entwicklungsprojekten: Anforderungsmanagement, Jira/DMS, Freigabeprozesse und Moderation von Abstimmungsrunden mit bis zu 150 Teilnehmenden. Diese Doppelperspektive – Umsetzung **und** Koordination – bringe ich in jedes Team ein.
+
+- 🌍 Wolfsburg, Deutschland · offen für Remote innerhalb der EU
+- 🇪🇺 EU-Staatsangehörigkeit (Rumänien & Italien) – keine Arbeitserlaubnis oder Sponsoring erforderlich
+- 🗣️ Rumänisch & Italienisch (Muttersprache) · Deutsch C1 · Englisch B1 (Lesen/Schreiben)
+- ♿ Schwerpunkt Barrierefreiheit (WCAG 2.1 AA / BFSG) und automatisierte Qualitätssicherung
+
+```typescript
+const mihaela = {
+  role: "Fullstack-Entwicklerin (Frontend-Fokus)",
+  location: "Wolfsburg, DE · Remote (EU)",
+  languages: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
+  frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
+  backend:  ["FastAPI", "SQLAlchemy 2.0", "Pydantic", "PostgreSQL", "Firebase / Firestore", "REST", "WebSocket"],
+  quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core", "GitHub Actions CI/CD"],
+  focus:    "Wartbare Angular-Architekturen, Python-Backends, Barrierefreiheit",
+};
+```
+
+---
+
 ## 📊 GitHub-Statistiken
 
 <div align="center">
@@ -42,28 +67,6 @@
 <img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
 
 </div>
-
----
-
-## 👩‍💻 Über Mich
-
-Softwareentwicklerin mit TÜV-zertifizierter Qualifizierung in Deutschland und mehreren produktiven Anwendungen im Live-Betrieb – darunter eine Kundenwebsite, die ich eigenverantwortlich von der Architektur bis zum Deployment umgesetzt habe. Mein Schwerpunkt liegt auf TypeScript-basierten Web-Anwendungen mit Angular und React/Next.js, abgesichert durch automatisierte Tests, CI-Quality-Gates und WCAG-konforme Barrierefreiheit. Aus mehreren Jahren Erfahrung in Projektkoordination bringe ich zusätzlich ein geschultes Gespür für Anforderungsklärung, Terminsteuerung und klare Kommunikation zwischen Fachbereichen mit.
-
-```typescript
-const mihaela = {
-  location: "🌍 Europa",
-  code: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
-  technologies: {
-    frontend: ["Angular 17 & 19", "React 18/19", "Next.js 16", "RxJS", "NgRx", "Tailwind CSS", "Material Design", "PWA"],
-    mobile: ["Capacitor 7 (Android)"],
-    backend: ["FastAPI", "SQLAlchemy", "PostgreSQL", "Firebase", "Firestore", "Google Calendar API", "IndexedDB"],
-    quality: ["Vitest", "Playwright", "Cypress", "axe-core", "GitHub Actions CI/CD"],
-    tools: ["Git", "VS Code", "Figma", "Vercel"]
-  },
-  currentFocus: "Production-grade React/Next.js apps, advanced Angular patterns & Python backends",
-  openTo: "Fullstack-Entwickler-Positionen"
-};
-```
 
 ---
 

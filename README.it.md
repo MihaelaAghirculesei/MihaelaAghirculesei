@@ -25,45 +25,48 @@
 
 ---
 
+## 👩‍💻 Chi sono
+
+Sviluppatrice software con laurea triennale (B.Sc.) in Informatica per l'economia e una qualifica certificata TÜV. Realizzo applicazioni web manutenibili con **Angular & TypeScript**, integrate da **backend Python/FastAPI** e **Next.js / React**. Diverse applicazioni sono in produzione – tra cui un sito per un cliente che ho realizzato dall'architettura al deployment, in autonomia.
+
+In precedenza, diversi anni di **coordinamento di progetto** in ambito automotive e IT: gestione dei requisiti, Jira/DMS, processi di rilascio e moderazione di riunioni di allineamento con fino a 150 partecipanti. Porto in ogni team questa doppia prospettiva – realizzazione **e** coordinamento.
+
+- 🌍 Wolfsburg, Germania · disponibile al lavoro da remoto nell'UE
+- 🇪🇺 Cittadinanza UE (Romania & Italia) – nessun permesso di lavoro o sponsorizzazione necessari
+- 🗣️ Rumeno & Italiano (madrelingua) · Tedesco C1 · Inglese B1 (lettura/scrittura)
+- ♿ Focus su accessibilità (WCAG 2.1 AA / BFSG) e controllo qualità automatizzato
+
+```typescript
+const mihaela = {
+  role: "Sviluppatrice Fullstack (focus frontend)",
+  location: "Wolfsburg, DE · Remote (UE)",
+  languages: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
+  frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
+  backend:  ["FastAPI", "SQLAlchemy 2.0", "Pydantic", "PostgreSQL", "Firebase / Firestore", "REST", "WebSocket"],
+  quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core", "GitHub Actions CI/CD"],
+  focus:    "Architetture Angular manutenibili, backend Python, accessibilità",
+};
+```
+
+---
+
 ## 📊 Statistiche GitHub
 
 <div align="center">
 
-| Statistiche GitHub | Streak GitHub |
+| GitHub Stats | GitHub Streak |
 |--------------|---------------|
 | <img src="https://github-readme-stats-iota-gray-47.vercel.app/api?username=MihaelaAghirculesei&show_icons=true&theme=radical&hide_border=true&count_private=true" width="100%"/> | <img src="https://github-readme-streak-stats-blush-zeta.vercel.app/?user=MihaelaAghirculesei&theme=radical&hide_border=true" width="100%"/> |
 
-### Grafico Attività
+### Grafico di attività
 
 <img src="imgs/year-activity.png" width="100%"/>
 
-### Linguaggi Più Usati
+### Linguaggi più utilizzati
 
 <img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
 
 </div>
-
----
-
-## 👩‍💻 Chi Sono
-
-Sviluppatrice software con qualifica certificata TÜV in Germania e diverse applicazioni reali in produzione — tra cui un sito web per un cliente che ho realizzato in autonomia, dall'architettura al deployment. Mi concentro su applicazioni web basate su TypeScript con Angular e React/Next.js, supportate da test automatizzati, quality gate in CI e accessibilità conforme WCAG. Da diversi anni di esperienza nel coordinamento di progetti porto inoltre una sensibilità consolidata per la chiarificazione dei requisiti, la gestione delle scadenze e una comunicazione chiara tra i reparti.
-
-```typescript
-const mihaela = {
-  location: "🌍 Europa",
-  code: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
-  technologies: {
-    frontend: ["Angular 17 & 19", "React 18/19", "Next.js 16", "RxJS", "NgRx", "Tailwind CSS", "Material Design", "PWA"],
-    mobile: ["Capacitor 7 (Android)"],
-    backend: ["FastAPI", "SQLAlchemy", "PostgreSQL", "Firebase", "Firestore", "Google Calendar API", "IndexedDB", "SQLite"],
-    quality: ["Vitest", "Playwright", "Cypress", "axe-core", "GitHub Actions CI/CD"],
-    tools: ["Git", "VS Code", "Figma", "Vercel"]
-  },
-  currentFocus: "Production-grade React/Next.js apps, advanced Angular patterns & Python backends",
-  openTo: "Opportunità come Sviluppatrice Fullstack"
-};
-```
 
 ---
 

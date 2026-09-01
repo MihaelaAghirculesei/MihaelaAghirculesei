@@ -25,7 +25,32 @@
 
 ---
 
-## 📊 GitHub Stats
+## 👩‍💻 About Me
+
+Software developer with a B.Sc. in Business Informatics and a TÜV-certified qualification. I build maintainable web applications with **Angular & TypeScript**, backed by **Python/FastAPI back ends** and **Next.js / React**. Several applications are live in production – including a client website I built end-to-end, from architecture to deployment, on my own.
+
+Before that, several years in **project coordination** on automotive and IT development projects: requirements management, Jira/DMS, release processes, and facilitating alignment meetings with up to 150 participants. I bring that dual perspective – delivery **and** coordination – to every team.
+
+- 🌍 Wolfsburg, Germany · open to remote within the EU
+- 🇪🇺 EU citizenship (Romania & Italy) – no work permit or sponsorship required
+- 🗣️ Romanian & Italian (native) · German C1 · English B1 (reading/writing)
+- ♿ Focus on accessibility (WCAG 2.1 AA / BFSG) and automated quality assurance
+
+```typescript
+const mihaela = {
+  role: "Fullstack Developer (frontend focus)",
+  location: "Wolfsburg, DE · Remote (EU)",
+  languages: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
+  frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
+  backend:  ["FastAPI", "SQLAlchemy 2.0", "Pydantic", "PostgreSQL", "Firebase / Firestore", "REST", "WebSocket"],
+  quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core", "GitHub Actions CI/CD"],
+  focus:    "Maintainable Angular architectures, Python back ends, accessibility",
+};
+```
+
+---
+
+## 📊 GitHub Statistics
 
 <div align="center">
 
@@ -37,33 +62,11 @@
 
 <img src="imgs/year-activity.png" width="100%"/>
 
-### Top Languages
+### Most Used Languages
 
 <img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="30%"/>
 
 </div>
-
----
-
-## 👩‍💻 About Me
-
-Software developer with a TÜV-certified qualification in Germany and several live, production applications — including a client website I built end-to-end, from architecture to deployment, on my own. My focus is on TypeScript-based web applications with Angular and React/Next.js, backed by automated tests, CI quality gates, and WCAG-compliant accessibility. From several years of experience in project coordination, I also bring a trained eye for requirements clarification, schedule management, and clear communication across departments.
-
-```typescript
-const mihaela = {
-  location: "🌍 Europe",
-  code: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
-  technologies: {
-    frontend: ["Angular 17 & 19", "React 18/19", "Next.js 16", "RxJS", "NgRx", "Tailwind CSS", "Material Design", "PWA"],
-    mobile: ["Capacitor 7 (Android)"],
-    backend: ["FastAPI", "SQLAlchemy", "PostgreSQL", "Firebase", "Firestore", "Google Calendar API", "IndexedDB", "SQLite"],
-    quality: ["Vitest", "Playwright", "Cypress", "axe-core", "GitHub Actions CI/CD"],
-    tools: ["Git", "VS Code", "Figma", "Vercel"]
-  },
-  currentFocus: "Production-grade React/Next.js apps, advanced Angular patterns & Python backends",
-  openTo: "Fullstack Developer opportunities"
-};
-```
 
 ---
 
