@@ -93,6 +93,27 @@ Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich 
 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
+### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Open-Source npm-Paket
+Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüft und jeden Fund der EN-301-549-/BFSG-Klausel zuordnet, gegen die er verstößt – als zitierfähigen Konformitätsbericht in JSON/HTML/PDF. Entwickelt als ~25 einzeln reviewte Pull Requests, jeder mit einem Architecture Decision Record.
+
+<img src="imgs/bfsg-scanner.png" width="800"/>
+
+🌐 **Live-Beispielbericht:** [mihaelaaghirculesei.github.io/bfsg-scanner](https://mihaelaaghirculesei.github.io/bfsg-scanner/)
+
+- **Supply-Chain:** auf npm veröffentlicht mit SLSA-Build-Provenance über OIDC Trusted Publishing – keine langlebigen Tokens
+- **Qualität:** 146 Tests, CI auf Linux/Windows/macOS, versioniertes JSON-Schema für die Bericht-Ausgabe, semantische Exit-Codes
+- **Engine:** Sitemap- + robots.txt-bewusster Breadth-First-Crawl, Concurrency-Pool mit Per-Host-Rate-Limit, echtes Chromium via Playwright + axe-core
+- **CI-Gate:** Exit-Code ≠ 0 ab konfigurierbarer Schweregrad-Schwelle – so kann eine Pipeline den Merge auf Barrierefreiheit blockieren
+
+**Tech:** TypeScript • Node.js 24 • Playwright • axe-core • Zod • Vitest • Biome • GitHub Actions
+
+### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
+Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und Cloud-Synchronisierung (1.074 Commits, 117 Unit- und 20 E2E-Tests). Native Android-Benachrichtigungen via Capacitor, bidirektionale Google Calendar-Synchronisierung und Echtzeit-Firestore-Sync für angemeldete Nutzer.
+
+<img src="imgs/birthday-memories.png" width="800"/>
+
+**Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 20 E2E • Sentry
+
 ### ⚡ [ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub) ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
 Dashboard für EV-Ladeinfrastruktur, aktuell in aktiver Entwicklung – bereits live und funktionsfähig. Weitere Details folgen nach Fertigstellung.
 
@@ -101,6 +122,26 @@ Dashboard für EV-Ladeinfrastruktur, aktuell in aktiver Entwicklung – bereits 
 🌐 **Live:** [charge-hub-one.vercel.app](https://charge-hub-one.vercel.app/de)
 
 **Tech:** Nuxt 4 • Vue 3 • Vuetify 3 • TypeScript • Pinia • MapLibre GL • Chart.js
+
+### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform) · Teamprojekt (2 Entwickler)
+Eine fullstack Todo-App mit RESTful API und React-Frontend, entwickelt im Team (84 Commits im Team). **Mein Beitrag: das komplette Backend** (FastAPI + SQLAlchemy 2.0) — saubere Schichtarchitektur (Router → Service → Repository) mit vollständiger CRUD-Implementierung, Eingabevalidierung und 23/23 Tests. Die REST-API wurde so entworfen, dass mein Teampartner unabhängig das React-Frontend dagegen entwickeln konnte. SQLite lokal · PostgreSQL in Produktion.
+
+<img src="imgs/todo-platform.png" width="800"/>
+
+🌐 **Live:** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
+
+**Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
+
+---
+
+*Ausbildungsprojekte (TÜV-zertifizierte Qualifizierung, Developer Akademie):*
+
+### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
+Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständiger Keyboard-Navigation. Offline-First-PWA mit 243 Unit- und 21 E2E-Tests bei 100 % Coverage, abgesichert durch automatisiertes CI/CD.
+
+<img src="imgs/pokedex.png" width="800"/>
+
+**Tech:** TypeScript (Strict Mode) • Vite • Vitest • Playwright • Workbox PWA • Lighthouse CI • Husky + lint-staged
 
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Teamprojekt (5 Entwickler)
 Eine moderne Projektmanagement-Plattform für effektive Teamzusammenarbeit (478 Commits im Team, 24 Unit-Tests). Mit Angular 17 und Firebase bietet Join Echtzeit-Synchronisierung, intuitive Kanban-Boards und leistungsstarke Tools für Ihr Team.
@@ -115,29 +156,6 @@ Ein actionreiches 2D-Jump-and-Run-Spiel mit Pepe als Hauptfigur (207 Commits, 20
 <img src="imgs/el-pollo-loco.png" width="800"/>
 
 **Tech:** HTML5 Canvas Game Engine • Vanilla JavaScript ES6+ • OOP-Designmuster • Custom Audio Pooling • Pixelgenaue Kollisionserkennung • Mobile Touch-Steuerung • 60 FPS Performance-Optimierung
-
-### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
-Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständiger Keyboard-Navigation. Offline-First-PWA mit 243 Unit- und 21 E2E-Tests bei 100 % Coverage, abgesichert durch automatisiertes CI/CD.
-
-<img src="imgs/pokedex.png" width="800"/>
-
-**Tech:** TypeScript (Strict Mode) • Vite • Vitest • Playwright • Workbox PWA • Lighthouse CI • Husky + lint-staged
-
-### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
-Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und Cloud-Synchronisierung (1.074 Commits, 117 Unit- und 20 E2E-Tests). Native Android-Benachrichtigungen via Capacitor, bidirektionale Google Calendar-Synchronisierung und Echtzeit-Firestore-Sync für angemeldete Nutzer.
-
-<img src="imgs/birthday-memories.png" width="800"/>
-
-**Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 20 E2E • Sentry
-
-### 🐍 [Todo Platform](https://github.com/MihaelaAghirculesei/todo-platform) · Teamprojekt (2 Entwickler)
-Eine fullstack Todo-App mit RESTful API und React-Frontend, entwickelt im Team (84 Commits im Team). **Mein Beitrag: das komplette Backend** (FastAPI + SQLAlchemy 2.0) — saubere Schichtarchitektur (Router → Service → Repository) mit vollständiger CRUD-Implementierung, Eingabevalidierung und 23/23 Tests. Die REST-API wurde so entworfen, dass mein Teampartner unabhängig das React-Frontend dagegen entwickeln konnte. SQLite lokal · PostgreSQL in Produktion.
-
-<img src="imgs/todo-platform.png" width="800"/>
-
-🌐 **Live:** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
-
-**Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
 
 ---
 
