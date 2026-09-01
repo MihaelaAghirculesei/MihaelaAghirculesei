@@ -70,18 +70,6 @@ const mihaela = {
 
 ---
 
-## 💼 Background
-
-**Freelance Web & App Development** — Self-employed · since 10/2025
-End-to-end development of web applications for clients – from requirements gathering to deployment, including a booking website with an appointment scheduling system and automated communication. More of my own projects below ↓
-
-**TÜV-certified Software Developer Qualification** — Developer Akademie GmbH · 10/2024 – 10/2025
-18 modules, 12+ projects – several as part of SCRUM/Kanban teams. Focus: Angular, TypeScript, REST APIs, Firebase, test automation, UI/UX (Figma).
-
-*Before that: several years of experience as a project coordinator on technical development projects (automotive/IT) – requirements management, Jira, stakeholder alignment across international teams of up to 150 people.*
-
----
-
 ## 🎨 Featured Projects
 
 ### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Client project
@@ -245,35 +233,38 @@ An action-packed 2D jump-and-run game featuring Pepe as the main character (207 
 
 ---
 
-## 🌍 Languages & Availability
+## 💼 Background
 
-- **Romanian, Italian** — Native
-- **German** — Business fluent (professional experience exclusively in German)
-- **English** — B1 (reading/writing), A1 (speaking, actively improving)
+**Freelance Web & App Development** — Self-employed · since 10/2025
+End-to-end development of web applications – from requirements gathering to deployment, focusing on appointment-booking systems and automated communication solutions.
 
-🇪🇺 EU citizenship (Romania & Italy) — full right to work in Germany & the entire EU, no visa or sponsorship required.
+**TÜV-certified Software Developer Qualification** — Developer Akademie GmbH · 10/2024 – 10/2025
+18 modules, 12+ projects – several as part of SCRUM/Kanban teams. Focus: Angular, TypeScript, REST APIs, Firebase, test automation, UI/UX (Figma).
+
+**Project Coordination – Automotive & IT** — Ferchau Automotive, jSERVICE · 2023 – 2024
+Requirements management, work-package and schedule control in Jira/DMS, coordination of international release processes for driver-assistance systems, facilitation of alignment meetings with up to 150 participants.
+
+**B.Sc. Business Studies & Business Informatics** — George Bacovia University, Bacău (RO)
+Recognized by KMK/ZAB as equivalent to a German bachelor's degree.
+
+---
+
+## 🌍 Availability
+
+- **Roles:** Fullstack Developer (frontend focus) · Frontend Developer (Angular / TypeScript)
+- **Location:** Wolfsburg · remote within the EU
+- **Languages:** Romanian & Italian (native) · German C1 (all professional experience in German) · English B1 (reading/writing), A2 (speaking)
+- 🇪🇺 **EU citizenship** (Romania & Italy) – full right to work in Germany and the entire EU, no visa, no sponsorship.
 
 ---
 
 ## 📫 Let's Connect
 
-I'm always open to interesting conversations and collaboration opportunities!
-
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_My_Website-FF5722?style=for-the-badge)](https://aghirculesei.pages.dev/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_With_Me-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
-[![Email](https://img.shields.io/badge/Email-Get_In_Touch-D14836?style=for-the-badge&logo=gmail)](mailto:aghirculesei@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-
-### ⭐ *"Good code is its own best documentation."* – Steve McConnell
-
-**If you find my work interesting, consider giving a ⭐ to my repositories!**
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-aghirculesei.pages.dev-FF5722?style=for-the-badge)](https://aghirculesei.pages.dev/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
+[![Email](https://img.shields.io/badge/Email-Get_in_touch-D14836?style=for-the-badge&logo=gmail)](mailto:aghirculesei@gmail.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 

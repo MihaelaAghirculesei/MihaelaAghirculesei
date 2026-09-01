@@ -70,18 +70,6 @@ const mihaela = {
 
 ---
 
-## 💼 Percorso
-
-**Sviluppo Web & App Freelance** — Autonoma · da 10/2025
-Sviluppo autonomo di applicazioni web – dalla raccolta requisiti al deployment, con focus su sistemi di prenotazione e soluzioni di comunicazione automatizzata. Altri miei progetti qui sotto ↓
-
-**Qualifica di Sviluppatrice Software (certificata TÜV)** — Developer Akademie GmbH · 10/2024 – 10/2025
-18 moduli, 12+ progetti – diversi in team secondo SCRUM/Kanban. Focus: Angular, TypeScript, REST API, Firebase, test automation, UI/UX (Figma).
-
-*Prima: diversi anni di esperienza come coordinatrice di progetto in progetti di sviluppo tecnico (automotive/IT) – gestione requisiti, Jira, coordinamento con stakeholder in team internazionali fino a 150 persone.*
-
----
-
 ## 🎨 Progetti in Evidenza
 
 ### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Progetto cliente
@@ -245,35 +233,38 @@ Un emozionante gioco 2D jump-and-run con Pepe come protagonista (207 commit, 20 
 
 ---
 
-## 🌍 Lingue & Disponibilità
+## 💼 Percorso
 
-- **Rumeno, Italiano** — Madrelingua
-- **Tedesco** — Livello avanzato/negoziale (esperienza lavorativa esclusivamente in tedesco)
-- **Inglese** — B1 (lettura/scrittura), A1 (parlato, in miglioramento)
+**Sviluppo web & app freelance** — Libera professionista · da 10/2025
+Sviluppo end-to-end di applicazioni web – dalla raccolta dei requisiti al deployment, con focus su sistemi di prenotazione appuntamenti e soluzioni di comunicazione automatizzate.
 
-🇪🇺 Cittadinanza UE (Romania & Italia) — pieno diritto di lavoro in Germania e in tutta l'UE, nessun visto o sponsorizzazione richiesti.
+**Qualifica certificata TÜV come sviluppatrice software** — Developer Akademie GmbH · 10/2024 – 10/2025
+18 moduli, oltre 12 progetti – diversi in team secondo SCRUM/Kanban. Focus: Angular, TypeScript, API REST, Firebase, automazione dei test, UI/UX (Figma).
 
----
+**Coordinamento di progetto – Automotive & IT** — Ferchau Automotive, jSERVICE · 2023 – 2024
+Gestione dei requisiti, controllo dei work package e delle scadenze in Jira/DMS, coordinamento dei processi di rilascio internazionali per i sistemi di assistenza alla guida, moderazione di riunioni di allineamento con fino a 150 partecipanti.
 
-## 📫 Mettiamoci in Contatto
-
-Sono sempre aperta a conversazioni interessanti e opportunità di collaborazione!
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visita_il_Mio_Sito-FF5722?style=for-the-badge)](https://aghirculesei.pages.dev/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connettiti_Con_Me-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
-[![E-mail](https://img.shields.io/badge/E--mail-Contattami-D14836?style=for-the-badge&logo=gmail)](mailto:aghirculesei@gmail.com)
-
-</div>
+**B.Sc. Economia & Informatica per l'economia** — Università George Bacovia, Bacău (RO)
+Riconosciuto da KMK/ZAB come equivalente a una laurea triennale tedesca.
 
 ---
 
+## 🌍 Disponibilità
+
+- **Ruoli:** Sviluppatrice Fullstack (focus frontend) · Sviluppatrice Frontend (Angular / TypeScript)
+- **Sede:** Wolfsburg · da remoto nell'UE
+- **Lingue:** Rumeno & Italiano (madrelingua) · Tedesco C1 (tutta l'esperienza professionale in tedesco) · Inglese B1 (lettura/scrittura), A2 (parlato)
+- 🇪🇺 **Cittadinanza UE** (Romania & Italia) – pieno diritto di lavorare in Germania e in tutta l'UE, nessun visto, nessuna sponsorizzazione.
+
+---
+
+## 📫 Contatti
+
 <div align="center">
 
-### ⭐ *"Il buon codice è la sua migliore documentazione."* – Steve McConnell
-
-**Se trovi il mio lavoro interessante, considera di dare una ⭐ ai miei repository!**
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-aghirculesei.pages.dev-FF5722?style=for-the-badge)](https://aghirculesei.pages.dev/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connettiti-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
+[![E-mail](https://img.shields.io/badge/E--mail-Scrivimi-D14836?style=for-the-badge&logo=gmail)](mailto:aghirculesei@gmail.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 

@@ -70,18 +70,6 @@ const mihaela = {
 
 ---
 
-## 💼 Werdegang
-
-**Freelance Web- & App-Entwicklung** — Selbstständig · seit 10/2025
-Eigenverantwortliche Entwicklung von Web-Anwendungen – von der Anforderungsaufnahme bis zum Deployment, mit Schwerpunkt auf Terminbuchungssystemen und automatisierten Kommunikationslösungen. Weitere eigene Projekte siehe unten ↓
-
-**TÜV-zertifizierte Qualifizierung zur Softwareentwicklerin** — Developer Akademie GmbH · 10/2024 – 10/2025
-18 Module, 12+ Projekte – davon mehrere im Team nach SCRUM/Kanban. Schwerpunkte: Angular, TypeScript, REST-APIs, Firebase, Testautomatisierung, UI/UX (Figma).
-
-*Davor: mehrjährige Erfahrung als Projektkoordinatorin in technischen Entwicklungsprojekten (Automotive/IT) – Anforderungsmanagement, Jira, Abstimmung mit Stakeholdern in internationalen Teams bis zu 150 Personen.*
-
----
-
 ## 🎨 Ausgewählte Projekte
 
 ### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Kundenprojekt
@@ -245,35 +233,38 @@ Ein actionreiches 2D-Jump-and-Run-Spiel mit Pepe als Hauptfigur (207 Commits, 20
 
 ---
 
-## 🌍 Sprachen & Verfügbarkeit
+## 💼 Werdegang
 
-- **Rumänisch, Italienisch** — Muttersprache
-- **Deutsch** — verhandlungssicher (Berufserfahrung ausschließlich auf Deutsch)
-- **Englisch** — B1 (Lesen/Schreiben), A1 (Sprechen, im Aufbau)
+**Freelance Web- & App-Entwicklung** — Selbstständig · seit 10/2025
+Eigenverantwortliche Entwicklung von Web-Anwendungen – von der Anforderungsaufnahme bis zum Deployment, mit Schwerpunkt auf Terminbuchungssystemen und automatisierten Kommunikationslösungen.
 
-🇪🇺 EU-Staatsangehörigkeit (Rumänien & Italien) — uneingeschränkte Arbeitserlaubnis in Deutschland & der gesamten EU, keine Visum- oder Sponsoring-Anforderungen.
+**TÜV-zertifizierte Qualifizierung zur Softwareentwicklerin** — Developer Akademie GmbH · 10/2024 – 10/2025
+18 Module, 12+ Projekte – mehrere davon im Team nach SCRUM/Kanban. Schwerpunkte: Angular, TypeScript, REST-APIs, Firebase, Testautomatisierung, UI/UX (Figma).
+
+**Projektkoordination – Automotive & IT** — Ferchau Automotive, jSERVICE · 2023 – 2024
+Anforderungsmanagement, Arbeitspaket- und Terminsteuerung in Jira/DMS, Koordination internationaler Freigabeprozesse für Fahrerassistenzsysteme, Moderation von Abstimmungsrunden mit bis zu 150 Teilnehmenden.
+
+**B.Sc. Wirtschaftswissenschaft & Wirtschaftsinformatik** — George-Bacovia-Universität, Bacău (RO)
+Anerkennung durch KMK/ZAB: entspricht einem deutschen Hochschulabschluss auf Bachelor-Ebene.
+
+---
+
+## 🌍 Verfügbarkeit
+
+- **Rollen:** Fullstack-Entwicklerin (Frontend-Fokus) · Frontend-Entwicklerin (Angular / TypeScript)
+- **Standort:** Wolfsburg · Remote innerhalb der EU
+- **Sprachen:** Rumänisch & Italienisch (Muttersprache) · Deutsch C1 (gesamte Berufserfahrung auf Deutsch) · Englisch B1 (Lesen/Schreiben), A2 (Sprechen)
+- 🇪🇺 **EU-Staatsangehörigkeit** (Rumänien & Italien) – uneingeschränkte Arbeitserlaubnis in Deutschland und der gesamten EU, kein Visum, kein Sponsoring.
 
 ---
 
 ## 📫 Kontakt
 
-Ich bin immer offen für interessante Gespräche und Zusammenarbeitsmöglichkeiten!
-
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Besuchen_Sie_Meine_Website-FF5722?style=for-the-badge)](https://aghirculesei.pages.dev/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vernetzen_Sie_Sich_Mit_Mir-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
-[![E-Mail](https://img.shields.io/badge/E--Mail-Kontaktieren_Sie_Mich-D14836?style=for-the-badge&logo=gmail)](mailto:aghirculesei@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-
-### ⭐ *"Guter Code ist seine eigene beste Dokumentation."* – Steve McConnell
-
-**Wenn Sie meine Arbeit interessant finden, geben Sie meinen Repositories einen ⭐!**
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-aghirculesei.pages.dev-FF5722?style=for-the-badge)](https://aghirculesei.pages.dev/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vernetzen-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
+[![E-Mail](https://img.shields.io/badge/E--Mail-Schreiben-D14836?style=for-the-badge&logo=gmail)](mailto:aghirculesei@gmail.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 
