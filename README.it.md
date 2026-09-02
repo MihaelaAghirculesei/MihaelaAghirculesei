@@ -72,7 +72,7 @@ const mihaela = {
 
 ## 🎨 Progetti in Evidenza
 
-### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Progetto cliente
+### 📸 [Alina Moments Photography](https://alina-moments-photography-2026.vercel.app) · Progetto cliente
 Sito portfolio pronto per la produzione per una fotografa – realizzato in autonomia dall'architettura al deployment live (402 commit, 48 pull request mergiate).
 
 <img src="imgs/alina-moments.png" width="800"/>

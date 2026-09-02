@@ -72,7 +72,7 @@ const mihaela = {
 
 ## 🎨 Featured Projects
 
-### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Client project
+### 📸 [Alina Moments Photography](https://alina-moments-photography-2026.vercel.app) · Client project
 Production-grade portfolio website for a photographer – built end-to-end on my own, from architecture to live deployment (402 commits, 48 merged pull requests).
 
 <img src="imgs/alina-moments.png" width="800"/>
