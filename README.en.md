@@ -118,7 +118,7 @@ EV charging infrastructure dashboard, currently in active development – alread
 ### 🐍 [Todo API](https://github.com/MihaelaAghirculesei/todo-api) · Team project (2 developers)
 Fullstack Todo app with a RESTful API and React frontend, built as a team (84 team commits). **My contribution: the complete backend** (FastAPI + SQLAlchemy 2.0) — clean layered architecture (Router → Service → Repository) with full CRUD implementation, input validation, and 23/23 tests passing. The REST API was designed so my teammate could build the React frontend against it independently. SQLite locally · PostgreSQL in production.
 
-<img src="imgs/todo-platform.png" width="800"/>
+<img src="imgs/todo-api.png" width="800"/>
 
 🌐 **Live (team platform):** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
 

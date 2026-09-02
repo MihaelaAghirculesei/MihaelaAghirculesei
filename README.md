@@ -118,7 +118,7 @@ Dashboard für EV-Ladeinfrastruktur, aktuell in aktiver Entwicklung – bereits 
 ### 🐍 [Todo API](https://github.com/MihaelaAghirculesei/todo-api) · Teamprojekt (2 Entwickler)
 Fullstack-Todo-App mit RESTful API und React-Frontend, im Team entwickelt (84 Commits im Team). **Mein Beitrag: das komplette Backend** (FastAPI + SQLAlchemy 2.0) — saubere Schichtarchitektur (Router → Service → Repository) mit vollständiger CRUD-Implementierung, Eingabevalidierung und 23/23 Tests. Die REST-API wurde so entworfen, dass mein Teampartner unabhängig das React-Frontend dagegen entwickeln konnte. SQLite lokal · PostgreSQL in Produktion.
 
-<img src="imgs/todo-platform.png" width="800"/>
+<img src="imgs/todo-api.png" width="800"/>
 
 🌐 **Live (Team-Plattform):** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
 
