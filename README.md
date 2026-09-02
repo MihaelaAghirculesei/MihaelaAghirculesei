@@ -12,7 +12,7 @@
 [![Offen für neue Projekte](https://img.shields.io/badge/Offen_für_neue_Projekte-1a7f37?style=for-the-badge)](mailto:aghirculesei@gmail.com)
 [![Standort](https://img.shields.io/badge/Wolfsburg_·_Remote_(EU)-30363d?style=for-the-badge)](#-verfügbarkeit)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack-Entwicklerin+mit+Frontend-Fokus;Angular+%26+TypeScript+im+Kern;Python+%2F+FastAPI-Backends;Barrierefreiheit+%26+CI-Qualit%C3%A4tsgates)](https://github.com/MihaelaAghirculesei)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack-Entwicklerin+mit+Frontend-Fokus;Angular+%26+TypeScript+im+Kern;Python+%2F+FastAPI-Backends;Barrierefreiheit+%26+CI-Qualit%C3%A4tsgates)](https://github.com/MihaelaAghirculesei)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
 
@@ -125,7 +125,7 @@ Fullstack-Todo-App mit RESTful API und React-Frontend, im Team entwickelt (84 Co
 **Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
 
 ### 🍽️ dineos ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
-Echtzeit-Bestellsystem für die Gastronomie: QR-Code am Tisch → Bestellung → Küchen-Board in Echtzeit über WebSocket, Bezahlung via Stripe. Geschichtete FastAPI-Architektur mit Angular/NgRx-Frontend. Noch in aktiver Entwicklung – weitere Details und Kennzahlen folgen.
+Echtzeit-Bestellsystem für die Gastronomie: QR-Code am Tisch → Bestellung → Küchen-Board in Echtzeit über WebSocket, Bezahlung via Stripe. Geschichtete FastAPI-Architektur mit Angular/NgRx-Frontend. Details und Kennzahlen folgen.
 
 **Tech:** FastAPI • WebSocket • SQLAlchemy • PostgreSQL • Angular • NgRx • Stripe
 🔒 Privates Repository · Case Study & Code auf Anfrage

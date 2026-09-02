@@ -12,7 +12,7 @@
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-1a7f37?style=for-the-badge)](mailto:aghirculesei@gmail.com)
 [![Location](https://img.shields.io/badge/Wolfsburg_·_Remote_(EU)-30363d?style=for-the-badge)](#-availability)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack+Developer+with+a+Frontend+Focus;Angular+%26+TypeScript+at+the+core;Python+%2F+FastAPI+back+ends;Accessibility+%26+CI+quality+gates)](https://github.com/MihaelaAghirculesei)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack+Developer+with+a+Frontend+Focus;Angular+%26+TypeScript+at+the+core;Python+%2F+FastAPI+back+ends;Accessibility+%26+CI+quality+gates)](https://github.com/MihaelaAghirculesei)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
 
@@ -125,7 +125,7 @@ Fullstack Todo app with a RESTful API and React frontend, built as a team (84 te
 **Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
 
 ### 🍽️ dineos ![In Development](https://img.shields.io/badge/🚧_In_Development-FFC107?style=flat-square)
-Real-time ordering system for restaurants: QR code at the table → order → kitchen board in real time over WebSocket, payment via Stripe. Layered FastAPI architecture with an Angular/NgRx front end. Still in active development – more detail and metrics to follow.
+Real-time ordering system for restaurants: QR code at the table → order → kitchen board in real time over WebSocket, payment via Stripe. Layered FastAPI architecture with an Angular/NgRx front end. More detail and metrics to follow.
 
 **Tech:** FastAPI • WebSocket • SQLAlchemy • PostgreSQL • Angular • NgRx • Stripe
 🔒 Private repository · Case study & code on request
