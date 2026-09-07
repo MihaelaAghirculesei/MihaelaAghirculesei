@@ -86,13 +86,13 @@ Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Open-Source npm-Paket
-Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüft und jeden Fund der EN-301-549-/BFSG-Klausel zuordnet, gegen die er verstößt – als zitierfähigen Konformitätsbericht in JSON/HTML/PDF. Entwickelt in 28 einzeln reviewten Pull Requests; die zentralen Architekturentscheidungen sind in acht ADRs festgehalten.
+Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüft und jeden Fund der EN-301-549-/BFSG-Klausel zuordnet, gegen die er verstößt – als zitierfähigen Konformitätsbericht in JSON/HTML/PDF. Entwickelt in 28 einzeln reviewten Pull Requests, acht davon mit einem Architecture Decision Record.
 
 <img src="imgs/bfsg-scanner.png" width="800"/>
 
 🌐 **Live-Beispielbericht:** [mihaelaaghirculesei.github.io/bfsg-scanner](https://mihaelaaghirculesei.github.io/bfsg-scanner/)
 
-- **Supply-Chain:** auf npm veröffentlicht mit SLSA-Build-Provenance über OIDC Trusted Publishing – keine langlebigen Tokens
+- **Supply-Chain:** auf npm veröffentlicht mit SLSA-Build-Provenance; der Release-Workflow publiziert über OIDC Trusted Publishing – keine langlebigen Tokens
 - **Qualität:** 146 Tests, CI auf Linux/Windows/macOS, versioniertes JSON-Schema für die Bericht-Ausgabe, semantische Exit-Codes
 - **Engine:** Sitemap- + robots.txt-bewusster Breadth-First-Crawl, Concurrency-Pool mit Per-Host-Rate-Limit, echtes Chromium via Playwright + axe-core
 - **CI-Gate:** Exit-Code ≠ 0 ab konfigurierbarer Schweregrad-Schwelle – so kann eine Pipeline den Merge auf Barrierefreiheit blockieren
