@@ -86,14 +86,14 @@ Sito portfolio pronto per la produzione per una fotografa – realizzato in auto
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Pacchetto npm open-source
-CLI che analizza un intero sito web per violazioni WCAG 2.1 AA e mappa ogni riscontro alla clausola EN 301 549 / BFSG che infrange – producendo un report di conformità citabile in JSON/HTML/PDF. Costruito in 28 pull request revisionate singolarmente, otto delle quali con un architecture decision record.
+CLI che analizza un intero sito web per violazioni WCAG 2.1 AA e mappa ogni riscontro alla clausola EN 301 549 / BFSG che infrange – producendo un report di conformità citabile in JSON/HTML/PDF. Costruito con una serie di pull request piccole, revisionate singolarmente; le decisioni architetturali chiave documentate ciascuna in un architecture decision record.
 
 <img src="imgs/bfsg-scanner.png" width="800"/>
 
 🌐 **Report di esempio live:** [mihaelaaghirculesei.github.io/bfsg-scanner](https://mihaelaaghirculesei.github.io/bfsg-scanner/)
 
 - **Supply chain:** pubblicato su npm con SLSA build provenance; il workflow di release pubblica tramite OIDC trusted publishing – nessun token a lunga durata
-- **Qualità:** 146 test, CI su Linux/Windows/macOS, JSON Schema versionato per l'output del report, exit code semantici
+- **Qualità:** 150 test, CI su Linux/Windows/macOS, JSON Schema versionato per l'output del report, exit code semantici
 - **Engine:** crawl breadth-first che rispetta sitemap e robots.txt, pool di concorrenza con rate limit per host, Chromium reale via Playwright + axe-core
 - **CI gate:** esce con codice ≠ 0 oltre una soglia di severità configurabile, così una pipeline può bloccare il merge sull'accessibilità
 
