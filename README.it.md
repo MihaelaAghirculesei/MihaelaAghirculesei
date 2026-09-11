@@ -97,7 +97,7 @@ CLI che analizza un intero sito web per violazioni WCAG 2.1 AA e mappa ogni risc
 - **Engine:** crawl breadth-first che rispetta sitemap e robots.txt, pool di concorrenza con rate limit per host, Chromium reale via Playwright + axe-core
 - **CI gate:** esce con codice ≠ 0 oltre una soglia di severità configurabile, così una pipeline può bloccare il merge sull'accessibilità
 
-**Tech:** TypeScript • Node.js 24 • Playwright • axe-core • Zod • Vitest • Biome • GitHub Actions
+**Tech:** TypeScript • Node.js 22+ • Playwright • axe-core • Zod • Vitest • Biome • GitHub Actions
 
 ### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
 Un'app multipiattaforma per ricordare i compleanni con architettura offline-first e sincronizzazione cloud (1.074 commit, 117 unit test e 20 test E2E). Notifiche native Android via Capacitor, sincronizzazione bidirezionale con Google Calendar e sync in tempo reale su Firestore per utenti autenticati.

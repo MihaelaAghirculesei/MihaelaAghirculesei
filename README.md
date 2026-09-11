@@ -97,7 +97,7 @@ Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüf
 - **Engine:** Sitemap- + robots.txt-bewusster Breadth-First-Crawl, Concurrency-Pool mit Per-Host-Rate-Limit, echtes Chromium via Playwright + axe-core
 - **CI-Gate:** Exit-Code ≠ 0 ab konfigurierbarer Schweregrad-Schwelle – so kann eine Pipeline den Merge auf Barrierefreiheit blockieren
 
-**Tech:** TypeScript • Node.js 24 • Playwright • axe-core • Zod • Vitest • Biome • GitHub Actions
+**Tech:** TypeScript • Node.js 22+ • Playwright • axe-core • Zod • Vitest • Biome • GitHub Actions
 
 ### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
 Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und Cloud-Synchronisierung (1.074 Commits, 117 Unit- und 20 E2E-Tests). Native Android-Benachrichtigungen via Capacitor, bidirektionale Google Calendar-Synchronisierung und Echtzeit-Firestore-Sync für angemeldete Nutzer.
