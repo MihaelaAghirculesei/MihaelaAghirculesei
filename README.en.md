@@ -7,12 +7,12 @@
 [![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](README.en.md)
 [![Italiano](https://img.shields.io/badge/lingua-Italiano-green?style=for-the-badge)](README.it.md)
 
-**Fullstack Developer with a Frontend Focus** — Angular · TypeScript · Python / FastAPI
+**Fullstack Developer with a Frontend Focus** — Angular · Vue/Nuxt · TypeScript · Python / FastAPI
 
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-1a7f37?style=for-the-badge)](mailto:aghirculesei@gmail.com)
 [![Location](https://img.shields.io/badge/Wolfsburg_·_Remote_(EU)-30363d?style=for-the-badge)](#-availability)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack+Developer+with+a+Frontend+Focus;Angular+%26+TypeScript+at+the+core;Python+%2F+FastAPI+back+ends;Accessibility+%26+CI+quality+gates)](https://github.com/MihaelaAghirculesei)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack+Developer+with+a+Frontend+Focus;Angular%2C+Vue+%26+Nuxt+at+the+core;TypeScript+strict+%26+Python+%2F+FastAPI;Accessibility+%26+CI+quality+gates)](https://github.com/MihaelaAghirculesei)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
 
@@ -44,7 +44,7 @@ const mihaela = {
   frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
   backend:  ["FastAPI", "SQLAlchemy 2.0", "Pydantic", "PostgreSQL", "Firebase / Firestore", "REST", "WebSocket"],
   quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core", "GitHub Actions CI/CD"],
-  focus:    "Maintainable Angular architectures, Python back ends, accessibility",
+  focus:    "Maintainable Angular & Nuxt architectures, Python back ends, accessibility",
 };
 ```
 
@@ -106,14 +106,19 @@ A cross-platform birthday reminder app with offline-first architecture and cloud
 
 **Tech:** Angular 19 (Signals, SSR, standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB offline-first • PWA • Cypress 20 E2E • Sentry
 
-### ⚡ [ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub) ![In Development](https://img.shields.io/badge/🚧_In_Development-FFC107?style=flat-square)
-EV charging infrastructure dashboard, currently in active development – already live and functional. More details coming once finished.
+### ⚡ [ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub) · [Live demo](https://charge-hub-one.vercel.app/de)
+EV charging infrastructure dashboard – built solo to a 24-day plan (40+ merged pull requests), every significant decision captured in an architecture decision record. The same domain as a product for charge-point operators.
 
 <img src="imgs/chargehub.png" width="800"/>
 
-🌐 **Live:** [charge-hub-one.vercel.app](https://charge-hub-one.vercel.app/de)
+- **Architecture:** Nitro BFF in front of the real Open Charge Map API (key server-side only, cached); everything a registry doesn't provide – live status, sessions, KPIs – is simulated server-side deterministically, behind a swappable transport interface
+- **Structure:** feature-first modules with barrel exports, repository pattern, Pinia for client state only; hybrid rendering per route (prerender/SSR/client)
+- **Natural-language search:** free-text station search via Claude Haiku with structured output, grounded in real OCM IDs – cleanly disabled without an API key
+- **Quality:** Vitest + `@nuxt/test-utils` (~92% coverage gate), Playwright across 4 browsers/viewports, axe-core as a blocking CI gate, plus an eval suite for the free-text search
+- **CI/CD:** GitHub Actions (lint, type-check, test, build, E2E, Lighthouse with per-page thresholds), branch protection on `main`, Vercel deploy per merge
+- **i18n & SCSS:** DE/EN with localized routing; Vuetify theme via SCSS variables
 
-**Tech:** Nuxt 4 • Vue 3 • Vuetify 3 • TypeScript • Pinia • MapLibre GL • Chart.js
+**Tech:** Nuxt 4 • Vue 3 • Vuetify 3 • TypeScript (strict) • SCSS • Pinia • Zod • MapLibre GL • Chart.js • Vitest • Playwright • axe-core
 
 ### 🐍 [Todo API](https://github.com/MihaelaAghirculesei/todo-api) · Team project (2 developers)
 Fullstack Todo app with a RESTful API and React frontend, built as a team (84 team commits). **My contribution: the complete backend** (FastAPI + SQLAlchemy 2.0) — clean layered architecture (Router → Service → Repository) with full CRUD implementation, input validation, and 23/23 tests passing. The REST API was designed so my teammate could build the React frontend against it independently. SQLite locally · PostgreSQL in production.

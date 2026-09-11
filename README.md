@@ -7,12 +7,12 @@
 [![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](README.en.md)
 [![Italiano](https://img.shields.io/badge/lingua-Italiano-green?style=for-the-badge)](README.it.md)
 
-**Fullstack-Entwicklerin mit Frontend-Fokus** — Angular · TypeScript · Python / FastAPI
+**Fullstack-Entwicklerin mit Frontend-Fokus** — Angular · Vue/Nuxt · TypeScript · Python / FastAPI
 
 [![Offen für neue Projekte](https://img.shields.io/badge/Offen_für_neue_Projekte-1a7f37?style=for-the-badge)](mailto:aghirculesei@gmail.com)
 [![Standort](https://img.shields.io/badge/Wolfsburg_·_Remote_(EU)-30363d?style=for-the-badge)](#-verfügbarkeit)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack-Entwicklerin+mit+Frontend-Fokus;Angular+%26+TypeScript+im+Kern;Python+%2F+FastAPI-Backends;Barrierefreiheit+%26+CI-Qualit%C3%A4tsgates)](https://github.com/MihaelaAghirculesei)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack-Entwicklerin+mit+Frontend-Fokus;Angular%2C+Vue+%26+Nuxt+im+Kern;TypeScript+strict+%26+Python+%2F+FastAPI;Barrierefreiheit+%26+CI-Qualit%C3%A4tsgates)](https://github.com/MihaelaAghirculesei)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
 
@@ -44,7 +44,7 @@ const mihaela = {
   frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
   backend:  ["FastAPI", "SQLAlchemy 2.0", "Pydantic", "PostgreSQL", "Firebase / Firestore", "REST", "WebSocket"],
   quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core", "GitHub Actions CI/CD"],
-  focus:    "Wartbare Angular-Architekturen, Python-Backends, Barrierefreiheit",
+  focus:    "Wartbare Angular- & Nuxt-Architekturen, Python-Backends, Barrierefreiheit",
 };
 ```
 
@@ -106,14 +106,19 @@ Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und C
 
 **Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 20 E2E • Sentry
 
-### ⚡ [ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub) ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
-Dashboard für EV-Ladeinfrastruktur, aktuell in aktiver Entwicklung – bereits live und funktionsfähig. Weitere Details folgen nach Fertigstellung.
+### ⚡ [ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub) · [Live-Demo](https://charge-hub-one.vercel.app/de)
+Dashboard zur Verwaltung von EV-Ladeinfrastruktur – solo nach einem 24-Tage-Plan gebaut (über 40 gemergte Pull Requests), jede größere Entscheidung als Architecture Decision Record festgehalten. Dieselbe Domäne wie ein Produkt für Ladepunkt-Betreiber.
 
 <img src="imgs/chargehub.png" width="800"/>
 
-🌐 **Live:** [charge-hub-one.vercel.app](https://charge-hub-one.vercel.app/de)
+- **Architektur:** Nitro-BFF vor der echten Open-Charge-Map-API (Key nur serverseitig, Cache); alles, was ein Register nicht liefert – Live-Status, Sitzungen, KPIs – wird serverseitig deterministisch simuliert, hinter einem austauschbaren Transport-Interface
+- **Struktur:** Feature-first-Module mit Barrel-Exports, Repository-Pattern, Pinia nur für Client-State; hybrides Rendering pro Route (Prerender/SSR/Client)
+- **Freitextsuche:** natürlichsprachige Stationssuche über Claude Haiku mit Structured Output, geerdet in echten OCM-IDs – ohne API-Key sauber abgeschaltet
+- **Qualität:** Vitest + `@nuxt/test-utils` (Coverage-Gate ~92 %), Playwright über 4 Browser/Viewports, axe-core als blockierendes CI-Gate, dazu eine Eval-Suite für die Freitextsuche
+- **CI/CD:** GitHub Actions (Lint, Typecheck, Test, Build, E2E, Lighthouse mit Schwellen pro Seite), Branch Protection auf `main`, Vercel-Deploy je Merge
+- **i18n & SCSS:** DE/EN mit lokalisiertem Routing; Vuetify-Theme über SCSS-Variablen
 
-**Tech:** Nuxt 4 • Vue 3 • Vuetify 3 • TypeScript • Pinia • MapLibre GL • Chart.js
+**Tech:** Nuxt 4 • Vue 3 • Vuetify 3 • TypeScript (strict) • SCSS • Pinia • Zod • MapLibre GL • Chart.js • Vitest • Playwright • axe-core
 
 ### 🐍 [Todo API](https://github.com/MihaelaAghirculesei/todo-api) · Teamprojekt (2 Entwickler)
 Fullstack-Todo-App mit RESTful API und React-Frontend, im Team entwickelt (84 Commits im Team). **Mein Beitrag: das komplette Backend** (FastAPI + SQLAlchemy 2.0) — saubere Schichtarchitektur (Router → Service → Repository) mit vollständiger CRUD-Implementierung, Eingabevalidierung und 23/23 Tests. Die REST-API wurde so entworfen, dass mein Teampartner unabhängig das React-Frontend dagegen entwickeln konnte. SQLite lokal · PostgreSQL in Produktion.
