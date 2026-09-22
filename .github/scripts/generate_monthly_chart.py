@@ -15,7 +15,6 @@ with urllib.request.urlopen(url) as r:
     data = json.load(r)
 
 contributions = data["contributions"]
-total = data["total"]["lastYear"]
 
 monthly = defaultdict(int)
 for c in contributions:
@@ -26,6 +25,16 @@ current_month = (datetime.date.today().year, datetime.date.today().month)
 months = sorted(m for m in monthly.keys() if m != current_month)
 values = [monthly[m] for m in months]
 labels = [datetime.date(y, m, 1).strftime("%b %y") for (y, m) in months]
+
+# Title reflects exactly what's plotted (full months only), not the API's
+# raw "last 365 days" total, which would still include the excluded
+# current month and silently disagree with the sum of the bars.
+total = sum(values)
+range_label = ""
+if months:
+    start = datetime.date(months[0][0], months[0][1], 1).strftime("%b %Y")
+    end = datetime.date(months[-1][0], months[-1][1], 1).strftime("%b %Y")
+    range_label = f"{start} – {end}"
 
 fig, ax = plt.subplots(figsize=(14, 4.5), facecolor="#0d1117")
 ax.set_facecolor("#0d1117")
@@ -51,7 +60,7 @@ for bar, v in zip(bars, values):
     ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + max_value * 0.02, str(v),
             ha="center", va="bottom", color="#e6edf3", fontsize=9)
 
-ax.set_title(f"{USERNAME} — {total} contributions in the last year", color="#e6edf3", fontsize=13, pad=14, loc="left")
+ax.set_title(f"{USERNAME} — {range_label} · {total} commits (full months only)", color="#e6edf3", fontsize=13, pad=14, loc="left")
 ax.tick_params(colors="#8b949e", labelsize=9)
 for spine in ax.spines.values():
     spine.set_visible(False)
@@ -62,4 +71,4 @@ ax.set_yticks([])
 
 plt.tight_layout()
 plt.savefig(OUTPUT_PATH, dpi=150, facecolor=fig.get_facecolor())
-print(f"Saved {OUTPUT_PATH} — {total} contributions in the last year")
+print(f"Saved {OUTPUT_PATH} — {range_label} · {total} commits (full months only)")
