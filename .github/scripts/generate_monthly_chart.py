@@ -69,15 +69,15 @@ def draw_row(ax, m_slice, v_slice, l_slice, value_fontsize, tick_labelsize, bar_
     ax.set_yticks([])
 
 
-# --- Desktop: single row, all months, compact — this is how the chart
-# reads fine already on a normal-width screen, so it's left basically as
-# it originally was (same figure size and font sizes as the first version
-# of this script), just with the current-month exclusion and the
-# consistent title kept from later fixes.
+# --- Desktop: single row, all months, compact — same layout as the
+# original version of this script, just with the current-month
+# exclusion and consistent title kept from later fixes, and fonts a
+# few points larger across the board (the original 9/13pt sizing read
+# as too small even at normal width).
 fig, ax = plt.subplots(figsize=(14, 4.5), facecolor="#0d1117")
-draw_row(ax, months, values, labels, value_fontsize=9, tick_labelsize=9, bar_width=0.6)
-ax.set_title(f"{range_label} · {total} commits", color="#e6edf3", fontsize=13, pad=14, loc="left")
-ax.set_ylabel("Commits / month", color="#8b949e", fontsize=9)
+draw_row(ax, months, values, labels, value_fontsize=12, tick_labelsize=12, bar_width=0.6)
+ax.set_title(f"{range_label} · {total} commits", color="#e6edf3", fontsize=16, pad=14, loc="left")
+ax.set_ylabel("Commits / month", color="#8b949e", fontsize=12)
 plt.tight_layout()
 plt.savefig(DESKTOP_PATH, dpi=150, facecolor=fig.get_facecolor())
 plt.close(fig)
