@@ -29,46 +29,72 @@ labels = [datetime.date(y, m, 1).strftime("%b %y") for (y, m) in months]
 # Title reflects exactly what's plotted (full months only), not the API's
 # raw "last 365 days" total, which would still include the excluded
 # current month and silently disagree with the sum of the bars.
+# Kept short (matches the "%b %y" style already used on the bars) so it
+# still fits the figure width at a large, legible font size.
 total = sum(values)
 range_label = ""
 if months:
-    start = datetime.date(months[0][0], months[0][1], 1).strftime("%b %Y")
-    end = datetime.date(months[-1][0], months[-1][1], 1).strftime("%b %Y")
+    start = datetime.date(months[0][0], months[0][1], 1).strftime("%b %y")
+    end = datetime.date(months[-1][0], months[-1][1], 1).strftime("%b %y")
     range_label = f"{start} – {end}"
 
-fig, ax = plt.subplots(figsize=(14, 4.5), facecolor="#0d1117")
-ax.set_facecolor("#0d1117")
-
 max_value = max(values) if values else 1
-colors = []
-for v in values:
+
+
+def color_for(v):
     ratio = v / max_value
     if v == 0:
-        colors.append("#161b22")
+        return "#161b22"
     elif ratio < 0.25:
-        colors.append("#0e4429")
+        return "#0e4429"
     elif ratio < 0.5:
-        colors.append("#006d32")
+        return "#006d32"
     elif ratio < 0.75:
-        colors.append("#26a641")
-    else:
-        colors.append("#39d353")
+        return "#26a641"
+    return "#39d353"
 
-bars = ax.bar(labels, values, color=colors, edgecolor="none", width=0.6)
 
-for bar, v in zip(bars, values):
-    ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + max_value * 0.02, str(v),
-            ha="center", va="bottom", color="#e6edf3", fontsize=9)
+def draw_half(ax, m_slice, v_slice, l_slice):
+    colors = [color_for(v) for v in v_slice]
+    bars = ax.bar(l_slice, v_slice, color=colors, edgecolor="none", width=0.5)
+    for bar, v in zip(bars, v_slice):
+        ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + max_value * 0.03, str(v),
+                ha="center", va="bottom", color="#e6edf3", fontsize=44, fontweight="bold")
+    ax.set_facecolor("#0d1117")
+    ax.set_ylim(0, max_value * 1.32)
+    ax.tick_params(colors="#8b949e", labelsize=40)
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+    ax.spines["bottom"].set_visible(True)
+    ax.spines["bottom"].set_color("#30363d")
+    ax.set_yticks([])
 
-ax.set_title(f"{USERNAME} — {range_label} · {total} commits (full months only)", color="#e6edf3", fontsize=13, pad=14, loc="left")
-ax.tick_params(colors="#8b949e", labelsize=9)
-for spine in ax.spines.values():
-    spine.set_visible(False)
-ax.spines["bottom"].set_visible(True)
-ax.spines["bottom"].set_color("#30363d")
-ax.set_ylabel("Commits / month", color="#8b949e", fontsize=9)
-ax.set_yticks([])
 
-plt.tight_layout()
+# Rows of PER_ROW months each, stacked vertically, instead of one wide row:
+# fewer bars per row means more horizontal room per label, which is what
+# actually keeps the chart legible once GitHub shrinks it to fit a narrow
+# profile-page column — a wider image or a bigger font alone can't fix
+# that if the bars themselves are still packed too tight to begin with.
+PER_ROW = 4
+rows = [
+    (months[i:i + PER_ROW], values[i:i + PER_ROW], labels[i:i + PER_ROW])
+    for i in range(0, len(months), PER_ROW)
+]
+n_rows = len(rows)
+
+fig, axes = plt.subplots(n_rows, 1, figsize=(15.5, 6.2 * n_rows), facecolor="#0d1117")
+if n_rows == 1:
+    axes = [axes]
+# No username here: it's already the page's big H1 right above this image,
+# so repeating it would only steal width from the font size that matters.
+fig.suptitle(f"{range_label} · {total} commits",
+             color="#e6edf3", fontsize=60, x=0.02, ha="left", y=0.99)
+
+for ax, (m_slice, v_slice, l_slice) in zip(axes, rows):
+    draw_half(ax, m_slice, v_slice, l_slice)
+
+axes[0].set_ylabel("Commits / month", color="#8b949e", fontsize=40)
+
+plt.tight_layout(rect=[0, 0, 1, 0.96])
 plt.savefig(OUTPUT_PATH, dpi=150, facecolor=fig.get_facecolor())
-print(f"Saved {OUTPUT_PATH} — {range_label} · {total} commits (full months only)")
+print(f"Saved {OUTPUT_PATH} — {range_label} · {total} commits")
