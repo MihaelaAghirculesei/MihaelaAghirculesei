@@ -85,6 +85,10 @@ Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich 
 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Open-Source npm-Paket
 Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüft und jeden Fund der EN-301-549-/BFSG-Klausel zuordnet, gegen die er verstößt – als zitierfähigen Konformitätsbericht in JSON/HTML/PDF. Entwickelt in klein geschnittenen, einzeln reviewten Pull Requests; die zentralen Architekturentscheidungen jeweils mit einem Architecture Decision Record.
 
@@ -99,12 +103,20 @@ Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüf
 
 **Tech:** TypeScript • Node.js 22+ • Playwright • axe-core • Zod • Vitest • Biome • GitHub Actions
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
 Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und Cloud-Synchronisierung (1.074 Commits, 117 Unit- und 20 E2E-Tests). Native Android-Benachrichtigungen via Capacitor, bidirektionale Google Calendar-Synchronisierung und Echtzeit-Firestore-Sync für angemeldete Nutzer.
 
 <img src="imgs/birthday-memories.png" width="800"/>
 
 **Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 20 E2E • Sentry
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
 
 ### ⚡ [ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub) · [Live-Demo](https://charge-hub-one.vercel.app/de)
 Dashboard zur Verwaltung von EV-Ladeinfrastruktur – solo nach einem 24-Tage-Plan gebaut (über 40 gemergte Pull Requests), jede größere Entscheidung als Architecture Decision Record festgehalten. Dieselbe Domäne wie ein Produkt für Ladepunkt-Betreiber.
@@ -120,6 +132,10 @@ Dashboard zur Verwaltung von EV-Ladeinfrastruktur – solo nach einem 24-Tage-Pl
 
 **Tech:** Nuxt 4 • Vue 3 • Vuetify 3 • TypeScript (strict) • SCSS • Pinia • Zod • MapLibre GL • Chart.js • Vitest • Playwright • axe-core
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🐍 [Todo API](https://github.com/MihaelaAghirculesei/todo-api) · Teamprojekt (2 Entwickler)
 Fullstack-Todo-App mit RESTful API und React-Frontend, im Team entwickelt (84 Commits im Team). **Mein Beitrag: das komplette Backend** (FastAPI + SQLAlchemy 2.0) — saubere Schichtarchitektur (Router → Service → Repository) mit vollständiger CRUD-Implementierung, Eingabevalidierung und 23/23 Tests. Die REST-API wurde so entworfen, dass mein Teampartner unabhängig das React-Frontend dagegen entwickeln konnte. SQLite lokal · PostgreSQL in Produktion.
 
@@ -128,6 +144,10 @@ Fullstack-Todo-App mit RESTful API und React-Frontend, im Team entwickelt (84 Co
 🌐 **Live (Team-Plattform):** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
 
 **Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
 
 ### 🔒 [SecureNotes Lab](https://github.com/MihaelaAghirculesei/secure-notes-lab) · Security-Showcase
 Notizen-App **zweimal gebaut**: einmal mit 4 gezielt eingebauten OWASP-Top-10-Schwachstellen (SQL Injection, Stored XSS, IDOR, Klartext-Passwörter) plus 1 Bonus (CSRF), einmal vollständig behoben — jede Schwachstelle als Vulnerability-Report mit Exploit-Schritten dokumentiert, jeder Fix mit automatisiertem Regressionstest bewiesen.
@@ -140,11 +160,19 @@ Notizen-App **zweimal gebaut**: einmal mit 4 gezielt eingebauten OWASP-Top-10-Sc
 
 **Tech:** Python 3 • Flask • SQLite • Werkzeug Security • pytest • Bandit • pip-audit • GitHub Actions
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🍽️ dineos ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
 Echtzeit-Bestellsystem für die Gastronomie: QR-Code am Tisch → Bestellung → Küchen-Board in Echtzeit über WebSocket, Bezahlung via Stripe. Geschichtete FastAPI-Architektur mit Angular/NgRx-Frontend. Details und Kennzahlen folgen.
 
 **Tech:** FastAPI • WebSocket • SQLAlchemy • PostgreSQL • Angular • NgRx • Stripe
 🔒 Privates Repository · Case Study & Code auf Anfrage
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
 
 ### 📚 normeon · RAG für deutsche technische Dokumentation ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
 Retrieval-Augmented-Generation-Assistent, der Fragen zu deutschsprachigen technischen Normen mit quellengenauen Zitaten beantwortet. Noch in aktiver Entwicklung – weitere Details und Kennzahlen folgen.
@@ -152,7 +180,10 @@ Retrieval-Augmented-Generation-Assistent, der Fragen zu deutschsprachigen techni
 **Tech:** Python • Retrieval-Augmented Generation • Vektorsuche
 🔒 Privates Repository · Case Study auf Anfrage
 
----
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 
 *Ausbildungsprojekte (TÜV-zertifizierte Qualifizierung, Developer Akademie):*
 
@@ -163,12 +194,20 @@ Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständige
 
 **Tech:** TypeScript (Strict Mode) • Vite • Vitest • Playwright • Workbox PWA • Lighthouse CI • Husky + lint-staged
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Teamprojekt (5 Entwickler)
 Eine moderne Projektmanagement-Plattform für effektive Teamzusammenarbeit (478 Commits im Team, 24 Unit-Tests). Mit Angular 17 und Firebase bietet Join Echtzeit-Synchronisierung, intuitive Kanban-Boards und leistungsstarke Tools für Ihr Team.
 
 <img src="imgs/join-board.png" width="800"/>
 
 **Tech:** Angular 17 Standalone Components • Firebase Realtime Database • Drag & Drop-Oberfläche (Angular CDK) • Multi-User-Authentifizierung
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
 
 ### 🚀 [El Pollo Loco](https://el-pollo-loco-aghirculesei.pages.dev/)
 Ein actionreiches 2D-Jump-and-Run-Spiel mit Pepe als Hauptfigur (207 Commits, 20 objektorientierte Klassen). Sammle Münzen und Flaschen, besiege Gegner und meistere herausfordernde Level in diesem spannenden Abenteuer.

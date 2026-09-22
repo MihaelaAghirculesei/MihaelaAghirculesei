@@ -85,6 +85,10 @@ Production-grade portfolio website for a photographer – built end-to-end on my
 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Open-source npm package
 A CLI that scans an entire website for WCAG 2.1 AA violations and maps every finding to the EN 301 549 / BFSG clause it breaches – producing a citeable conformance report in JSON/HTML/PDF. Built as a series of small, individually reviewed pull requests; the key architecture decisions each captured in an architecture decision record.
 
@@ -99,12 +103,20 @@ A CLI that scans an entire website for WCAG 2.1 AA violations and maps every fin
 
 **Tech:** TypeScript • Node.js 22+ • Playwright • axe-core • Zod • Vitest • Biome • GitHub Actions
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
 A cross-platform birthday reminder app with offline-first architecture and cloud sync (1,074 commits, 117 unit and 20 E2E tests). Features native Android notifications via Capacitor, two-way Google Calendar sync, and real-time Firestore sync for authenticated users.
 
 <img src="imgs/birthday-memories.png" width="800"/>
 
 **Tech:** Angular 19 (Signals, SSR, standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB offline-first • PWA • Cypress 20 E2E • Sentry
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
 
 ### ⚡ [ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub) · [Live demo](https://charge-hub-one.vercel.app/de)
 EV charging infrastructure dashboard – built solo to a 24-day plan (40+ merged pull requests), every significant decision captured in an architecture decision record. The same domain as a product for charge-point operators.
@@ -120,6 +132,10 @@ EV charging infrastructure dashboard – built solo to a 24-day plan (40+ merged
 
 **Tech:** Nuxt 4 • Vue 3 • Vuetify 3 • TypeScript (strict) • SCSS • Pinia • Zod • MapLibre GL • Chart.js • Vitest • Playwright • axe-core
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🐍 [Todo API](https://github.com/MihaelaAghirculesei/todo-api) · Team project (2 developers)
 Fullstack Todo app with a RESTful API and React frontend, built as a team (84 team commits). **My contribution: the complete backend** (FastAPI + SQLAlchemy 2.0) — clean layered architecture (Router → Service → Repository) with full CRUD implementation, input validation, and 23/23 tests passing. The REST API was designed so my teammate could build the React frontend against it independently. SQLite locally · PostgreSQL in production.
 
@@ -128,6 +144,10 @@ Fullstack Todo app with a RESTful API and React frontend, built as a team (84 te
 🌐 **Live (team platform):** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
 
 **Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
 
 ### 🔒 [SecureNotes Lab](https://github.com/MihaelaAghirculesei/secure-notes-lab) · Security showcase
 Notes app **built twice**: once with 4 deliberately introduced OWASP Top 10 vulnerabilities (SQL Injection, Stored XSS, IDOR, plaintext passwords) plus 1 bonus (CSRF), once fully fixed — each vulnerability documented as a vulnerability report with exploit steps, each fix proven with an automated regression test.
@@ -140,11 +160,19 @@ Notes app **built twice**: once with 4 deliberately introduced OWASP Top 10 vuln
 
 **Tech:** Python 3 • Flask • SQLite • Werkzeug Security • pytest • Bandit • pip-audit • GitHub Actions
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🍽️ dineos ![In Development](https://img.shields.io/badge/🚧_In_Development-FFC107?style=flat-square)
 Real-time ordering system for restaurants: QR code at the table → order → kitchen board in real time over WebSocket, payment via Stripe. Layered FastAPI architecture with an Angular/NgRx front end. More detail and metrics to follow.
 
 **Tech:** FastAPI • WebSocket • SQLAlchemy • PostgreSQL • Angular • NgRx • Stripe
 🔒 Private repository · Case study & code on request
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
 
 ### 📚 normeon · RAG for German technical documentation ![In Development](https://img.shields.io/badge/🚧_In_Development-FFC107?style=flat-square)
 Retrieval-augmented generation assistant that answers questions about German-language technical standards with source-accurate citations. Still in active development – more detail and metrics to follow.
@@ -152,7 +180,10 @@ Retrieval-augmented generation assistant that answers questions about German-lan
 **Tech:** Python • Retrieval-Augmented Generation • vector search
 🔒 Private repository · Case study on request
 
----
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 
 *Training projects (TÜV-certified qualification, Developer Akademie):*
 
@@ -163,12 +194,20 @@ Single-page app with PokéAPI integration, real-time search, and full keyboard n
 
 **Tech:** TypeScript (strict mode) • Vite • Vitest • Playwright • Workbox PWA • Lighthouse CI • Husky + lint-staged
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Team project (5 developers)
 A modern project management platform for effective team collaboration (478 team commits, 24 unit tests). Built with Angular 17 and Firebase, Join offers real-time synchronization, intuitive Kanban boards, and powerful tools for your team.
 
 <img src="imgs/join-board.png" width="800"/>
 
 **Tech:** Angular 17 standalone components • Firebase Realtime Database • Drag & Drop interface (Angular CDK) • Multi-user authentication
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
 
 ### 🚀 [El Pollo Loco](https://el-pollo-loco-aghirculesei.pages.dev/)
 An action-packed 2D jump-and-run game featuring Pepe as the main character (207 commits, 20 object-oriented classes). Collect coins and bottles, defeat enemies, and master challenging levels in this exciting adventure.
