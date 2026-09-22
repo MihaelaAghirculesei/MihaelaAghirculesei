@@ -22,7 +22,8 @@ for c in contributions:
     d = datetime.date.fromisoformat(c["date"])
     monthly[(d.year, d.month)] += c["count"]
 
-months = sorted(monthly.keys())
+current_month = (datetime.date.today().year, datetime.date.today().month)
+months = sorted(m for m in monthly.keys() if m != current_month)
 values = [monthly[m] for m in months]
 labels = [datetime.date(y, m, 1).strftime("%b %y") for (y, m) in months]
 
