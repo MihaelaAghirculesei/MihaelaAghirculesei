@@ -129,6 +129,17 @@ App Todo fullstack con API RESTful e frontend React, sviluppata in team (84 comm
 
 **Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
 
+### 🔒 [SecureNotes Lab](https://github.com/MihaelaAghirculesei/secure-notes-lab) · Vetrina di sicurezza
+App di note costruita **due volte**: una con 4 vulnerabilità OWASP Top 10 introdotte volontariamente (SQL Injection, Stored XSS, IDOR, password in chiaro) più 1 bonus (CSRF), una completamente corretta — ogni vulnerabilità documentata come vulnerability report con passaggi di exploit, ogni fix dimostrato da un test di regressione automatico.
+
+<img src="imgs/secure-notes-lab.png" width="800"/>
+
+- **Qualità:** 9/9 test automatici; CI con controlli obbligatori separati per test e scansione di sicurezza (Bandit + pip-audit) su `main`
+- **Processo:** branch protection, Dependabot per aggiornamenti dipendenze continui, release taggate
+- **Documentazione:** ogni vulnerabilità con passaggi di exploit, impatto e riferimento OWASP; ogni fix spiegato a livello di meccanismo ("perché funziona", non solo "cosa")
+
+**Tech:** Python 3 • Flask • SQLite • Werkzeug Security • pytest • Bandit • pip-audit • GitHub Actions
+
 ### 🍽️ dineos ![In Sviluppo](https://img.shields.io/badge/🚧_In_Sviluppo-FFC107?style=flat-square)
 Sistema di ordinazione in tempo reale per la ristorazione: QR code al tavolo → ordine → board della cucina in tempo reale via WebSocket, pagamento tramite Stripe. Architettura FastAPI a livelli con frontend Angular/NgRx. Altri dettagli e metriche in arrivo.
 
