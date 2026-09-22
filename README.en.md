@@ -60,7 +60,10 @@ const mihaela = {
 
 ### Activity Graph
 
-<img src="imgs/year-activity.png" width="100%"/>
+<picture>
+  <source media="(max-width: 600px)" srcset="imgs/year-activity-mobile.png">
+  <img src="imgs/year-activity.png" width="100%"/>
+</picture>
 
 ### Most Used Languages
 
