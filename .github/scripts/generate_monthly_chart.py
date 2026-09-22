@@ -69,15 +69,16 @@ def draw_row(ax, m_slice, v_slice, l_slice, value_fontsize, tick_labelsize, bar_
     ax.set_yticks([])
 
 
-# --- Desktop: single row, all months, compact — same layout as the
-# original version of this script, just with the current-month
-# exclusion and consistent title kept from later fixes, and fonts a
-# few points larger across the board (the original 9/13pt sizing read
-# as too small even at normal width).
-fig, ax = plt.subplots(figsize=(14, 4.5), facecolor="#0d1117")
-draw_row(ax, months, values, labels, value_fontsize=12, tick_labelsize=12, bar_width=0.6)
-ax.set_title(f"{range_label} · {total} commits", color="#e6edf3", fontsize=16, pad=14, loc="left")
-ax.set_ylabel("Commits / month", color="#8b949e", fontsize=12)
+# --- Desktop: single row, all months. Font sizes are computed, not
+# guessed: a GitHub README content column renders at roughly 850px on a
+# normal screen, so at this figure's native 2100px width the display
+# scale is about 0.4x. To land on a genuinely readable ~16px for the
+# bar labels and ~24px for the title after that shrink, the source
+# fonts need to be ~2.5x those pixel targets (in points, at 150 dpi).
+fig, ax = plt.subplots(figsize=(16.5, 5.2), facecolor="#0d1117")
+draw_row(ax, months, values, labels, value_fontsize=20, tick_labelsize=20, bar_width=0.6)
+ax.set_title(f"{range_label} · {total} commits", color="#e6edf3", fontsize=28, pad=18, loc="left")
+ax.set_ylabel("Commits / month", color="#8b949e", fontsize=19)
 plt.tight_layout()
 plt.savefig(DESKTOP_PATH, dpi=150, facecolor=fig.get_facecolor())
 plt.close(fig)
