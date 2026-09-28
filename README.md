@@ -93,6 +93,37 @@ Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
 </div>
 
+### 🍽️ dineos · Echtzeit-Bestellsystem für die Gastronomie ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
+Restaurant-Betriebssystem, allein end-to-end entwickelt – Backend, Frontend, Infrastruktur und Deploy-Pipeline. Gäste bestellen und bezahlen per QR-Code am Tisch, die Küche sieht neue Bestellungen sofort über WebSocket, Manager steuern Tische, Personal und Speisekarte über ein Dashboard.
+
+- **Architektur:** asynchrones FastAPI-Backend mit Schichten Router → Service → Repository, SQLAlchemy 2.0 + asyncpg, 11 Alembic-Migrationen, Multi-Tenant-Isolation per `restaurant_id`
+- **Echtzeit:** WebSocket-Fan-out über Redis Pub/Sub (mehrere Instanzen), Verbindungslimits pro IP, Heartbeat für tote Verbindungen
+- **Zahlungen:** Stripe PaymentIntents mit Idempotency-Keys, Dead-Letter-Queue für fehlgeschlagene Webhooks mit Retry/Backoff (atomar per Lua-Skript), Audit-Log
+- **Sicherheit:** JWT mit Refresh-Token und Revocation, 4 Rollen, Rate-Limiting – im eigenen Security-Review ein Cross-Tenant-Datenleck gefunden und mit Regressionstests geschlossen
+- **Qualität:** 376 Backend-Tests (pytest gegen echtes PostgreSQL + Redis in CI), `mypy --strict`, Ruff, Coverage-Gate, 6 Architecture Decision Records
+- **Betrieb:** Docker, zweistufiges CD (Staging automatisch → Produktion per Promotion mit Smoke-Test und Rollback), OpenTelemetry-Traces, Prometheus + Grafana, Sentry, Lasttests mit k6
+
+**Tech:** Python • FastAPI • SQLAlchemy 2.0 (async) • Alembic • PostgreSQL • Redis • WebSocket • Stripe • Docker • OpenTelemetry • Prometheus • Grafana • Angular 21 • NgRx
+🔒 Privates Repository (kommerzielles Produkt) · Code-Walkthrough auf Anfrage
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
+### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG für deutsche technische Dokumentation ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
+RAG-Assistent für deutschsprachige technische Dokumentation (Lastenhefte, UNECE-Regelungen, Handbücher), der mit überprüfbaren Quellenzitaten antwortet – und sich lieber enthält, als zu halluzinieren.
+
+- **Retrieval:** hybride Suche aus Vektorsuche (pgvector, HNSW-Index), deutscher Volltextsuche und Trigramm-Fallback, fusioniert per Reciprocal Rank Fusion, danach Cross-Encoder-Reranking
+- **Generierung:** Zitatvalidierung (erfundene Quellen werden verworfen), Konfidenz-Gate vor dem LLM-Aufruf, Streaming per SSE, Kosten- und Latenz-Logging pro Anfrage
+- **Evaluation:** handgeschriebenes deutsches Eval-Set mit 50 Fragen, LLM-as-Judge kalibriert gegen menschliche Bewertung
+- **Qualität:** 356 Tests (Integrationstests mit Testcontainers), CI, austauschbare Adapter für Embeddings, LLM und Reranker
+
+**Tech:** Python • FastAPI • PostgreSQL + pgvector • Alembic • Docker • Pytest • Testcontainers
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Open-Source npm-Paket
 Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüft und jeden Fund der EN-301-549-/BFSG-Klausel zuordnet, gegen die er verstößt – als zitierfähigen Konformitätsbericht in JSON/HTML/PDF. Entwickelt in klein geschnittenen, einzeln reviewten Pull Requests; die zentralen Architekturentscheidungen jeweils mit einem Architecture Decision Record.
 
@@ -163,26 +194,6 @@ Notizen-App **zweimal gebaut**: einmal mit 4 gezielt eingebauten OWASP-Top-10-Sc
 - **Dokumentation:** jede Schwachstelle mit Exploit-Schritten, Impact und OWASP-Referenz; jeder Fix mit Mechanismus-Erklärung ("warum es funktioniert", nicht nur "was")
 
 **Tech:** Python 3 • Flask • SQLite • Werkzeug Security • pytest • Bandit • pip-audit • GitHub Actions
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
-
-### 🍽️ dineos ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
-Echtzeit-Bestellsystem für die Gastronomie: QR-Code am Tisch → Bestellung → Küchen-Board in Echtzeit über WebSocket, Bezahlung via Stripe. Geschichtete FastAPI-Architektur mit Angular/NgRx-Frontend. Details und Kennzahlen folgen.
-
-**Tech:** FastAPI • WebSocket • SQLAlchemy • PostgreSQL • Angular • NgRx • Stripe
-🔒 Privates Repository · Case Study & Code auf Anfrage
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
-
-### 📚 normeon · RAG für deutsche technische Dokumentation ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
-Retrieval-Augmented-Generation-Assistent, der Fragen zu deutschsprachigen technischen Normen mit quellengenauen Zitaten beantwortet. Noch in aktiver Entwicklung – weitere Details und Kennzahlen folgen.
-
-**Tech:** Python • Retrieval-Augmented Generation • Vektorsuche
-🔒 Privates Repository · Case Study auf Anfrage
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
