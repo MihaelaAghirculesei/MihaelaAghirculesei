@@ -7,12 +7,12 @@
 [![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](README.en.md)
 [![Italiano](https://img.shields.io/badge/lingua-Italiano-green?style=for-the-badge)](README.it.md)
 
-**Sviluppatrice Fullstack con focus Frontend** — Angular · Vue/Nuxt · TypeScript · Python / FastAPI
+**Sviluppatrice Fullstack** — Python / FastAPI · PostgreSQL · Angular · Vue/Nuxt · TypeScript
 
 [![Disponibile per nuovi progetti](https://img.shields.io/badge/Disponibile_per_nuovi_progetti-1a7f37?style=for-the-badge)](mailto:aghirculesei@gmail.com)
 [![Sede](https://img.shields.io/badge/Wolfsburg_·_Remote_(UE)-30363d?style=for-the-badge)](#-disponibilità)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Sviluppatrice+Fullstack+con+focus+Frontend;Angular%2C+Vue+e+Nuxt+al+centro;TypeScript+strict+e+Python+%2F+FastAPI;Accessibilit%C3%A0+e+quality+gate+CI)](https://github.com/MihaelaAghirculesei)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Sviluppatrice+Fullstack;Backend+con+FastAPI+e+PostgreSQL;Frontend+con+Angular%2C+Vue+e+Nuxt;Accessibilit%C3%A0+e+quality+gate+CI)](https://github.com/MihaelaAghirculesei)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
 
@@ -27,7 +27,7 @@
 
 ## 👩‍💻 Chi sono
 
-Sviluppatrice software con laurea triennale (B.Sc.) in Informatica per l'economia e una qualifica certificata TÜV. Realizzo applicazioni web manutenibili con **Angular & TypeScript**, integrate da **backend Python/FastAPI** e **Next.js / React**. Diverse applicazioni sono in produzione – tra cui un sito per un cliente che ho realizzato dall'architettura al deployment, in autonomia.
+Sviluppatrice software con laurea triennale (B.Sc.) in Informatica per l'economia e una qualifica certificata TÜV. Realizzo applicazioni web end-to-end: **backend con Python/FastAPI, PostgreSQL e Redis** e **frontend con Angular & TypeScript** (anche Next.js / React e Vue / Nuxt) – inclusi test, CI/CD e monitoring. Diverse applicazioni sono in produzione – tra cui un sito per un cliente che ho realizzato dall'architettura al deployment, in autonomia.
 
 In precedenza, diversi anni di **coordinamento di progetto** in ambito automotive e IT: gestione dei requisiti, Jira/DMS, processi di rilascio e moderazione di riunioni di allineamento con fino a 150 partecipanti. Porto in ogni team questa doppia prospettiva – realizzazione **e** coordinamento.
 
@@ -38,13 +38,14 @@ In precedenza, diversi anni di **coordinamento di progetto** in ambito automotiv
 
 ```typescript
 const mihaela = {
-  role: "Sviluppatrice Fullstack (focus frontend)",
+  role: "Sviluppatrice Fullstack",
   location: "Wolfsburg, DE · Remote (UE)",
   languages: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
+  backend:  ["FastAPI", "SQLAlchemy 2.0 (async)", "Alembic", "Pydantic", "PostgreSQL / pgvector", "Redis", "WebSocket", "Stripe", "Firebase / Firestore"],
   frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
-  backend:  ["FastAPI", "SQLAlchemy 2.0", "Pydantic", "PostgreSQL", "Firebase / Firestore", "REST", "WebSocket"],
-  quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core", "GitHub Actions CI/CD"],
-  focus:    "Architetture Angular e Nuxt manutenibili, backend Python, accessibilità",
+  quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core"],
+  ops:      ["Docker", "GitHub Actions CI/CD", "OpenTelemetry", "Prometheus / Grafana", "Sentry"],
+  focus:    "Backend FastAPI robusti, frontend Angular e Nuxt manutenibili, accessibilità",
 };
 ```
 
@@ -263,6 +264,7 @@ Un emozionante gioco 2D jump-and-run con Pepe come protagonista (207 commit, 20 
 ![IndexedDB](https://img.shields.io/badge/IndexedDB-003B57?style=flat-square)
 ![REST API](https://img.shields.io/badge/REST_API-0052CC?style=flat-square)
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 **Testing & Qualità**
 
@@ -279,6 +281,10 @@ Un emozionante gioco 2D jump-and-run con Pepe come protagonista (207 commit, 20 
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
@@ -309,7 +315,7 @@ Riconosciuto da KMK/ZAB come equivalente a una laurea triennale tedesca.
 
 ## 🌍 Disponibilità
 
-- **Ruoli:** Sviluppatrice Fullstack (focus frontend) · Sviluppatrice Frontend (Angular / TypeScript)
+- **Ruoli:** Sviluppatrice Fullstack (Python/FastAPI + Angular) · Sviluppatrice Backend (Python/FastAPI) · Sviluppatrice Frontend (Angular / TypeScript)
 - **Sede:** Wolfsburg · da remoto nell'UE
 - **Lingue:** Rumeno & Italiano (madrelingua) · Tedesco C1 (tutta l'esperienza professionale in tedesco) · Inglese B1 (lettura/scrittura), A2 (parlato)
 - 🇪🇺 **Cittadinanza UE** (Romania & Italia) – pieno diritto di lavorare in Germania e in tutta l'UE, nessun visto, nessuna sponsorizzazione.

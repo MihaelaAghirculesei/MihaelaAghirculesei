@@ -7,12 +7,12 @@
 [![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](README.en.md)
 [![Italiano](https://img.shields.io/badge/lingua-Italiano-green?style=for-the-badge)](README.it.md)
 
-**Fullstack-Entwicklerin mit Frontend-Fokus** — Angular · Vue/Nuxt · TypeScript · Python / FastAPI
+**Fullstack-Entwicklerin** — Python / FastAPI · PostgreSQL · Angular · Vue/Nuxt · TypeScript
 
 [![Offen für neue Projekte](https://img.shields.io/badge/Offen_für_neue_Projekte-1a7f37?style=for-the-badge)](mailto:aghirculesei@gmail.com)
 [![Standort](https://img.shields.io/badge/Wolfsburg_·_Remote_(EU)-30363d?style=for-the-badge)](#-verfügbarkeit)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack-Entwicklerin+mit+Frontend-Fokus;Angular%2C+Vue+%26+Nuxt+im+Kern;TypeScript+strict+%26+Python+%2F+FastAPI;Barrierefreiheit+%26+CI-Qualit%C3%A4tsgates)](https://github.com/MihaelaAghirculesei)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack-Entwicklerin;FastAPI+%2B+PostgreSQL+im+Backend;Angular+%26+Vue+%2F+Nuxt+im+Frontend;Barrierefreiheit+%26+CI-Qualit%C3%A4tsgates)](https://github.com/MihaelaAghirculesei)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
 
@@ -27,7 +27,7 @@
 
 ## 👩‍💻 Über mich
 
-Softwareentwicklerin mit B.Sc. Wirtschaftsinformatik und TÜV-zertifizierter Qualifizierung. Ich baue wartbare Web-Anwendungen mit **Angular & TypeScript**, ergänzt um **Python/FastAPI-Backends** und **Next.js / React**. Mehrere Anwendungen laufen im Live-Betrieb – darunter eine Kundenwebsite, die ich eigenverantwortlich von der Architektur bis zum Deployment umgesetzt habe.
+Softwareentwicklerin mit B.Sc. Wirtschaftsinformatik und TÜV-zertifizierter Qualifizierung. Ich entwickle Web-Anwendungen end-to-end: **Backends mit Python/FastAPI, PostgreSQL und Redis** und **Frontends mit Angular & TypeScript** (auch Next.js / React und Vue / Nuxt) – inklusive Tests, CI/CD und Monitoring. Mehrere Anwendungen laufen im Live-Betrieb – darunter eine Kundenwebsite, die ich eigenverantwortlich von der Architektur bis zum Deployment umgesetzt habe.
 
 Davor mehrere Jahre **Projektkoordination** in Automotive- und IT-Entwicklungsprojekten: Anforderungsmanagement, Jira/DMS, Freigabeprozesse und Moderation von Abstimmungsrunden mit bis zu 150 Teilnehmenden. Diese Doppelperspektive – Umsetzung **und** Koordination – bringe ich in jedes Team ein.
 
@@ -38,13 +38,14 @@ Davor mehrere Jahre **Projektkoordination** in Automotive- und IT-Entwicklungspr
 
 ```typescript
 const mihaela = {
-  role: "Fullstack-Entwicklerin (Frontend-Fokus)",
+  role: "Fullstack-Entwicklerin",
   location: "Wolfsburg, DE · Remote (EU)",
   languages: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
+  backend:  ["FastAPI", "SQLAlchemy 2.0 (async)", "Alembic", "Pydantic", "PostgreSQL / pgvector", "Redis", "WebSocket", "Stripe", "Firebase / Firestore"],
   frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
-  backend:  ["FastAPI", "SQLAlchemy 2.0", "Pydantic", "PostgreSQL", "Firebase / Firestore", "REST", "WebSocket"],
-  quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core", "GitHub Actions CI/CD"],
-  focus:    "Wartbare Angular- & Nuxt-Architekturen, Python-Backends, Barrierefreiheit",
+  quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core"],
+  ops:      ["Docker", "GitHub Actions CI/CD", "OpenTelemetry", "Prometheus / Grafana", "Sentry"],
+  focus:    "Robuste FastAPI-Backends, wartbare Angular- & Nuxt-Frontends, Barrierefreiheit",
 };
 ```
 
@@ -263,6 +264,7 @@ Ein actionreiches 2D-Jump-and-Run-Spiel mit Pepe als Hauptfigur (207 Commits, 20
 ![IndexedDB](https://img.shields.io/badge/IndexedDB-003B57?style=flat-square)
 ![REST API](https://img.shields.io/badge/REST_API-0052CC?style=flat-square)
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 **Testing & Qualität**
 
@@ -279,6 +281,10 @@ Ein actionreiches 2D-Jump-and-Run-Spiel mit Pepe als Hauptfigur (207 Commits, 20
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
@@ -309,7 +315,7 @@ Anerkennung durch KMK/ZAB: entspricht einem deutschen Hochschulabschluss auf Bac
 
 ## 🌍 Verfügbarkeit
 
-- **Rollen:** Fullstack-Entwicklerin (Frontend-Fokus) · Frontend-Entwicklerin (Angular / TypeScript)
+- **Rollen:** Fullstack-Entwicklerin (Python/FastAPI + Angular) · Backend-Entwicklerin (Python/FastAPI) · Frontend-Entwicklerin (Angular / TypeScript)
 - **Standort:** Wolfsburg · Remote innerhalb der EU
 - **Sprachen:** Rumänisch & Italienisch (Muttersprache) · Deutsch C1 (gesamte Berufserfahrung auf Deutsch) · Englisch B1 (Lesen/Schreiben), A2 (Sprechen)
 - 🇪🇺 **EU-Staatsangehörigkeit** (Rumänien & Italien) – uneingeschränkte Arbeitserlaubnis in Deutschland und der gesamten EU, kein Visum, kein Sponsoring.

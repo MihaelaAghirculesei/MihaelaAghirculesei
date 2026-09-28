@@ -7,12 +7,12 @@
 [![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](README.en.md)
 [![Italiano](https://img.shields.io/badge/lingua-Italiano-green?style=for-the-badge)](README.it.md)
 
-**Fullstack Developer with a Frontend Focus** — Angular · Vue/Nuxt · TypeScript · Python / FastAPI
+**Fullstack Developer** — Python / FastAPI · PostgreSQL · Angular · Vue/Nuxt · TypeScript
 
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-1a7f37?style=for-the-badge)](mailto:aghirculesei@gmail.com)
 [![Location](https://img.shields.io/badge/Wolfsburg_·_Remote_(EU)-30363d?style=for-the-badge)](#-availability)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack+Developer+with+a+Frontend+Focus;Angular%2C+Vue+%26+Nuxt+at+the+core;TypeScript+strict+%26+Python+%2F+FastAPI;Accessibility+%26+CI+quality+gates)](https://github.com/MihaelaAghirculesei)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Fullstack+Developer;FastAPI+%2B+PostgreSQL+on+the+back+end;Angular+%26+Vue+%2F+Nuxt+on+the+front+end;Accessibility+%26+CI+quality+gates)](https://github.com/MihaelaAghirculesei)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
 
@@ -27,7 +27,7 @@
 
 ## 👩‍💻 About Me
 
-Software developer with a B.Sc. in Business Informatics and a TÜV-certified qualification. I build maintainable web applications with **Angular & TypeScript**, backed by **Python/FastAPI back ends** and **Next.js / React**. Several applications are live in production – including a client website I built end-to-end, from architecture to deployment, on my own.
+Software developer with a B.Sc. in Business Informatics and a TÜV-certified qualification. I build web applications end-to-end: **back ends with Python/FastAPI, PostgreSQL and Redis** and **front ends with Angular & TypeScript** (also Next.js / React and Vue / Nuxt) – including tests, CI/CD and monitoring. Several applications are live in production – including a client website I built end-to-end, from architecture to deployment, on my own.
 
 Before that, several years in **project coordination** on automotive and IT development projects: requirements management, Jira/DMS, release processes, and facilitating alignment meetings with up to 150 participants. I bring that dual perspective – delivery **and** coordination – to every team.
 
@@ -38,13 +38,14 @@ Before that, several years in **project coordination** on automotive and IT deve
 
 ```typescript
 const mihaela = {
-  role: "Fullstack Developer (frontend focus)",
+  role: "Fullstack Developer",
   location: "Wolfsburg, DE · Remote (EU)",
   languages: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
+  backend:  ["FastAPI", "SQLAlchemy 2.0 (async)", "Alembic", "Pydantic", "PostgreSQL / pgvector", "Redis", "WebSocket", "Stripe", "Firebase / Firestore"],
   frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
-  backend:  ["FastAPI", "SQLAlchemy 2.0", "Pydantic", "PostgreSQL", "Firebase / Firestore", "REST", "WebSocket"],
-  quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core", "GitHub Actions CI/CD"],
-  focus:    "Maintainable Angular & Nuxt architectures, Python back ends, accessibility",
+  quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core"],
+  ops:      ["Docker", "GitHub Actions CI/CD", "OpenTelemetry", "Prometheus / Grafana", "Sentry"],
+  focus:    "Robust FastAPI back ends, maintainable Angular & Nuxt front ends, accessibility",
 };
 ```
 
@@ -263,6 +264,7 @@ An action-packed 2D jump-and-run game featuring Pepe as the main character (207 
 ![IndexedDB](https://img.shields.io/badge/IndexedDB-003B57?style=flat-square)
 ![REST API](https://img.shields.io/badge/REST_API-0052CC?style=flat-square)
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 **Testing & Quality**
 
@@ -279,6 +281,10 @@ An action-packed 2D jump-and-run game featuring Pepe as the main character (207 
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
@@ -309,7 +315,7 @@ Recognized by KMK/ZAB as equivalent to a German bachelor's degree.
 
 ## 🌍 Availability
 
-- **Roles:** Fullstack Developer (frontend focus) · Frontend Developer (Angular / TypeScript)
+- **Roles:** Fullstack Developer (Python/FastAPI + Angular) · Backend Developer (Python/FastAPI) · Frontend Developer (Angular / TypeScript)
 - **Location:** Wolfsburg · remote within the EU
 - **Languages:** Romanian & Italian (native) · German C1 (all professional experience in German) · English B1 (reading/writing), A2 (speaking)
 - 🇪🇺 **EU citizenship** (Romania & Italy) – full right to work in Germany and the entire EU, no visa, no sponsorship.
