@@ -132,7 +132,7 @@ A CLI that scans an entire website for WCAG 2.1 AA violations and maps every fin
 🌐 **Live sample report:** [mihaelaaghirculesei.github.io/bfsg-scanner](https://mihaelaaghirculesei.github.io/bfsg-scanner/)
 
 - **Supply chain:** published to npm with SLSA build provenance; the release workflow publishes via OIDC trusted publishing – no long-lived tokens
-- **Quality:** 150 tests, CI on Linux/Windows/macOS, a versioned JSON Schema for the report output, semantic exit codes
+- **Quality:** 153 tests, CI on Linux/Windows/macOS, a versioned JSON Schema for the report output, semantic exit codes
 - **Engine:** sitemap + robots.txt-aware breadth-first crawl, concurrency pool with per-host rate limiting, real Chromium via Playwright + axe-core
 - **CI gate:** exits non-zero at a configurable severity threshold, so a pipeline can block a merge on accessibility
 
