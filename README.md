@@ -42,7 +42,7 @@ const mihaela = {
   location: "Wolfsburg, DE · Remote (EU)",
   languages: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
   backend:  ["FastAPI", "SQLAlchemy 2.0 (async)", "Alembic", "Pydantic", "PostgreSQL / pgvector", "Redis", "WebSocket", "Stripe", "Firebase / Firestore"],
-  frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
+  frontend: ["Angular 17–22", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
   quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core"],
   ops:      ["Docker", "GitHub Actions CI/CD", "OpenTelemetry", "Prometheus / Grafana", "Sentry"],
   focus:    "Robuste FastAPI-Backends, wartbare Angular- & Nuxt-Frontends, Barrierefreiheit",
@@ -214,11 +214,11 @@ Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständige
 </div>
 
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Teamprojekt (5 Entwickler)
-Eine moderne Projektmanagement-Plattform für effektive Teamzusammenarbeit (478 Commits im Team, 24 Unit-Tests). Mit Angular 17 und Firebase bietet Join Echtzeit-Synchronisierung, intuitive Kanban-Boards und leistungsstarke Tools für Ihr Team.
+Eine Echtzeit-Kanban-Plattform, im 5-köpfigen Team entwickelt (478 Commits im Team). Danach habe ich meinen Fork eigenständig weitergeführt: Upgrade von Angular 17 auf 22, offizielles Firebase SDK statt AngularFire, Firestore-Sicherheitsregeln mit 17 Emulator-Tests, 27 Unit-Tests, CI mit CodeQL und wöchentlichem Health Check, npm audit von 97 auf 0 Befunde.
 
 <img src="imgs/join-board.png" width="800"/>
 
-**Tech:** Angular 17 Standalone Components • Firebase Realtime Database • Drag & Drop-Oberfläche (Angular CDK) • Multi-User-Authentifizierung
+**Tech:** Angular 22 Standalone Components • Cloud Firestore + Firebase Auth • Firestore Security Rules • Drag & Drop-Oberfläche (Angular CDK) • GitHub Actions + CodeQL
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
