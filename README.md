@@ -172,13 +172,13 @@ Dashboard zur Verwaltung von EV-Ladeinfrastruktur – solo nach einem 24-Tage-Pl
 </div>
 
 ### 🐍 [Todo API](https://github.com/MihaelaAghirculesei/todo-api) · Teamprojekt (2 Entwickler)
-Fullstack-Todo-App mit RESTful API und React-Frontend, im Team entwickelt (84 Commits im Team). **Mein Beitrag: das komplette Backend** (FastAPI + SQLAlchemy 2.0) — saubere Schichtarchitektur (Router → Service → Repository) mit vollständiger CRUD-Implementierung, Eingabevalidierung und 23/23 Tests. Die REST-API wurde so entworfen, dass mein Teampartner unabhängig das React-Frontend dagegen entwickeln konnte. SQLite lokal · PostgreSQL in Produktion.
+Fullstack-Todo-App mit RESTful API und React-Frontend, im Team entwickelt (84 Commits im Team). **Mein Beitrag: das komplette Backend** (FastAPI + SQLAlchemy 2.1) — saubere Schichtarchitektur (Router → Service → Repository) mit vollständiger CRUD-Implementierung, Eingabevalidierung und 25/25 Tests. Die REST-API wurde so entworfen, dass mein Teampartner unabhängig das React-Frontend dagegen entwickeln konnte. SQLite lokal · PostgreSQL in Produktion.
 
 <img src="imgs/todo-api.png" width="800"/>
 
 🌐 **Live (Team-Plattform):** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
 
-**Tech:** Python 3.13 • FastAPI 0.115 • SQLAlchemy 2.0 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
+**Tech:** Python 3.11+ • FastAPI 0.141 • SQLAlchemy 2.1 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
