@@ -171,6 +171,22 @@ Dashboard zur Verwaltung von EV-Ladeinfrastruktur – solo nach einem 24-Tage-Pl
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
 </div>
 
+### 📅 [Intelligent Family Calendar](https://github.com/MihaelaAghirculesei/intelligent-family-calendar) · [Live-Demo](https://mihaelaaghirculesei.github.io/intelligent-family-calendar/)
+Wochenplaner für Familien mit mehreren Kindern: Schule, Sport und Musik in einer farbcodierten Woche, die auf genau eine A4-Seite passt. Entstanden als einzelne HTML-Seite und schrittweise zu einer Angular-App ausgebaut; die Demo zeigt eine fiktive Familie.
+
+<img src="imgs/intelligent-family-calendar.png" width="800"/>
+
+- **Kalender-Raster:** Termine nach echter Uhrzeit positioniert, Überschneidungen nebeneinander (Cluster mit Spaltenzuweisung), Drag & Drop mit Angular CDK, Undo/Redo inklusive Tastenkürzeln
+- **PDF-Export:** Die Tagesspalten werden vor der Aufnahme an das A4-Querformat angepasst, sodass jede Woche genau eine Seite füllt; die PDF-Bibliotheken werden erst beim ersten Export geladen
+- **i18n:** Englisch/Italienisch per `@angular/localize` zur Build-Zeit, fehlende Übersetzungen lassen den Build scheitern; Silbentrennung in der Sprache der Oberfläche
+- **Modernisierung:** Upgrade von Angular 17 auf 22 mit einem Commit pro Major-Version, Karma → Vitest (37 Unit-Tests), versionierte localStorage-Daten mit Migrationen und JSON-Backup/-Import
+
+**Tech:** Angular 22 • TypeScript (strict) • RxJS • Angular CDK • @angular/localize • html-to-image + jsPDF • Vitest • GitHub Actions • GitHub Pages
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🐍 [Todo API](https://github.com/MihaelaAghirculesei/todo-api) · Teamprojekt (2 Entwickler)
 Fullstack-Todo-App mit RESTful API und React-Frontend, im Team entwickelt (84 Commits im Team). **Mein Beitrag: das komplette Backend** (FastAPI + SQLAlchemy 2.1) — saubere Schichtarchitektur (Router → Service → Repository) mit vollständiger CRUD-Implementierung, Eingabevalidierung und 25/25 Tests. Die REST-API wurde so entworfen, dass mein Teampartner unabhängig das React-Frontend dagegen entwickeln konnte. SQLite lokal · PostgreSQL in Produktion.
 

@@ -42,7 +42,7 @@ const mihaela = {
   location: "Wolfsburg, DE · Remote (EU)",
   languages: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
   backend:  ["FastAPI", "SQLAlchemy 2.0 (async)", "Alembic", "Pydantic", "PostgreSQL / pgvector", "Redis", "WebSocket", "Stripe", "Firebase / Firestore"],
-  frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
+  frontend: ["Angular 17–22", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
   quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core"],
   ops:      ["Docker", "GitHub Actions CI/CD", "OpenTelemetry", "Prometheus / Grafana", "Sentry"],
   focus:    "Robust FastAPI back ends, maintainable Angular & Nuxt front ends, accessibility",
@@ -171,6 +171,22 @@ EV charging infrastructure dashboard – built solo to a 24-day plan (40+ merged
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
 </div>
 
+### 📅 [Intelligent Family Calendar](https://github.com/MihaelaAghirculesei/intelligent-family-calendar) · [Live demo](https://mihaelaaghirculesei.github.io/intelligent-family-calendar/)
+A weekly planner for families with several children: school, sports and music in one color-coded week that fits on exactly one A4 page. It started as a single HTML page and grew step by step into an Angular app; the demo shows a fictitious family.
+
+<img src="imgs/intelligent-family-calendar.png" width="800"/>
+
+- **Calendar grid:** activities positioned by their real time, overlaps laid out side by side (clusters with column assignment), drag & drop with the Angular CDK, undo/redo including keyboard shortcuts
+- **PDF export:** the day columns are resized to the A4 landscape proportions before capturing, so every week fills exactly one page; the PDF libraries load only on the first export
+- **i18n:** English/Italian with build-time `@angular/localize`, a missing translation fails the build; hyphenation in the UI language
+- **Modernization:** upgraded Angular 17 → 22 with one commit per major version, Karma → Vitest (37 unit tests), versioned localStorage data with migrations and JSON backup/import
+
+**Tech:** Angular 22 • TypeScript (strict) • RxJS • Angular CDK • @angular/localize • html-to-image + jsPDF • Vitest • GitHub Actions • GitHub Pages
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🐍 [Todo API](https://github.com/MihaelaAghirculesei/todo-api) · Team project (2 developers)
 Fullstack Todo app with a RESTful API and React frontend, built as a team (84 team commits). **My contribution: the complete backend** (FastAPI + SQLAlchemy 2.1) — clean layered architecture (Router → Service → Repository) with full CRUD implementation, input validation, and 25/25 tests passing. The REST API was designed so my teammate could build the React frontend against it independently. SQLite locally · PostgreSQL in production.
 
@@ -214,11 +230,11 @@ Single-page app with PokéAPI integration, real-time search, and full keyboard n
 </div>
 
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Team project (5 developers)
-A modern project management platform for effective team collaboration (478 team commits, 24 unit tests). Built with Angular 17 and Firebase, Join offers real-time synchronization, intuitive Kanban boards, and powerful tools for your team.
+A real-time Kanban platform, built in a team of five (478 team commits). I then continued my fork on my own: upgraded Angular 17 to 22, replaced AngularFire with the official Firebase SDK, Firestore security rules with 17 emulator tests, 27 unit tests, CI with CodeQL and a weekly health check, npm audit from 97 findings to 0.
 
 <img src="imgs/join-board.png" width="800"/>
 
-**Tech:** Angular 17 standalone components • Firebase Realtime Database • Drag & Drop interface (Angular CDK) • Multi-user authentication
+**Tech:** Angular 22 standalone components • Cloud Firestore + Firebase Auth • Firestore Security Rules • Drag & drop interface (Angular CDK) • GitHub Actions + CodeQL
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
