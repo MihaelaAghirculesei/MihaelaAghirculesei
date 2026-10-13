@@ -42,7 +42,7 @@ const mihaela = {
   location: "Wolfsburg, DE · Remote (EU)",
   languages: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
   backend:  ["FastAPI", "SQLAlchemy 2.0 (async)", "Alembic", "Pydantic", "PostgreSQL / pgvector", "Redis", "WebSocket", "Stripe", "Firebase / Firestore"],
-  frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
+  frontend: ["Angular 17–22", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
   quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core"],
   ops:      ["Docker", "GitHub Actions CI/CD", "OpenTelemetry", "Prometheus / Grafana", "Sentry"],
   focus:    "Robust FastAPI back ends, maintainable Angular & Nuxt front ends, accessibility",
@@ -230,11 +230,11 @@ Single-page app with PokéAPI integration, real-time search, and full keyboard n
 </div>
 
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Team project (5 developers)
-A modern project management platform for effective team collaboration (478 team commits, 24 unit tests). Built with Angular 17 and Firebase, Join offers real-time synchronization, intuitive Kanban boards, and powerful tools for your team.
+A real-time Kanban platform, built in a team of five (478 team commits). I then continued my fork on my own: upgraded Angular 17 to 22, replaced AngularFire with the official Firebase SDK, Firestore security rules with 17 emulator tests, 27 unit tests, CI with CodeQL and a weekly health check, npm audit from 97 findings to 0.
 
 <img src="imgs/join-board.png" width="800"/>
 
-**Tech:** Angular 17 standalone components • Firebase Realtime Database • Drag & Drop interface (Angular CDK) • Multi-user authentication
+**Tech:** Angular 22 standalone components • Cloud Firestore + Firebase Auth • Firestore Security Rules • Drag & drop interface (Angular CDK) • GitHub Actions + CodeQL
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>

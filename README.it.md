@@ -42,7 +42,7 @@ const mihaela = {
   location: "Wolfsburg, DE · Remote (UE)",
   languages: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
   backend:  ["FastAPI", "SQLAlchemy 2.0 (async)", "Alembic", "Pydantic", "PostgreSQL / pgvector", "Redis", "WebSocket", "Stripe", "Firebase / Firestore"],
-  frontend: ["Angular 17–19", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
+  frontend: ["Angular 17–22", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
   quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core"],
   ops:      ["Docker", "GitHub Actions CI/CD", "OpenTelemetry", "Prometheus / Grafana", "Sentry"],
   focus:    "Backend FastAPI robusti, frontend Angular e Nuxt manutenibili, accessibilità",
@@ -230,11 +230,11 @@ App single-page con integrazione PokéAPI, ricerca in tempo reale e navigazione 
 </div>
 
 ### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Progetto in team (5 sviluppatori)
-Una moderna piattaforma di project management per una collaborazione efficace del team (478 commit del team, 24 unit test). Costruita con Angular 17 e Firebase, Join offre sincronizzazione in tempo reale, bacheche Kanban intuitive e strumenti potenti per il tuo team.
+Una piattaforma Kanban in tempo reale, sviluppata in un team di 5 persone (478 commit del team). In seguito ho portato avanti da sola il mio fork: aggiornamento da Angular 17 a 22, SDK ufficiale di Firebase al posto di AngularFire, regole di sicurezza Firestore con 17 test sull'emulatore, 27 unit test, CI con CodeQL e health check settimanale, npm audit da 97 a 0 segnalazioni.
 
 <img src="imgs/join-board.png" width="800"/>
 
-**Tech:** Angular 17 componenti standalone • Firebase Realtime Database • Interfaccia Drag & Drop (Angular CDK) • Autenticazione multi-utente
+**Tech:** Angular 22 componenti standalone • Cloud Firestore + Firebase Auth • Firestore Security Rules • Interfaccia Drag & Drop (Angular CDK) • GitHub Actions + CodeQL
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
