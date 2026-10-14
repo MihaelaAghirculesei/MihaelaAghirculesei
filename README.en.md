@@ -176,12 +176,12 @@ A weekly planner for families with several children: school, sports and music in
 
 <img src="imgs/intelligent-family-calendar.png" width="800"/>
 
-- **Calendar grid:** activities positioned by their real time, overlaps laid out side by side (clusters with column assignment), drag & drop with the Angular CDK, undo/redo including keyboard shortcuts
+- **Calendar grid:** activities positioned by their real time, overlaps laid out side by side (clusters with column assignment), drag & drop with the Angular CDK that changes day and time (15-minute snapping), undo/redo including keyboard shortcuts
 - **PDF export:** the day columns are resized to the A4 landscape proportions before capturing, so every week fills exactly one page; the PDF libraries load only on the first export
 - **i18n:** English/Italian with build-time `@angular/localize`, a missing translation fails the build; hyphenation in the UI language
-- **Modernization:** upgraded Angular 17 → 22 with one commit per major version, Karma → Vitest (37 unit tests), versioned localStorage data with migrations and JSON backup/import
+- **Modernization:** upgraded Angular 17 → 22 with one commit per major version, then signals, `OnPush` and zoneless without zone.js, Karma → Vitest (41 unit tests) plus 21 Playwright end-to-end tests in CI, including an emulated phone, versioned localStorage data with migrations and JSON backup/import
 
-**Tech:** Angular 22 • TypeScript (strict) • RxJS • Angular CDK • @angular/localize • html-to-image + jsPDF • Vitest • GitHub Actions • GitHub Pages
+**Tech:** Angular 22 (Signals, Zoneless) • TypeScript (strict) • Angular CDK • @angular/localize • html-to-image + jsPDF • Vitest • Playwright • GitHub Actions • GitHub Pages
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>

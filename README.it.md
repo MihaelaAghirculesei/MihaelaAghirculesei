@@ -176,12 +176,12 @@ Planner settimanale per famiglie con più figli: scuola, sport e musica in una s
 
 <img src="imgs/intelligent-family-calendar.png" width="800"/>
 
-- **Griglia del calendario:** attività posizionate in base all'orario reale, sovrapposizioni affiancate (cluster con assegnazione delle colonne), drag & drop con Angular CDK, annulla/ripeti con scorciatoie da tastiera
+- **Griglia del calendario:** attività posizionate in base all'orario reale, sovrapposizioni affiancate (cluster con assegnazione delle colonne), drag & drop con Angular CDK che cambia giorno e orario (scatti di 15 minuti), annulla/ripeti con scorciatoie da tastiera
 - **Export PDF:** prima della cattura le colonne dei giorni vengono adattate alle proporzioni di un A4 orizzontale, così ogni settimana riempie esattamente una pagina; le librerie PDF vengono caricate solo al primo export
 - **i18n:** inglese/italiano con `@angular/localize` in fase di build, una traduzione mancante fa fallire la build; sillabazione nella lingua dell'interfaccia
-- **Modernizzazione:** aggiornamento da Angular 17 a 22 con un commit per ogni versione major, Karma → Vitest (37 unit test), dati localStorage versionati con migrazioni e backup/import in JSON
+- **Modernizzazione:** aggiornamento da Angular 17 a 22 con un commit per ogni versione major, poi signals, `OnPush` e zoneless senza zone.js, Karma → Vitest (41 unit test) e 21 test end-to-end Playwright in CI, anche su uno smartphone emulato, dati localStorage versionati con migrazioni e backup/import in JSON
 
-**Tech:** Angular 22 • TypeScript (strict) • RxJS • Angular CDK • @angular/localize • html-to-image + jsPDF • Vitest • GitHub Actions • GitHub Pages
+**Tech:** Angular 22 (Signals, Zoneless) • TypeScript (strict) • Angular CDK • @angular/localize • html-to-image + jsPDF • Vitest • Playwright • GitHub Actions • GitHub Pages
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
