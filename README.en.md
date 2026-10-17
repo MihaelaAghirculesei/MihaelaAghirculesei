@@ -177,11 +177,12 @@ A weekly planner for families with several children: school, sports and music in
 <img src="imgs/intelligent-family-calendar.png" width="800"/>
 
 - **Calendar grid:** activities positioned by their real time, overlaps laid out side by side (clusters with column assignment), drag & drop with the Angular CDK that changes day and time (15-minute snapping), undo/redo including keyboard shortcuts
+- **Accessibility:** usable from the keyboard (Tab to the activities, Enter to edit, the day in the form instead of drag & drop), named controls for screen readers, black or white text depending on the person's color; axe-core checks every dialog against WCAG 2.2 AA
 - **PDF export:** the day columns are resized to the A4 landscape proportions before capturing, so every week fills exactly one page; the PDF libraries load only on the first export
 - **i18n:** English/Italian with build-time `@angular/localize`, a missing translation fails the build; hyphenation in the UI language
-- **Modernization:** upgraded Angular 17 → 22 with one commit per major version, then signals, `OnPush` and zoneless without zone.js, Karma → Vitest (41 unit tests) plus 21 Playwright end-to-end tests in CI, including an emulated phone, versioned localStorage data with migrations and JSON backup/import
+- **Modernization:** upgraded Angular 17 → 22 with one commit per major version, then signals, `OnPush` and zoneless without zone.js, Karma → Vitest (55 unit tests) plus 125 Playwright end-to-end tests in CI on Chromium, Firefox and WebKit, including an emulated Android phone and iPhone, versioned localStorage data with migrations and JSON backup/import
 
-**Tech:** Angular 22 (Signals, Zoneless) • TypeScript (strict) • Angular CDK • @angular/localize • html-to-image + jsPDF • Vitest • Playwright • GitHub Actions • GitHub Pages
+**Tech:** Angular 22 (Signals, Zoneless) • TypeScript (strict) • Angular CDK • @angular/localize • html-to-image + jsPDF • Vitest • Playwright • axe-core • GitHub Actions • GitHub Pages
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>

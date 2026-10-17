@@ -177,11 +177,12 @@ Wochenplaner für Familien mit mehreren Kindern: Schule, Sport und Musik in eine
 <img src="imgs/intelligent-family-calendar.png" width="800"/>
 
 - **Kalender-Raster:** Termine nach echter Uhrzeit positioniert, Überschneidungen nebeneinander (Cluster mit Spaltenzuweisung), Drag & Drop mit Angular CDK, das Tag und Uhrzeit ändert (Raster 15 Minuten), Undo/Redo inklusive Tastenkürzeln
+- **Barrierefreiheit:** per Tastatur bedienbar (Tab zu den Terminen, Enter zum Bearbeiten, Tag im Formular statt Drag & Drop), benannte Bedienelemente für Screenreader, Textfarbe schwarz oder weiß je nach Personenfarbe; axe-core prüft jeden Dialog gegen WCAG 2.2 AA
 - **PDF-Export:** Die Tagesspalten werden vor der Aufnahme an das A4-Querformat angepasst, sodass jede Woche genau eine Seite füllt; die PDF-Bibliotheken werden erst beim ersten Export geladen
 - **i18n:** Englisch/Italienisch per `@angular/localize` zur Build-Zeit, fehlende Übersetzungen lassen den Build scheitern; Silbentrennung in der Sprache der Oberfläche
-- **Modernisierung:** Upgrade von Angular 17 auf 22 mit einem Commit pro Major-Version, danach Signals, `OnPush` und Zoneless ohne zone.js, Karma → Vitest (41 Unit-Tests) und 21 Playwright-E2E-Tests in CI, auch auf einem emulierten Smartphone, versionierte localStorage-Daten mit Migrationen und JSON-Backup/-Import
+- **Modernisierung:** Upgrade von Angular 17 auf 22 mit einem Commit pro Major-Version, danach Signals, `OnPush` und Zoneless ohne zone.js, Karma → Vitest (55 Unit-Tests) und 125 Playwright-E2E-Tests in CI mit Chromium, Firefox und WebKit, auch auf emuliertem Android-Smartphone und iPhone, versionierte localStorage-Daten mit Migrationen und JSON-Backup/-Import
 
-**Tech:** Angular 22 (Signals, Zoneless) • TypeScript (strict) • Angular CDK • @angular/localize • html-to-image + jsPDF • Vitest • Playwright • GitHub Actions • GitHub Pages
+**Tech:** Angular 22 (Signals, Zoneless) • TypeScript (strict) • Angular CDK • @angular/localize • html-to-image + jsPDF • Vitest • Playwright • axe-core • GitHub Actions • GitHub Pages
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
