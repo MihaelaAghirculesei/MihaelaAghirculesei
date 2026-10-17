@@ -35,6 +35,7 @@ In precedenza, diversi anni di **coordinamento di progetto** in ambito automotiv
 - 🇪🇺 Cittadinanza UE (Romania & Italia) – nessun permesso di lavoro o sponsorizzazione necessari
 - 🗣️ Rumeno & Italiano (madrelingua) · Tedesco C1 · Inglese B1 (lettura/scrittura)
 - ♿ Focus su accessibilità (WCAG 2.1 AA / BFSG) e controllo qualità automatizzato
+- 🤝 Contributo open source: [MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) – nota nella documentazione per i framework SSR basati su Vite (Nuxt, SvelteKit, Astro), [PR #8766](https://github.com/maplibre/maplibre-gl-js/pull/8766) mergiata
 
 ```typescript
 const mihaela = {

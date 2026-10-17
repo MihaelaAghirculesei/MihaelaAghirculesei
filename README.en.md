@@ -35,6 +35,7 @@ Before that, several years in **project coordination** on automotive and IT deve
 - 🇪🇺 EU citizenship (Romania & Italy) – no work permit or sponsorship required
 - 🗣️ Romanian & Italian (native) · German C1 · English B1 (reading/writing)
 - ♿ Focus on accessibility (WCAG 2.1 AA / BFSG) and automated quality assurance
+- 🤝 Open-source contribution: [MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) – docs note for Vite-based SSR frameworks (Nuxt, SvelteKit, Astro), [PR #8766](https://github.com/maplibre/maplibre-gl-js/pull/8766) merged
 
 ```typescript
 const mihaela = {

@@ -35,6 +35,7 @@ Davor mehrere Jahre **Projektkoordination** in Automotive- und IT-Entwicklungspr
 - 🇪🇺 EU-Staatsangehörigkeit (Rumänien & Italien) – keine Arbeitserlaubnis oder Sponsoring erforderlich
 - 🗣️ Rumänisch & Italienisch (Muttersprache) · Deutsch C1 · Englisch B1 (Lesen/Schreiben)
 - ♿ Schwerpunkt Barrierefreiheit (WCAG 2.1 AA / BFSG) und automatisierte Qualitätssicherung
+- 🤝 Open-Source-Beitrag: [MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) – Doku-Hinweis für Vite-basierte SSR-Frameworks (Nuxt, SvelteKit, Astro), [PR #8766](https://github.com/maplibre/maplibre-gl-js/pull/8766) gemergt
 
 ```typescript
 const mihaela = {
