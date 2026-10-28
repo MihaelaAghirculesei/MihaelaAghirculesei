@@ -27,13 +27,13 @@
 
 ## 👩‍💻 About Me
 
-Software developer with a B.Sc. in Business Informatics and a TÜV-certified qualification. I build web applications end-to-end: **back ends with Python/FastAPI, PostgreSQL and Redis** and **front ends with Angular & TypeScript** (also Next.js / React and Vue / Nuxt) – including tests, CI/CD and monitoring. Several applications are live in production – including a client website I built end-to-end, from architecture to deployment, on my own.
+Software developer with a bachelor's degree in economics (business informatics) and an AZAV-certified qualification. I build web applications end-to-end: **back ends with Python/FastAPI, PostgreSQL and Redis** and **front ends with Angular & TypeScript** (also Next.js / React and Vue / Nuxt) – including tests, CI/CD and monitoring. Several applications are live in production – including a client website I built end-to-end, from architecture to deployment, on my own.
 
 Before that, several years in **project coordination** on automotive and IT development projects: requirements management, Jira/DMS, release processes, and facilitating alignment meetings with up to 150 participants. I bring that dual perspective – delivery **and** coordination – to every team.
 
 - 🌍 Wolfsburg, Germany · open to remote within the EU
 - 🇪🇺 EU citizenship (Romania & Italy) – no work permit or sponsorship required
-- 🗣️ Romanian & Italian (native) · German C1 · English B1 (reading/writing)
+- 🗣️ Romanian & Italian (native) · German (fluent) · English B1 (reading/writing)
 - ♿ Focus on accessibility (WCAG 2.1 AA / BFSG) and automated quality assurance
 - 🤝 Open-source contribution: [MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) – docs note for Vite-based SSR frameworks (Nuxt, SvelteKit, Astro), [PR #8766](https://github.com/maplibre/maplibre-gl-js/pull/8766) merged
 
@@ -78,7 +78,7 @@ const mihaela = {
 ## 🎨 Featured Projects
 
 ### 📸 [Alina Moments Photography](https://alina-moments-photography-2026.vercel.app) · Client project
-Production-grade portfolio website for a photographer – built end-to-end on my own, from architecture to live deployment (402 commits, 48 merged pull requests).
+Production-grade portfolio website for a photographer – built end-to-end on my own, from architecture to live deployment (over 400 commits, 48 merged pull requests).
 
 <img src="imgs/alina-moments.png" width="800"/>
 
@@ -218,7 +218,7 @@ Notes app **built twice**: once with 4 deliberately introduced OWASP Top 10 vuln
 </div>
 
 
-*Training projects (TÜV-certified qualification, Developer Akademie):*
+*Training projects (AZAV-certified qualification, Developer Akademie):*
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
 Single-page app with PokéAPI integration, real-time search, and full keyboard navigation. Offline-first PWA with 243 unit and 21 E2E tests at 100% coverage, backed by automated CI/CD.
@@ -331,14 +331,14 @@ An action-packed 2D jump-and-run game featuring Pepe as the main character (207 
 **Freelance Web & App Development** — Self-employed · since 10/2025
 End-to-end development of web applications – from requirements gathering to deployment, focusing on appointment-booking systems and automated communication solutions.
 
-**TÜV-certified Software Developer Qualification** — Developer Akademie GmbH · 10/2024 – 10/2025
+**AZAV-certified Software Developer Qualification** — Developer Akademie GmbH · 10/2024 – 10/2025
 18 modules, 12+ projects – several as part of SCRUM/Kanban teams. Focus: Angular, TypeScript, REST APIs, Firebase, test automation, UI/UX (Figma).
 
 **Project Coordination – Automotive & IT** — Ferchau Automotive, jSERVICE · 2023 – 2024
 Requirements management, work-package and schedule control in Jira/DMS, coordination of international release processes for driver-assistance systems, facilitation of alignment meetings with up to 150 participants.
 
-**B.Sc. Business Studies & Business Informatics** — George Bacovia University, Bacău (RO)
-Recognized by KMK/ZAB as equivalent to a German bachelor's degree.
+**Bachelor's in Economics (Business Informatics)** — George Bacovia University, Bacău (RO)
+Original title: Economist licențiat in Accounting and Informatics. Recognized by KMK/ZAB as equivalent to a German bachelor's degree.
 
 ---
 
@@ -346,7 +346,7 @@ Recognized by KMK/ZAB as equivalent to a German bachelor's degree.
 
 - **Roles:** Fullstack Developer (Python/FastAPI + Angular) · Backend Developer (Python/FastAPI) · Frontend Developer (Angular / TypeScript)
 - **Location:** Wolfsburg · remote within the EU
-- **Languages:** Romanian & Italian (native) · German C1 (all professional experience in German) · English B1 (reading/writing), A2 (speaking)
+- **Languages:** Romanian & Italian (native) · Fluent German (all professional experience in German) · English B1 (reading/writing), A2 (speaking)
 - 🇪🇺 **EU citizenship** (Romania & Italy) – full right to work in Germany and the entire EU, no visa, no sponsorship.
 
 ---

@@ -27,13 +27,13 @@
 
 ## 👩‍💻 Chi sono
 
-Sviluppatrice software con laurea triennale (B.Sc.) in Informatica per l'economia e una qualifica certificata TÜV. Realizzo applicazioni web end-to-end: **backend con Python/FastAPI, PostgreSQL e Redis** e **frontend con Angular & TypeScript** (anche Next.js / React e Vue / Nuxt) – inclusi test, CI/CD e monitoring. Diverse applicazioni sono in produzione – tra cui un sito per un cliente che ho realizzato dall'architettura al deployment, in autonomia.
+Sviluppatrice software con laurea triennale in Scienze economiche (Informatica per l'economia) e una qualifica certificata AZAV. Realizzo applicazioni web end-to-end: **backend con Python/FastAPI, PostgreSQL e Redis** e **frontend con Angular & TypeScript** (anche Next.js / React e Vue / Nuxt) – inclusi test, CI/CD e monitoring. Diverse applicazioni sono in produzione – tra cui un sito per un cliente che ho realizzato dall'architettura al deployment, in autonomia.
 
 In precedenza, diversi anni di **coordinamento di progetto** in ambito automotive e IT: gestione dei requisiti, Jira/DMS, processi di rilascio e moderazione di riunioni di allineamento con fino a 150 partecipanti. Porto in ogni team questa doppia prospettiva – realizzazione **e** coordinamento.
 
 - 🌍 Wolfsburg, Germania · disponibile al lavoro da remoto nell'UE
 - 🇪🇺 Cittadinanza UE (Romania & Italia) – nessun permesso di lavoro o sponsorizzazione necessari
-- 🗣️ Rumeno & Italiano (madrelingua) · Tedesco C1 · Inglese B1 (lettura/scrittura)
+- 🗣️ Rumeno & Italiano (madrelingua) · Tedesco fluente · Inglese B1 (lettura/scrittura)
 - ♿ Focus su accessibilità (WCAG 2.1 AA / BFSG) e controllo qualità automatizzato
 - 🤝 Contributo open source: [MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) – nota nella documentazione per i framework SSR basati su Vite (Nuxt, SvelteKit, Astro), [PR #8766](https://github.com/maplibre/maplibre-gl-js/pull/8766) mergiata
 
@@ -78,7 +78,7 @@ const mihaela = {
 ## 🎨 Progetti in Evidenza
 
 ### 📸 [Alina Moments Photography](https://alina-moments-photography-2026.vercel.app) · Progetto cliente
-Sito portfolio pronto per la produzione per una fotografa – realizzato in autonomia dall'architettura al deployment live (402 commit, 48 pull request mergiate).
+Sito portfolio pronto per la produzione per una fotografa – realizzato in autonomia dall'architettura al deployment live (oltre 400 commit, 48 pull request mergiate).
 
 <img src="imgs/alina-moments.png" width="800"/>
 
@@ -218,7 +218,7 @@ App di note costruita **due volte**: una con 4 vulnerabilità OWASP Top 10 intro
 </div>
 
 
-*Progetti formativi (qualificazione certificata TÜV, Developer Akademie):*
+*Progetti formativi (qualificazione certificata AZAV, Developer Akademie):*
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
 App single-page con integrazione PokéAPI, ricerca in tempo reale e navigazione da tastiera completa. PWA offline-first con 243 unit test e 21 test E2E al 100% di coverage, garantita da pipeline CI/CD automatizzata.
@@ -331,14 +331,14 @@ Un emozionante gioco 2D jump-and-run con Pepe come protagonista (207 commit, 20 
 **Sviluppo web & app freelance** — Libera professionista · da 10/2025
 Sviluppo end-to-end di applicazioni web – dalla raccolta dei requisiti al deployment, con focus su sistemi di prenotazione appuntamenti e soluzioni di comunicazione automatizzate.
 
-**Qualifica certificata TÜV come sviluppatrice software** — Developer Akademie GmbH · 10/2024 – 10/2025
+**Qualifica certificata AZAV come sviluppatrice software** — Developer Akademie GmbH · 10/2024 – 10/2025
 18 moduli, oltre 12 progetti – diversi in team secondo SCRUM/Kanban. Focus: Angular, TypeScript, API REST, Firebase, automazione dei test, UI/UX (Figma).
 
 **Coordinamento di progetto – Automotive & IT** — Ferchau Automotive, jSERVICE · 2023 – 2024
 Gestione dei requisiti, controllo dei work package e delle scadenze in Jira/DMS, coordinamento dei processi di rilascio internazionali per i sistemi di assistenza alla guida, moderazione di riunioni di allineamento con fino a 150 partecipanti.
 
-**B.Sc. Economia & Informatica per l'economia** — Università George Bacovia, Bacău (RO)
-Riconosciuto da KMK/ZAB come equivalente a una laurea triennale tedesca.
+**Laurea triennale in Scienze economiche (Informatica per l'economia)** — Università George Bacovia, Bacău (RO)
+Titolo originale: Economist licențiat in Contabilitate și Informatică. Riconosciuto da KMK/ZAB come equivalente a una laurea triennale tedesca.
 
 ---
 
@@ -346,7 +346,7 @@ Riconosciuto da KMK/ZAB come equivalente a una laurea triennale tedesca.
 
 - **Ruoli:** Sviluppatrice Fullstack (Python/FastAPI + Angular) · Sviluppatrice Backend (Python/FastAPI) · Sviluppatrice Frontend (Angular / TypeScript)
 - **Sede:** Wolfsburg · da remoto nell'UE
-- **Lingue:** Rumeno & Italiano (madrelingua) · Tedesco C1 (tutta l'esperienza professionale in tedesco) · Inglese B1 (lettura/scrittura), A2 (parlato)
+- **Lingue:** Rumeno & Italiano (madrelingua) · Tedesco fluente (tutta l'esperienza professionale in tedesco) · Inglese B1 (lettura/scrittura), A2 (parlato)
 - 🇪🇺 **Cittadinanza UE** (Romania & Italia) – pieno diritto di lavorare in Germania e in tutta l'UE, nessun visto, nessuna sponsorizzazione.
 
 ---
