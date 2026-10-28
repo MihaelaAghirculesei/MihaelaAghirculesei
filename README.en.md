@@ -16,7 +16,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=google-chrome&logoColor=white)](https://aghirculesei.pages.dev/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=google-chrome&logoColor=white)](https://aghirculesei.de/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aghirculesei@gmail.com)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=MihaelaAghirculesei)
@@ -355,7 +355,7 @@ Recognized by KMK/ZAB as equivalent to a German bachelor's degree.
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-aghirculesei.pages.dev-FF5722?style=for-the-badge)](https://aghirculesei.pages.dev/)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-aghirculesei.de-FF5722?style=for-the-badge)](https://aghirculesei.de/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
 [![Email](https://img.shields.io/badge/Email-Get_in_touch-D14836?style=for-the-badge&logo=gmail)](mailto:aghirculesei@gmail.com)
 
