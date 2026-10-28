@@ -27,13 +27,13 @@
 
 ## 👩‍💻 Über mich
 
-Softwareentwicklerin mit B.Sc. Wirtschaftsinformatik und TÜV-zertifizierter Qualifizierung. Ich entwickle Web-Anwendungen end-to-end: **Backends mit Python/FastAPI, PostgreSQL und Redis** und **Frontends mit Angular & TypeScript** (auch Next.js / React und Vue / Nuxt) – inklusive Tests, CI/CD und Monitoring. Mehrere Anwendungen laufen im Live-Betrieb – darunter eine Kundenwebsite, die ich eigenverantwortlich von der Architektur bis zum Deployment umgesetzt habe.
+Softwareentwicklerin mit Bachelor in Wirtschaftswissenschaften (Wirtschaftsinformatik) und AZAV-zertifizierter Qualifizierung. Ich entwickle Web-Anwendungen end-to-end: **Backends mit Python/FastAPI, PostgreSQL und Redis** und **Frontends mit Angular & TypeScript** (auch Next.js / React und Vue / Nuxt) – inklusive Tests, CI/CD und Monitoring. Mehrere Anwendungen laufen im Live-Betrieb – darunter eine Kundenwebsite, die ich eigenverantwortlich von der Architektur bis zum Deployment umgesetzt habe.
 
 Davor mehrere Jahre **Projektkoordination** in Automotive- und IT-Entwicklungsprojekten: Anforderungsmanagement, Jira/DMS, Freigabeprozesse und Moderation von Abstimmungsrunden mit bis zu 150 Teilnehmenden. Diese Doppelperspektive – Umsetzung **und** Koordination – bringe ich in jedes Team ein.
 
 - 🌍 Wolfsburg, Deutschland · offen für Remote innerhalb der EU
 - 🇪🇺 EU-Staatsangehörigkeit (Rumänien & Italien) – keine Arbeitserlaubnis oder Sponsoring erforderlich
-- 🗣️ Rumänisch & Italienisch (Muttersprache) · Deutsch C1 · Englisch B1 (Lesen/Schreiben)
+- 🗣️ Rumänisch & Italienisch (Muttersprache) · Deutsch fließend · Englisch B1 (Lesen/Schreiben)
 - ♿ Schwerpunkt Barrierefreiheit (WCAG 2.1 AA / BFSG) und automatisierte Qualitätssicherung
 - 🤝 Open-Source-Beitrag: [MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) – Doku-Hinweis für Vite-basierte SSR-Frameworks (Nuxt, SvelteKit, Astro), [PR #8766](https://github.com/maplibre/maplibre-gl-js/pull/8766) gemergt
 
@@ -78,7 +78,7 @@ const mihaela = {
 ## 🎨 Ausgewählte Projekte
 
 ### 📸 [Alina Moments Photography](https://alina-moments-photography-2026.vercel.app) · Kundenprojekt
-Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich von der Architektur bis zum Live-Deployment umgesetzt (402 Commits, 48 gemergte Pull Requests).
+Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich von der Architektur bis zum Live-Deployment umgesetzt (über 400 Commits, 48 gemergte Pull Requests).
 
 <img src="imgs/alina-moments.png" width="800"/>
 
@@ -218,7 +218,7 @@ Notizen-App **zweimal gebaut**: einmal mit 4 gezielt eingebauten OWASP-Top-10-Sc
 </div>
 
 
-*Ausbildungsprojekte (TÜV-zertifizierte Qualifizierung, Developer Akademie):*
+*Ausbildungsprojekte (AZAV-zertifizierte Qualifizierung, Developer Akademie):*
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
 Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständiger Keyboard-Navigation. Offline-First-PWA mit 243 Unit- und 21 E2E-Tests bei 100 % Coverage, abgesichert durch automatisiertes CI/CD.
@@ -331,14 +331,14 @@ Ein actionreiches 2D-Jump-and-Run-Spiel mit Pepe als Hauptfigur (207 Commits, 20
 **Freelance Web- & App-Entwicklung** — Selbstständig · seit 10/2025
 Eigenverantwortliche Entwicklung von Web-Anwendungen – von der Anforderungsaufnahme bis zum Deployment, mit Schwerpunkt auf Terminbuchungssystemen und automatisierten Kommunikationslösungen.
 
-**TÜV-zertifizierte Qualifizierung zur Softwareentwicklerin** — Developer Akademie GmbH · 10/2024 – 10/2025
+**AZAV-zertifizierte Qualifizierung zur Softwareentwicklerin** — Developer Akademie GmbH · 10/2024 – 10/2025
 18 Module, 12+ Projekte – mehrere davon im Team nach SCRUM/Kanban. Schwerpunkte: Angular, TypeScript, REST-APIs, Firebase, Testautomatisierung, UI/UX (Figma).
 
 **Projektkoordination – Automotive & IT** — Ferchau Automotive, jSERVICE · 2023 – 2024
 Anforderungsmanagement, Arbeitspaket- und Terminsteuerung in Jira/DMS, Koordination internationaler Freigabeprozesse für Fahrerassistenzsysteme, Moderation von Abstimmungsrunden mit bis zu 150 Teilnehmenden.
 
-**B.Sc. Wirtschaftswissenschaft & Wirtschaftsinformatik** — George-Bacovia-Universität, Bacău (RO)
-Anerkennung durch KMK/ZAB: entspricht einem deutschen Hochschulabschluss auf Bachelor-Ebene.
+**Bachelor Wirtschaftswissenschaften (Wirtschaftsinformatik)** — George-Bacovia-Universität, Bacău (RO)
+Originaltitel: Economist licențiat in Rechnungswesen und Informatik. Anerkennung durch KMK/ZAB: entspricht einem deutschen Hochschulabschluss auf Bachelor-Ebene.
 
 ---
 
@@ -346,7 +346,7 @@ Anerkennung durch KMK/ZAB: entspricht einem deutschen Hochschulabschluss auf Bac
 
 - **Rollen:** Fullstack-Entwicklerin (Python/FastAPI + Angular) · Backend-Entwicklerin (Python/FastAPI) · Frontend-Entwicklerin (Angular / TypeScript)
 - **Standort:** Wolfsburg · Remote innerhalb der EU
-- **Sprachen:** Rumänisch & Italienisch (Muttersprache) · Deutsch C1 (gesamte Berufserfahrung auf Deutsch) · Englisch B1 (Lesen/Schreiben), A2 (Sprechen)
+- **Sprachen:** Rumänisch & Italienisch (Muttersprache) · Deutsch fließend (gesamte Berufserfahrung auf Deutsch) · Englisch B1 (Lesen/Schreiben), A2 (Sprechen)
 - 🇪🇺 **EU-Staatsangehörigkeit** (Rumänien & Italien) – uneingeschränkte Arbeitserlaubnis in Deutschland und der gesamten EU, kein Visum, kein Sponsoring.
 
 ---
