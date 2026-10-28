@@ -77,8 +77,8 @@ const mihaela = {
 
 ## 🎨 Featured Projects
 
-### 📸 [Alina Moments Photography](https://alina-moments-photography-2026.vercel.app) · Client project
-Production-grade portfolio website for a photographer – built end-to-end on my own, from architecture to live deployment (over 400 commits, 48 merged pull requests).
+### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Client project
+Production-grade portfolio website for a photographer – built end-to-end on my own, from architecture to live deployment (over 400 commits, over 100 merged pull requests).
 
 <img src="imgs/alina-moments.png" width="800"/>
 
@@ -143,12 +143,12 @@ A CLI that scans an entire website for WCAG 2.1 AA violations and maps every fin
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
 </div>
 
-### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
-A cross-platform birthday reminder app with offline-first architecture and cloud sync (1,074 commits, 117 unit and 20 E2E tests). Features native Android notifications via Capacitor, two-way Google Calendar sync, and real-time Firestore sync for authenticated users.
+### 🎂 [Birthday Reminder Pro](https://birthday-reminder-aghirculesei.pages.dev/)
+A cross-platform birthday reminder app with offline-first architecture and cloud sync (over 1,200 commits, over 2,000 unit and over 100 E2E tests). Features native Android notifications via Capacitor, two-way Google Calendar sync, and real-time Firestore sync for authenticated users.
 
 <img src="imgs/birthday-memories.png" width="800"/>
 
-**Tech:** Angular 19 (Signals, SSR, standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB offline-first • PWA • Cypress 20 E2E • Sentry
+**Tech:** Angular 22 (Signals, SSR, standalone) • NgRx 22 • Capacitor 8 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB offline-first • PWA • Vitest • Cypress • Sentry
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
@@ -221,7 +221,7 @@ Notes app **built twice**: once with 4 deliberately introduced OWASP Top 10 vuln
 *Training projects (AZAV-certified qualification, Developer Akademie):*
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
-Single-page app with PokéAPI integration, real-time search, and full keyboard navigation. Offline-first PWA with 243 unit and 21 E2E tests at 100% coverage, backed by automated CI/CD.
+Single-page app with PokéAPI integration, real-time search, and full keyboard navigation. Offline-first PWA with 242 unit and 24 E2E tests at 100% coverage, backed by automated CI/CD.
 
 <img src="imgs/pokedex.png" width="800"/>
 
