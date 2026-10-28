@@ -77,8 +77,8 @@ const mihaela = {
 
 ## 🎨 Ausgewählte Projekte
 
-### 📸 [Alina Moments Photography](https://alina-moments-photography-2026.vercel.app) · Kundenprojekt
-Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich von der Architektur bis zum Live-Deployment umgesetzt (über 400 Commits, 48 gemergte Pull Requests).
+### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Kundenprojekt
+Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich von der Architektur bis zum Live-Deployment umgesetzt (über 400 Commits, über 100 gemergte Pull Requests).
 
 <img src="imgs/alina-moments.png" width="800"/>
 
@@ -143,12 +143,12 @@ Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüf
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
 </div>
 
-### 🎂 [Birthday Memories](https://birthday-reminder-aghirculesei.pages.dev/)
-Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und Cloud-Synchronisierung (1.074 Commits, 117 Unit- und 20 E2E-Tests). Native Android-Benachrichtigungen via Capacitor, bidirektionale Google Calendar-Synchronisierung und Echtzeit-Firestore-Sync für angemeldete Nutzer.
+### 🎂 [Birthday Reminder Pro](https://birthday-reminder-aghirculesei.pages.dev/)
+Eine plattformübergreifende Geburtstags-App mit Offline-First-Architektur und Cloud-Synchronisierung (über 1.200 Commits, über 2.000 Unit- und über 100 E2E-Tests). Native Android-Benachrichtigungen via Capacitor, bidirektionale Google Calendar-Synchronisierung und Echtzeit-Firestore-Sync für angemeldete Nutzer.
 
 <img src="imgs/birthday-memories.png" width="800"/>
 
-**Tech:** Angular 19 (Signals, SSR, Standalone) • NgRx 19 • Capacitor 7 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Cypress 20 E2E • Sentry
+**Tech:** Angular 22 (Signals, SSR, Standalone) • NgRx 22 • Capacitor 8 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB Offline-First • PWA • Vitest • Cypress • Sentry
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
@@ -221,7 +221,7 @@ Notizen-App **zweimal gebaut**: einmal mit 4 gezielt eingebauten OWASP-Top-10-Sc
 *Ausbildungsprojekte (AZAV-zertifizierte Qualifizierung, Developer Akademie):*
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
-Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständiger Keyboard-Navigation. Offline-First-PWA mit 243 Unit- und 21 E2E-Tests bei 100 % Coverage, abgesichert durch automatisiertes CI/CD.
+Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständiger Keyboard-Navigation. Offline-First-PWA mit 242 Unit- und 24 E2E-Tests bei 100 % Coverage, abgesichert durch automatisiertes CI/CD.
 
 <img src="imgs/pokedex.png" width="800"/>
 
