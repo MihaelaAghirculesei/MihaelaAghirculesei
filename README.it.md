@@ -338,7 +338,7 @@ Sviluppo end-to-end di applicazioni web – dalla raccolta dei requisiti al depl
 Gestione dei requisiti, controllo dei work package e delle scadenze in Jira/DMS, coordinamento dei processi di rilascio internazionali per i sistemi di assistenza alla guida, moderazione di riunioni di allineamento con fino a 150 partecipanti.
 
 **Laurea triennale in Scienze economiche (Informatica per l'economia)** — Università George Bacovia, Bacău (RO)
-Titolo originale: Economist licențiat in Contabilitate și Informatică. Riconosciuto da KMK/ZAB come equivalente a una laurea triennale tedesca.
+Titolo originale: Economist licențiat, specializzazione Contabilitate și informatică de gestiune (Contabilità e informatica gestionale). Riconosciuto da KMK/ZAB come equivalente a una laurea triennale tedesca.
 
 ---
 

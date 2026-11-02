@@ -338,7 +338,7 @@ Eigenverantwortliche Entwicklung von Web-Anwendungen – von der Anforderungsauf
 Anforderungsmanagement, Arbeitspaket- und Terminsteuerung in Jira/DMS, Koordination internationaler Freigabeprozesse für Fahrerassistenzsysteme, Moderation von Abstimmungsrunden mit bis zu 150 Teilnehmenden.
 
 **Bachelor Wirtschaftswissenschaften (Wirtschaftsinformatik)** — George-Bacovia-Universität, Bacău (RO)
-Originaltitel: Economist licențiat in Rechnungswesen und Informatik. Anerkennung durch KMK/ZAB: entspricht einem deutschen Hochschulabschluss auf Bachelor-Ebene.
+Originaltitel: Economist licențiat, Fachrichtung Contabilitate și informatică de gestiune (Rechnungswesen und Informatik in Betrieben). Anerkennung durch KMK/ZAB: entspricht einem deutschen Hochschulabschluss auf Bachelor-Ebene.
 
 ---
 

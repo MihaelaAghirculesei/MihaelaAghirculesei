@@ -338,7 +338,7 @@ End-to-end development of web applications – from requirements gathering to de
 Requirements management, work-package and schedule control in Jira/DMS, coordination of international release processes for driver-assistance systems, facilitation of alignment meetings with up to 150 participants.
 
 **Bachelor's in Economics (Business Informatics)** — George Bacovia University, Bacău (RO)
-Original title: Economist licențiat in Accounting and Informatics. Recognized by KMK/ZAB as equivalent to a German bachelor's degree.
+Original title: Economist licențiat, specialization Contabilitate și informatică de gestiune (Accounting and Management Information Systems). Recognized by KMK/ZAB as equivalent to a German bachelor's degree.
 
 ---
 
