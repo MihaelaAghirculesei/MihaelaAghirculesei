@@ -221,7 +221,7 @@ App di note costruita **due volte**: una con 4 vulnerabilità OWASP Top 10 intro
 *Progetti formativi (qualificazione certificata AZAV, Developer Akademie):*
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
-App single-page con integrazione PokéAPI, ricerca in tempo reale e navigazione da tastiera completa. PWA offline-first con 242 unit test e 24 test E2E al 100% di coverage, garantita da pipeline CI/CD automatizzata.
+App single-page con integrazione PokéAPI, ricerca in tempo reale e navigazione da tastiera completa. PWA offline-first con 242 unit test e 21 test E2E al 100% di coverage, garantita da pipeline CI/CD automatizzata.
 
 <img src="imgs/pokedex.png" width="800"/>
 

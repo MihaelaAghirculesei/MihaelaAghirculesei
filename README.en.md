@@ -221,7 +221,7 @@ Notes app **built twice**: once with 4 deliberately introduced OWASP Top 10 vuln
 *Training projects (AZAV-certified qualification, Developer Akademie):*
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
-Single-page app with PokéAPI integration, real-time search, and full keyboard navigation. Offline-first PWA with 242 unit and 24 E2E tests at 100% coverage, backed by automated CI/CD.
+Single-page app with PokéAPI integration, real-time search, and full keyboard navigation. Offline-first PWA with 242 unit and 21 E2E tests at 100% coverage, backed by automated CI/CD.
 
 <img src="imgs/pokedex.png" width="800"/>
 

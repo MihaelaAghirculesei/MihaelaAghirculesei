@@ -221,7 +221,7 @@ Notizen-App **zweimal gebaut**: einmal mit 4 gezielt eingebauten OWASP-Top-10-Sc
 *Ausbildungsprojekte (AZAV-zertifizierte Qualifizierung, Developer Akademie):*
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
-Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständiger Keyboard-Navigation. Offline-First-PWA mit 242 Unit- und 24 E2E-Tests bei 100 % Coverage, abgesichert durch automatisiertes CI/CD.
+Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständiger Keyboard-Navigation. Offline-First-PWA mit 242 Unit- und 21 E2E-Tests bei 100 % Coverage, abgesichert durch automatisiertes CI/CD.
 
 <img src="imgs/pokedex.png" width="800"/>
 
