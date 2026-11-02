@@ -221,7 +221,7 @@ Notizen-App **zweimal gebaut**: einmal mit 4 gezielt eingebauten OWASP-Top-10-Sc
 *Ausbildungsprojekte (AZAV-zertifizierte Qualifizierung, Developer Akademie):*
 
 ### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
-Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständiger Keyboard-Navigation. Offline-First-PWA mit 242 Unit- und 24 E2E-Tests bei 100 % Coverage, abgesichert durch automatisiertes CI/CD.
+Single-Page-Anwendung mit PokéAPI-Integration, Echtzeit-Suche und vollständiger Keyboard-Navigation. Offline-First-PWA mit 242 Unit- und 21 E2E-Tests bei 100 % Coverage, abgesichert durch automatisiertes CI/CD.
 
 <img src="imgs/pokedex.png" width="800"/>
 
@@ -338,7 +338,7 @@ Eigenverantwortliche Entwicklung von Web-Anwendungen – von der Anforderungsauf
 Anforderungsmanagement, Arbeitspaket- und Terminsteuerung in Jira/DMS, Koordination internationaler Freigabeprozesse für Fahrerassistenzsysteme, Moderation von Abstimmungsrunden mit bis zu 150 Teilnehmenden.
 
 **Bachelor Wirtschaftswissenschaften (Wirtschaftsinformatik)** — George-Bacovia-Universität, Bacău (RO)
-Originaltitel: Economist licențiat in Rechnungswesen und Informatik. Anerkennung durch KMK/ZAB: entspricht einem deutschen Hochschulabschluss auf Bachelor-Ebene.
+Originaltitel: Economist licențiat, Fachrichtung Contabilitate și informatică de gestiune (Rechnungswesen und Informatik in Betrieben). Anerkennung durch KMK/ZAB: entspricht einem deutschen Hochschulabschluss auf Bachelor-Ebene.
 
 ---
 
