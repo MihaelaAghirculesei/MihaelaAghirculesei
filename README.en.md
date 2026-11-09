@@ -203,7 +203,7 @@ Fullstack Todo app with a RESTful API and React frontend, built as a team (84 te
 </div>
 
 ### 🔒 [SecureNotes Lab](https://github.com/MihaelaAghirculesei/secure-notes-lab) · Security showcase
-Notes app **built twice**: once with 4 deliberately introduced OWASP Top 10 vulnerabilities (SQL Injection, Stored XSS, IDOR, plaintext passwords) plus 1 bonus (CSRF), once fully fixed — each vulnerability documented as a vulnerability report with exploit steps, each fix proven with an automated regression test.
+Notes app **built twice**: once with 4 deliberately introduced OWASP Top 10:2025 vulnerabilities (SQL Injection, Stored XSS, IDOR, plaintext passwords) plus 1 bonus (CSRF), once fully fixed — each vulnerability documented as a vulnerability report with exploit steps, the SQL injection, XSS, IDOR and CSRF fixes proven with automated regression tests.
 
 <img src="imgs/secure-notes-lab.png" width="800"/>
 

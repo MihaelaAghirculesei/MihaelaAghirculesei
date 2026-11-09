@@ -203,7 +203,7 @@ Fullstack-Todo-App mit RESTful API und React-Frontend, im Team entwickelt (84 Co
 </div>
 
 ### 🔒 [SecureNotes Lab](https://github.com/MihaelaAghirculesei/secure-notes-lab) · Security-Showcase
-Notizen-App **zweimal gebaut**: einmal mit 4 gezielt eingebauten OWASP-Top-10-Schwachstellen (SQL Injection, Stored XSS, IDOR, Klartext-Passwörter) plus 1 Bonus (CSRF), einmal vollständig behoben — jede Schwachstelle als Vulnerability-Report mit Exploit-Schritten dokumentiert, jeder Fix mit automatisiertem Regressionstest bewiesen.
+Notizen-App **zweimal gebaut**: einmal mit 4 gezielt eingebauten OWASP-Top-10:2025-Schwachstellen (SQL Injection, Stored XSS, IDOR, Klartext-Passwörter) plus 1 Bonus (CSRF), einmal vollständig behoben — jede Schwachstelle als Vulnerability-Report mit Exploit-Schritten dokumentiert, die Fixes für SQL Injection, XSS, IDOR und CSRF mit automatisierten Regressionstests bewiesen.
 
 <img src="imgs/secure-notes-lab.png" width="800"/>
 
