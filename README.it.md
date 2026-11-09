@@ -1,25 +1,31 @@
+<p align="right"><sub><a href="README.md">Deutsch</a> · <a href="README.en.md">English</a> · <b>Italiano</b></sub></p>
+
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=90&section=header" width="100%" alt=""/>
 
 # Mihaela Aghirculesei
 
-### 🌐 Language / Sprache
-[![Deutsch](https://img.shields.io/badge/Sprache-Deutsch-red?style=for-the-badge)](README.md)
-[![English](https://img.shields.io/badge/language-English-blue?style=for-the-badge)](README.en.md)
-[![Italiano](https://img.shields.io/badge/lingua-Italiano-green?style=for-the-badge)](README.it.md)
+### Sviluppatrice Fullstack · Python / FastAPI · Angular · TypeScript
 
-**Sviluppatrice Fullstack** — Python / FastAPI · PostgreSQL · Angular · Vue/Nuxt · TypeScript
+Realizzo applicazioni web end-to-end – dal backend FastAPI asincrono al frontend Angular accessibile, con test e quality gate in CI.
 
-[![Disponibile per nuovi progetti](https://img.shields.io/badge/Disponibile_per_nuovi_progetti-1a7f37?style=for-the-badge)](mailto:aghirculesei@gmail.com)
-[![Sede](https://img.shields.io/badge/Wolfsburg_·_Remote_(UE)-30363d?style=for-the-badge)](#-disponibilità)
+[![Portfolio](https://img.shields.io/badge/Portfolio-aghirculesei.de-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://aghirculesei.de/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profilo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
+[![E-mail](https://img.shields.io/badge/E--mail-Scrivimi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aghirculesei@gmail.com)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=650&lines=Sviluppatrice+Fullstack;Backend+con+FastAPI+e+PostgreSQL;Frontend+con+Angular%2C+Vue+e+Nuxt;Accessibilit%C3%A0+e+quality+gate+CI)](https://github.com/MihaelaAghirculesei)
+🟢 **Disponibile per un'assunzione** · Wolfsburg · Remote (UE) · cittadina UE, nessuna sponsorizzazione necessaria
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header"/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=google-chrome&logoColor=white)](https://aghirculesei.de/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
-[![E-mail](https://img.shields.io/badge/E--mail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aghirculesei@gmail.com)
-![Visitatori](https://visitor-badge.laobi.icu/badge?page_id=MihaelaAghirculesei)
+<table>
+  <tr>
+    <td align="center" width="50%"><a href="https://alina-moments-photography.vercel.app"><b>Progetto cliente live</b></a><br/><sub>realizzato in autonomia, dall'architettura al deployment</sub></td>
+    <td align="center" width="50%"><a href="https://www.npmjs.com/package/bfsg-scanner"><b>Pacchetto npm</b></a><br/><sub>pubblicato con SLSA build provenance</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="https://github.com/maplibre/maplibre-gl-js/pull/8766"><b>Open source</b></a><br/><sub>contributo a MapLibre GL JS, mergiato</sub></td>
+    <td align="center" width="50%"><a href="https://mihaelaaghirculesei.github.io/bfsg-scanner/"><b>Accessibilità</b></a><br/><sub>WCAG 2.1 AA / BFSG come gate CI</sub></td>
+  </tr>
+</table>
 
 </div>
 
@@ -31,75 +37,13 @@ Sviluppatrice software con laurea triennale in Scienze economiche (Informatica p
 
 In precedenza, diversi anni di **coordinamento di progetto** in ambito automotive e IT: gestione dei requisiti, Jira/DMS, processi di rilascio e moderazione di riunioni di allineamento con fino a 150 partecipanti. Porto in ogni team questa doppia prospettiva – realizzazione **e** coordinamento.
 
-- 🌍 Wolfsburg, Germania · disponibile al lavoro da remoto nell'UE
-- 🇪🇺 Cittadinanza UE (Romania & Italia) – nessun permesso di lavoro o sponsorizzazione necessari
 - 🗣️ Rumeno & Italiano (madrelingua) · Tedesco fluente · Inglese B1 (lettura/scrittura)
 - ♿ Focus su accessibilità (WCAG 2.1 AA / BFSG) e controllo qualità automatizzato
 - 🤝 Contributo open source: [MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) – nota nella documentazione per i framework SSR basati su Vite (Nuxt, SvelteKit, Astro), [PR #8766](https://github.com/maplibre/maplibre-gl-js/pull/8766) mergiata
 
-```typescript
-const mihaela = {
-  role: "Sviluppatrice Fullstack",
-  location: "Wolfsburg, DE · Remote (UE)",
-  languages: ["TypeScript", "JavaScript", "Python", "HTML", "CSS"],
-  backend:  ["FastAPI", "SQLAlchemy 2.0 (async)", "Alembic", "Pydantic", "PostgreSQL / pgvector", "Redis", "WebSocket", "Stripe", "Firebase / Firestore"],
-  frontend: ["Angular 17–22", "RxJS", "NgRx", "Signals", "React 18/19", "Next.js", "Vue 3 / Nuxt", "Tailwind CSS", "PWA"],
-  quality:  ["Vitest", "Playwright", "Cypress", "Pytest", "axe-core"],
-  ops:      ["Docker", "GitHub Actions CI/CD", "OpenTelemetry", "Prometheus / Grafana", "Sentry"],
-  focus:    "Backend FastAPI robusti, frontend Angular e Nuxt manutenibili, accessibilità",
-};
-```
-
----
-
-## 📊 Statistiche GitHub
-
-<div align="center">
-
-<img src="https://github-readme-stats-iota-gray-47.vercel.app/api?username=MihaelaAghirculesei&show_icons=true&theme=radical&hide_border=true&count_private=true&card_width=250" width="500"/>
-
-<img src="https://github-readme-streak-stats-blush-zeta.vercel.app/?user=MihaelaAghirculesei&theme=radical&hide_border=true" width="500"/>
-
-### Grafico di attività
-
-<picture>
-  <source media="(max-width: 600px)" srcset="imgs/year-activity-mobile.png">
-  <img src="imgs/year-activity.png" width="100%"/>
-</picture>
-
-### Linguaggi più utilizzati
-
-<img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" width="500"/>
-
-</div>
-
 ---
 
 ## 🎨 Progetti in Evidenza
-
-### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Progetto cliente
-Sito portfolio pronto per la produzione per una fotografa – realizzato in autonomia dall'architettura al deployment live (oltre 400 commit, oltre 100 pull request mergiate).
-
-- **Qualità:** copertura test ≥95% (Codecov), Lighthouse ≥95 (Accessibility), ≥90 (SEO), CLS ≤ 0,1 – garantita da gate CI bloccanti su ogni pull request
-- **Sicurezza:** CSP basata su nonce per ogni richiesta, rate limiting atomico, autenticazione HMAC stateless per la moderazione delle recensioni, HSTS
-- **Accessibilità:** WCAG 2.1 AA – navigazione da tastiera completa, focus trap, audit axe-core automatizzati
-
-**Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
-
-<details>
-<summary><b>Screenshot, CI/CD e internazionalizzazione</b></summary>
-<br/>
-
-<img src="imgs/alina-moments.png" width="800" alt="Screenshot: Alina Moments Photography"/>
-
-- **CI/CD:** pipeline GitHub Actions completa con lint, type-check, test unit/E2E, gate di coverage, budget dimensione bundle (≤500 KB) e audit Lighthouse automatizzato
-- **Internazionalizzazione:** 4 lingue (DE/EN/RO/IT) con next-intl, routing localizzato, SEO multilingua
-
-</details>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%"/>
-</div>
 
 ### 🍽️ dineos · Sistema di ordinazione in tempo reale per la ristorazione ![In Sviluppo](https://img.shields.io/badge/🚧_In_Sviluppo-FFC107?style=flat-square)
 Un sistema operativo per ristoranti realizzato in autonomia end-to-end – backend, frontend, infrastruttura e pipeline di deploy. Gli ospiti ordinano e pagano da un QR code al tavolo, la cucina vede i nuovi ordini all'istante via WebSocket, i manager gestiscono tavoli, personale e menu da una dashboard.
@@ -151,11 +95,25 @@ CLI che analizza un intero sito web per violazioni WCAG 2.1 AA e mappa ogni risc
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%"/>
 </div>
 
+### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG per documentazione tecnica tedesca ![In Sviluppo](https://img.shields.io/badge/🚧_In_Sviluppo-FFC107?style=flat-square)
+Assistente RAG per documentazione tecnica in lingua tedesca (capitolati, regolamenti UNECE, manuali) che risponde con citazioni verificabili delle fonti – e preferisce astenersi piuttosto che inventare.
+
+- **Retrieval:** ricerca ibrida che combina ricerca vettoriale (pgvector, indice HNSW), full-text search tedesca e fallback a trigrammi, fusi con Reciprocal Rank Fusion, poi reranking con cross-encoder
+- **Generazione:** validazione delle citazioni (le fonti inventate vengono scartate), gate di confidenza prima della chiamata all'LLM, streaming SSE, log di costi e latenza per ogni richiesta
+- **Valutazione:** eval set tedesco di 50 domande scritto a mano, LLM-as-judge calibrato su valutazioni umane
+- **Qualità:** 356 test (test di integrazione con Testcontainers), CI, adapter intercambiabili per embedding, LLM e reranker
+
+**Tech:** Python • FastAPI • PostgreSQL + pgvector • Alembic • Docker • Pytest • Testcontainers
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%"/>
+</div>
+
 ### Altri progetti
 
 | Progetto | In evidenza | Stack |
 |:--|:--|:--|
-| 📚 **[normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag)** 🚧<br/><sub>RAG per documentazione tecnica tedesca</sub> | Ricerca ibrida (pgvector + full-text search tedesca, Reciprocal Rank Fusion) con reranking cross-encoder, validazione delle citazioni invece di allucinazioni, eval set di 50 domande, 356 test | Python • FastAPI • pgvector |
+| 📸 **[Alina Moments Photography](https://alina-moments-photography.vercel.app)** · Progetto cliente<br/><sub>Sito portfolio per una fotografa, live</sub> | Realizzato in autonomia dall'architettura al deployment live (oltre 400 commit, oltre 100 PR mergiate), copertura test ≥95%, Lighthouse ≥95 (Accessibility), CSP basata su nonce, 4 lingue | Next.js 16 • React 19 • PostgreSQL |
 | ⚡ **[ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub)** · [Demo](https://charge-hub-one.vercel.app/de)<br/><sub>Dashboard per infrastruttura di ricarica EV</sub> | BFF Nitro davanti all'API di Open Charge Map, ricerca a testo libero via LLM con structured output, gate di coverage ~92%, axe-core come gate CI bloccante | Nuxt 4 • Vue 3 • TypeScript |
 | 🎂 **[Birthday Reminder Pro](https://birthday-reminder-aghirculesei.pages.dev/)**<br/><sub>App offline-first per web e Android</sub> | Oltre 1.200 commit, oltre 2.000 unit test e oltre 100 test E2E, sincronizzazione bidirezionale con Google Calendar, notifiche native Android | Angular 22 • NgRx • Capacitor • Firebase |
 | 📅 **[Intelligent Family Calendar](https://github.com/MihaelaAghirculesei/intelligent-family-calendar)** · [Demo](https://mihaelaaghirculesei.github.io/intelligent-family-calendar/)<br/><sub>Planner settimanale per famiglie</sub> | Angular 17 → 22 con un commit per ogni versione major, zoneless, 125 test E2E Playwright su Chromium, Firefox e WebKit, WCAG 2.2 AA | Angular 22 • Angular CDK • Playwright |
@@ -176,20 +134,19 @@ CLI che analizza un intero sito web per violazioni WCAG 2.1 AA e mappa ogni risc
 
 <table>
   <tr>
-    <td width="50%" align="center"><a href="https://charge-hub-one.vercel.app/de"><img src="imgs/chargehub.png" alt="Screenshot: ChargeHub"/></a><br/><sub>ChargeHub</sub></td>
-    <td width="50%" align="center"><a href="https://birthday-reminder-aghirculesei.pages.dev/"><img src="imgs/birthday-memories.png" alt="Screenshot: Birthday Reminder Pro"/></a><br/><sub>Birthday Reminder Pro</sub></td>
+    <td width="33%" align="center"><a href="https://alina-moments-photography.vercel.app"><img src="imgs/alina-moments.png" alt="Screenshot: Alina Moments Photography"/></a><br/><sub>Alina Moments Photography</sub></td>
+    <td width="33%" align="center"><a href="https://charge-hub-one.vercel.app/de"><img src="imgs/chargehub.png" alt="Screenshot: ChargeHub"/></a><br/><sub>ChargeHub</sub></td>
+    <td width="33%" align="center"><a href="https://birthday-reminder-aghirculesei.pages.dev/"><img src="imgs/birthday-memories.png" alt="Screenshot: Birthday Reminder Pro"/></a><br/><sub>Birthday Reminder Pro</sub></td>
   </tr>
   <tr>
-    <td width="50%" align="center"><a href="https://mihaelaaghirculesei.github.io/intelligent-family-calendar/"><img src="imgs/intelligent-family-calendar.png" alt="Screenshot: Intelligent Family Calendar"/></a><br/><sub>Intelligent Family Calendar</sub></td>
-    <td width="50%" align="center"><a href="https://github.com/MihaelaAghirculesei/secure-notes-lab"><img src="imgs/secure-notes-lab.png" alt="Screenshot: SecureNotes Lab"/></a><br/><sub>SecureNotes Lab</sub></td>
+    <td width="33%" align="center"><a href="https://mihaelaaghirculesei.github.io/intelligent-family-calendar/"><img src="imgs/intelligent-family-calendar.png" alt="Screenshot: Intelligent Family Calendar"/></a><br/><sub>Intelligent Family Calendar</sub></td>
+    <td width="33%" align="center"><a href="https://github.com/MihaelaAghirculesei/secure-notes-lab"><img src="imgs/secure-notes-lab.png" alt="Screenshot: SecureNotes Lab"/></a><br/><sub>SecureNotes Lab</sub></td>
+    <td width="33%" align="center"><a href="https://todo-frontend-aghirculesei.onrender.com"><img src="imgs/todo-api.png" alt="Screenshot: Todo API"/></a><br/><sub>Todo API</sub></td>
   </tr>
   <tr>
-    <td width="50%" align="center"><a href="https://todo-frontend-aghirculesei.onrender.com"><img src="imgs/todo-api.png" alt="Screenshot: Todo API"/></a><br/><sub>Todo API</sub></td>
-    <td width="50%" align="center"><a href="https://pokedex-aghirculesei.pages.dev/"><img src="imgs/pokedex.png" alt="Screenshot: Pokédex"/></a><br/><sub>Pokédex</sub></td>
-  </tr>
-  <tr>
-    <td width="50%" align="center"><a href="https://join-aghirculesei.pages.dev/"><img src="imgs/join-board.png" alt="Screenshot: Join Kanban Board"/></a><br/><sub>Join Kanban Board</sub></td>
-    <td width="50%" align="center"><a href="https://el-pollo-loco-aghirculesei.pages.dev/"><img src="imgs/el-pollo-loco.png" alt="Screenshot: El Pollo Loco"/></a><br/><sub>El Pollo Loco</sub></td>
+    <td width="33%" align="center"><a href="https://pokedex-aghirculesei.pages.dev/"><img src="imgs/pokedex.png" alt="Screenshot: Pokédex"/></a><br/><sub>Pokédex</sub></td>
+    <td width="33%" align="center"><a href="https://join-aghirculesei.pages.dev/"><img src="imgs/join-board.png" alt="Screenshot: Join Kanban Board"/></a><br/><sub>Join Kanban Board</sub></td>
+    <td width="33%" align="center"><a href="https://el-pollo-loco-aghirculesei.pages.dev/"><img src="imgs/el-pollo-loco.png" alt="Screenshot: El Pollo Loco"/></a><br/><sub>El Pollo Loco</sub></td>
   </tr>
 </table>
 
@@ -285,6 +242,21 @@ Gestione dei requisiti, controllo dei work package e delle scadenze in Jira/DMS,
 
 **Laurea triennale in Scienze economiche (Informatica per l'economia)** — Università George Bacovia, Bacău (RO)
 Titolo originale: Economist licențiat, specializzazione Contabilitate și informatică de gestiune (Contabilità e informatica gestionale). Riconosciuto da KMK/ZAB come equivalente a una laurea triennale tedesca.
+
+---
+
+## 📊 Attività su GitHub
+
+<picture>
+  <source media="(max-width: 600px)" srcset="imgs/year-activity-mobile.png">
+  <img src="imgs/year-activity.png" width="100%" alt="Commit al mese negli ultimi dodici mesi"/>
+</picture>
+
+<div align="center">
+
+<img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=7&exclude_repo=github-readme-streak-stats,github-readme-stats&hide=java,php" width="480" alt="Linguaggi più utilizzati"/>
+
+</div>
 
 ---
 
