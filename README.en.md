@@ -80,174 +80,108 @@ const mihaela = {
 ### 📸 [Alina Moments Photography](https://alina-moments-photography.vercel.app) · Client project
 Production-grade portfolio website for a photographer – built end-to-end on my own, from architecture to live deployment (over 400 commits, over 100 merged pull requests).
 
-<img src="imgs/alina-moments.png" width="800"/>
-
 - **Quality:** ≥95% test coverage (Codecov), Lighthouse ≥95 (Accessibility), ≥90 (SEO), CLS ≤ 0.1 – enforced by blocking CI gates on every pull request
-- **CI/CD:** Full GitHub Actions pipeline with lint, type-check, unit/E2E tests, coverage gate, bundle-size budget (≤500 KB), and automated Lighthouse audits
 - **Security:** Per-request nonce-based CSP, atomic rate limiting, stateless HMAC authentication for review moderation, HSTS
 - **Accessibility:** WCAG 2.1 AA – full keyboard navigation, focus trap, automated axe-core audits
-- **i18n:** 4 languages (DE/EN/RO/IT) with next-intl, localized routing, multilingual SEO
 
 **Tech:** Next.js 16 (App Router, RSC) • React 19 • TypeScript • Tailwind CSS 4 • PostgreSQL (Neon) • Drizzle ORM • Vercel
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
+<details>
+<summary><b>Screenshot, CI/CD & i18n</b></summary>
+<br/>
+
+<img src="imgs/alina-moments.png" width="800" alt="Screenshot: Alina Moments Photography"/>
+
+- **CI/CD:** Full GitHub Actions pipeline with lint, type-check, unit/E2E tests, coverage gate, bundle-size budget (≤500 KB), and automated Lighthouse audits
+- **i18n:** 4 languages (DE/EN/RO/IT) with next-intl, localized routing, multilingual SEO
+
+</details>
 
 ### 🍽️ dineos · Real-time ordering system for restaurants ![In Development](https://img.shields.io/badge/🚧_In_Development-FFC107?style=flat-square)
 A restaurant operating system built end-to-end on my own – back end, front end, infrastructure and deploy pipeline. Guests order and pay from a QR code at the table, the kitchen sees new orders instantly over WebSocket, and managers run tables, staff and the menu from a dashboard.
 
-- **Architecture:** async FastAPI back end layered Router → Service → Repository, SQLAlchemy 2.0 + asyncpg, 11 Alembic migrations, multi-tenant isolation by `restaurant_id`
 - **Real time:** WebSocket fan-out via Redis Pub/Sub (multi-instance), per-IP connection caps, heartbeat to reclaim dead sockets
-- **Payments:** Stripe PaymentIntents with idempotency keys, a dead-letter queue for failed webhooks with retry/backoff (atomic via Lua script), audit log
 - **Security:** JWT with refresh tokens and revocation, 4 roles, rate limiting – my own security review found a cross-tenant data leak, fixed and locked down with regression tests
 - **Quality:** 376 back-end tests (pytest against real PostgreSQL + Redis in CI), `mypy --strict`, Ruff, coverage gate, 6 architecture decision records
-- **Operations:** Docker, two-stage CD (auto-deploy to staging → promotion to production with smoke test and rollback), OpenTelemetry traces, Prometheus + Grafana, Sentry, k6 load tests
 
 **Tech:** Python • FastAPI • SQLAlchemy 2.0 (async) • Alembic • PostgreSQL • Redis • WebSocket • Stripe • Docker • OpenTelemetry • Prometheus • Grafana • Angular 21 • NgRx
+
 🔒 Private repository (commercial product) · Code walkthrough on request
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
+<details>
+<summary><b>Architecture, payments & operations</b></summary>
+<br/>
 
-### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG for German technical documentation ![In Development](https://img.shields.io/badge/🚧_In_Development-FFC107?style=flat-square)
-A RAG assistant for German-language technical documentation (requirement specs, UNECE regulations, manuals) that answers with verifiable source citations – and abstains rather than hallucinates.
+- **Architecture:** async FastAPI back end layered Router → Service → Repository, SQLAlchemy 2.0 + asyncpg, 11 Alembic migrations, multi-tenant isolation by `restaurant_id`
+- **Payments:** Stripe PaymentIntents with idempotency keys, a dead-letter queue for failed webhooks with retry/backoff (atomic via Lua script), audit log
+- **Operations:** Docker, two-stage CD (auto-deploy to staging → promotion to production with smoke test and rollback), OpenTelemetry traces, Prometheus + Grafana, Sentry, k6 load tests
 
-- **Retrieval:** hybrid search combining vector search (pgvector, HNSW index), German full-text search and a trigram fallback, fused with Reciprocal Rank Fusion, then cross-encoder reranking
-- **Generation:** citation validation (invented sources are dropped), a confidence gate before the LLM call, SSE streaming, per-request cost and latency logging
-- **Evaluation:** a hand-written 50-question German eval set, LLM-as-judge calibrated against human scoring
-- **Quality:** 356 tests (integration tests with Testcontainers), CI, swappable adapters for embeddings, LLM and reranker
-
-**Tech:** Python • FastAPI • PostgreSQL + pgvector • Alembic • Docker • Pytest • Testcontainers
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
+</details>
 
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Open-source npm package
 A CLI that scans an entire website for WCAG 2.1 AA violations and maps every finding to the EN 301 549 / BFSG clause it breaches – producing a citeable conformance report in JSON/HTML/PDF. Built as a series of small, individually reviewed pull requests; the key architecture decisions each captured in an architecture decision record.
 
-<img src="imgs/bfsg-scanner.png" width="800"/>
-
 🌐 **Live sample report:** [mihaelaaghirculesei.github.io/bfsg-scanner](https://mihaelaaghirculesei.github.io/bfsg-scanner/)
 
 - **Supply chain:** published to npm with SLSA build provenance; the release workflow publishes via OIDC trusted publishing – no long-lived tokens
-- **Quality:** 167 tests, CI on Linux/Windows/macOS, a versioned JSON Schema for the report output, semantic exit codes
-- **Engine:** sitemap + robots.txt-aware breadth-first crawl, concurrency pool with per-host rate limiting, real Chromium via Playwright + axe-core
 - **CI gate:** exits non-zero at a configurable severity threshold, so a pipeline can block a merge on accessibility
+- **Quality:** 167 tests, CI on Linux/Windows/macOS, a versioned JSON Schema for the report output, semantic exit codes
 
 **Tech:** TypeScript • Node.js 22+ • Playwright • axe-core • Zod • Vitest • Biome • GitHub Actions
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
+<details>
+<summary><b>Screenshot & engine</b></summary>
+<br/>
 
-### 🎂 [Birthday Reminder Pro](https://birthday-reminder-aghirculesei.pages.dev/)
-A cross-platform birthday reminder app with offline-first architecture and cloud sync (over 1,200 commits, over 2,000 unit and over 100 E2E tests). Features native Android notifications via Capacitor, two-way Google Calendar sync, and real-time Firestore sync for authenticated users.
+<img src="imgs/bfsg-scanner.png" width="800" alt="Screenshot: bfsg-scanner"/>
 
-<img src="imgs/birthday-memories.png" width="800"/>
+- **Engine:** sitemap + robots.txt-aware breadth-first crawl, concurrency pool with per-host rate limiting, real Chromium via Playwright + axe-core
 
-**Tech:** Angular 22 (Signals, SSR, standalone) • NgRx 22 • Capacitor 8 (Android) • Firebase Auth + Firestore • Google Calendar API v3 + OAuth 2.0 • IndexedDB offline-first • PWA • Vitest • Cypress • Sentry
+</details>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
+### More projects
 
-### ⚡ [ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub) · [Live demo](https://charge-hub-one.vercel.app/de)
-EV charging infrastructure dashboard – built solo to a 24-day plan (40+ merged pull requests), every significant decision captured in an architecture decision record. The same domain as a product for charge-point operators.
-
-<img src="imgs/chargehub.png" width="800"/>
-
-- **Architecture:** Nitro BFF in front of the real Open Charge Map API (key server-side only, cached); everything a registry doesn't provide – live status, sessions, KPIs – is simulated server-side deterministically, behind a swappable transport interface
-- **Structure:** feature-first modules with barrel exports, repository pattern, Pinia for client state only; hybrid rendering per route (prerender/SSR/client)
-- **Natural-language search:** free-text station search via Claude Haiku with structured output, grounded in real OCM IDs – cleanly disabled without an API key
-- **Quality:** Vitest + `@nuxt/test-utils` (~92% coverage gate), Playwright across 4 browsers/viewports, axe-core as a blocking CI gate, plus an eval suite for the free-text search
-- **CI/CD:** GitHub Actions (lint, type-check, test, build, E2E, Lighthouse with per-page thresholds), branch protection on `main`, Vercel deploy per merge
-- **i18n & SCSS:** DE/EN with localized routing; Vuetify theme via SCSS variables
-
-**Tech:** Nuxt 4 • Vue 3 • Vuetify 3 • TypeScript (strict) • SCSS • Pinia • Zod • MapLibre GL • Chart.js • Vitest • Playwright • axe-core
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
-
-### 📅 [Intelligent Family Calendar](https://github.com/MihaelaAghirculesei/intelligent-family-calendar) · [Live demo](https://mihaelaaghirculesei.github.io/intelligent-family-calendar/)
-A weekly planner for families with several children: school, sports and music in one color-coded week that fits on exactly one A4 page. It started as a single HTML page and grew step by step into an Angular app; the demo shows a fictitious family.
-
-<img src="imgs/intelligent-family-calendar.png" width="800"/>
-
-- **Calendar grid:** activities positioned by their real time, overlaps laid out side by side (clusters with column assignment), drag & drop with the Angular CDK that changes day and time (15-minute snapping), undo/redo including keyboard shortcuts
-- **Accessibility:** usable from the keyboard (Tab to the activities, Enter to edit, the day in the form instead of drag & drop), named controls for screen readers, black or white text depending on the person's color; axe-core checks every dialog against WCAG 2.2 AA
-- **PDF export:** the day columns are resized to the A4 landscape proportions before capturing, so every week fills exactly one page; the PDF libraries load only on the first export
-- **i18n:** English/Italian with build-time `@angular/localize`, a missing translation fails the build; hyphenation in the UI language
-- **Modernization:** upgraded Angular 17 → 22 with one commit per major version, then signals, `OnPush` and zoneless without zone.js, Karma → Vitest (55 unit tests) plus 125 Playwright end-to-end tests in CI on Chromium, Firefox and WebKit, including an emulated Android phone and iPhone, versioned localStorage data with migrations and JSON backup/import
-
-**Tech:** Angular 22 (Signals, Zoneless) • TypeScript (strict) • Angular CDK • @angular/localize • html-to-image + jsPDF • Vitest • Playwright • axe-core • GitHub Actions • GitHub Pages
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
-
-### 🐍 [Todo API](https://github.com/MihaelaAghirculesei/todo-api) · Team project (2 developers)
-Fullstack Todo app with a RESTful API and React frontend, built as a team (84 team commits). **My contribution: the complete backend** (FastAPI + SQLAlchemy 2.1) — clean layered architecture (Router → Service → Repository) with full CRUD implementation, input validation, and 25/25 tests passing. The REST API was designed so my teammate could build the React frontend against it independently. SQLite locally · PostgreSQL in production.
-
-<img src="imgs/todo-api.png" width="800"/>
-
-🌐 **Live (team platform):** [todo-frontend-aghirculesei.onrender.com](https://todo-frontend-aghirculesei.onrender.com)
-
-**Tech:** Python 3.11+ • FastAPI 0.141 • SQLAlchemy 2.1 • SQLite • PostgreSQL • React 18 • TypeScript 5 • Vite • Pytest • Pydantic 2
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
-
-### 🔒 [SecureNotes Lab](https://github.com/MihaelaAghirculesei/secure-notes-lab) · Security showcase
-Notes app **built twice**: once with 4 deliberately introduced OWASP Top 10:2025 vulnerabilities (SQL Injection, Stored XSS, IDOR, plaintext passwords) plus 1 bonus (CSRF), once fully fixed — each vulnerability documented as a vulnerability report with exploit steps, the SQL injection, XSS, IDOR and CSRF fixes proven with automated regression tests.
-
-<img src="imgs/secure-notes-lab.png" width="800"/>
-
-- **Quality:** 9/9 automated tests; CI with separate required checks for tests and security scanning (Bandit + pip-audit) on `main`
-- **Process:** branch protection, Dependabot for ongoing dependency updates, tagged releases
-- **Documentation:** every vulnerability with exploit steps, impact, and OWASP reference; every fix explained at the mechanism level ("why it works", not just "what")
-
-**Tech:** Python 3 • Flask • SQLite • Werkzeug Security • pytest • Bandit • pip-audit • GitHub Actions
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
-
+| Project | Highlights | Stack |
+|:--|:--|:--|
+| 📚 **[normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag)** 🚧<br/><sub>RAG for German technical documentation</sub> | Hybrid search (pgvector + German full-text search, Reciprocal Rank Fusion) with cross-encoder reranking, citation validation instead of hallucination, 50-question eval set, 356 tests | Python • FastAPI • pgvector |
+| ⚡ **[ChargeHub](https://github.com/MihaelaAghirculesei/ChargeHub)** · [Demo](https://charge-hub-one.vercel.app/de)<br/><sub>EV charging infrastructure dashboard</sub> | Nitro BFF in front of the Open Charge Map API, LLM free-text search with structured output, ~92% coverage gate, axe-core as a blocking CI gate | Nuxt 4 • Vue 3 • TypeScript |
+| 🎂 **[Birthday Reminder Pro](https://birthday-reminder-aghirculesei.pages.dev/)**<br/><sub>Offline-first app for web and Android</sub> | Over 1,200 commits, over 2,000 unit and over 100 E2E tests, two-way Google Calendar sync, native Android notifications | Angular 22 • NgRx • Capacitor • Firebase |
+| 📅 **[Intelligent Family Calendar](https://github.com/MihaelaAghirculesei/intelligent-family-calendar)** · [Demo](https://mihaelaaghirculesei.github.io/intelligent-family-calendar/)<br/><sub>Weekly planner for families</sub> | Angular 17 → 22 with one commit per major version, zoneless, 125 Playwright E2E tests on Chromium, Firefox and WebKit, WCAG 2.2 AA | Angular 22 • Angular CDK • Playwright |
+| 🔒 **[SecureNotes Lab](https://github.com/MihaelaAghirculesei/secure-notes-lab)**<br/><sub>Security showcase</sub> | Built twice: 4 OWASP Top 10:2025 vulnerabilities plus CSRF introduced, documented and fixed, fixes proven with regression tests | Python • Flask • Bandit |
+| 🐍 **[Todo API](https://github.com/MihaelaAghirculesei/todo-api)** · [Live](https://todo-frontend-aghirculesei.onrender.com)<br/><sub>Team project (2 developers)</sub> | My contribution: the complete back end – Router → Service → Repository, 25/25 tests, API designed so the React front end could be built independently | FastAPI • SQLAlchemy 2.1 |
 
 *Training projects (AZAV-certified qualification, Developer Akademie):*
 
-### 💡 [Pokédex](https://pokedex-aghirculesei.pages.dev/)
-Single-page app with PokéAPI integration, real-time search, and full keyboard navigation. Offline-first PWA with 242 unit and 21 E2E tests at 100% coverage, backed by automated CI/CD.
+| Project | Highlights | Stack |
+|:--|:--|:--|
+| 💡 **[Pokédex](https://pokedex-aghirculesei.pages.dev/)** | Offline-first PWA, 242 unit and 21 E2E tests at 100% coverage, Lighthouse CI | TypeScript • Vite • Vitest |
+| 🔥 **[Join Kanban Board](https://join-aghirculesei.pages.dev/)**<br/><sub>Team project (5 developers)</sub> | Continued my fork on my own: Angular 17 → 22, 17 emulator tests for the Firestore rules, CodeQL, npm audit from 97 findings to 0 | Angular 22 • Firebase |
+| 🚀 **[El Pollo Loco](https://el-pollo-loco-aghirculesei.pages.dev/)** | 2D jump-and-run with no game framework: 20 object-oriented classes, pixel-perfect collision detection, ~60 FPS | HTML5 Canvas • JavaScript |
 
-<img src="imgs/pokedex.png" width="800"/>
+<details>
+<summary><b>📸 View screenshots</b></summary>
+<br/>
 
-**Tech:** TypeScript (strict mode) • Vite • Vitest • Playwright • Workbox PWA • Lighthouse CI • Husky + lint-staged
+<table>
+  <tr>
+    <td width="50%" align="center"><a href="https://charge-hub-one.vercel.app/de"><img src="imgs/chargehub.png" alt="Screenshot: ChargeHub"/></a><br/><sub>ChargeHub</sub></td>
+    <td width="50%" align="center"><a href="https://birthday-reminder-aghirculesei.pages.dev/"><img src="imgs/birthday-memories.png" alt="Screenshot: Birthday Reminder Pro"/></a><br/><sub>Birthday Reminder Pro</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="https://mihaelaaghirculesei.github.io/intelligent-family-calendar/"><img src="imgs/intelligent-family-calendar.png" alt="Screenshot: Intelligent Family Calendar"/></a><br/><sub>Intelligent Family Calendar</sub></td>
+    <td width="50%" align="center"><a href="https://github.com/MihaelaAghirculesei/secure-notes-lab"><img src="imgs/secure-notes-lab.png" alt="Screenshot: SecureNotes Lab"/></a><br/><sub>SecureNotes Lab</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="https://todo-frontend-aghirculesei.onrender.com"><img src="imgs/todo-api.png" alt="Screenshot: Todo API"/></a><br/><sub>Todo API</sub></td>
+    <td width="50%" align="center"><a href="https://pokedex-aghirculesei.pages.dev/"><img src="imgs/pokedex.png" alt="Screenshot: Pokédex"/></a><br/><sub>Pokédex</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="https://join-aghirculesei.pages.dev/"><img src="imgs/join-board.png" alt="Screenshot: Join Kanban Board"/></a><br/><sub>Join Kanban Board</sub></td>
+    <td width="50%" align="center"><a href="https://el-pollo-loco-aghirculesei.pages.dev/"><img src="imgs/el-pollo-loco.png" alt="Screenshot: El Pollo Loco"/></a><br/><sub>El Pollo Loco</sub></td>
+  </tr>
+</table>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
-
-### 🔥 [Join Kanban Board](https://join-aghirculesei.pages.dev/) · Team project (5 developers)
-A real-time Kanban platform, built in a team of five (478 team commits). I then continued my fork on my own: upgraded Angular 17 to 22, replaced AngularFire with the official Firebase SDK, Firestore security rules with 17 emulator tests, 27 unit tests, CI with CodeQL and a weekly health check, npm audit from 97 findings to 0.
-
-<img src="imgs/join-board.png" width="800"/>
-
-**Tech:** Angular 22 standalone components • Cloud Firestore + Firebase Auth • Firestore Security Rules • Drag & drop interface (Angular CDK) • GitHub Actions + CodeQL
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
-</div>
-
-### 🚀 [El Pollo Loco](https://el-pollo-loco-aghirculesei.pages.dev/)
-An action-packed 2D jump-and-run game featuring Pepe as the main character (207 commits, 20 object-oriented classes). Collect coins and bottles, defeat enemies, and master challenging levels in this exciting adventure.
-
-<img src="imgs/el-pollo-loco.png" width="800"/>
-
-**Tech:** HTML5 Canvas (no game framework) • Vanilla JavaScript (ES2022) • OOP design patterns • Custom audio pooling • Pixel-perfect collision detection • Mobile touch controls • ~60 FPS
+</details>
 
 ---
 
