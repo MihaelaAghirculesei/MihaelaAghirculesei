@@ -55,9 +55,13 @@ Restaurant-Betriebssystem, allein end-to-end entwickelt – Backend, Frontend, I
 
 🔒 Privates Repository (kommerzielles Produkt) · Code-Walkthrough auf Anfrage
 
+▶ **[Walkthrough ansehen (1 Minute)](https://cdn.jsdelivr.net/gh/MihaelaAghirculesei/MihaelaAghirculesei@main/media/dineos-demo.mp4)** – Bestellung per QR-Code am Tisch, Küchendisplay in Echtzeit, jeder Schritt live auf dem Handy des Gastes
+
 <details>
-<summary><b>Architektur, Zahlungen & Betrieb</b></summary>
+<summary><b>Demo, Architektur, Zahlungen & Betrieb</b></summary>
 <br/>
+
+<a href="https://cdn.jsdelivr.net/gh/MihaelaAghirculesei/MihaelaAghirculesei@main/media/dineos-demo.mp4"><img src="imgs/dineos-demo.gif" width="800" alt="Ein Gast an Tisch 4 bestellt per Handy, mit einer Notiz für die Küche. Die Bestellung erscheint sofort auf dem Küchendisplay, und jeder Schritt der Küche wird live auf dem Handy des Gastes angezeigt."/></a>
 
 - **Architektur:** asynchrones FastAPI-Backend mit Schichten Router → Service → Repository, SQLAlchemy 2.0 + asyncpg, 11 Alembic-Migrationen, Multi-Tenant-Isolation per `restaurant_id`
 - **Zahlungen:** Stripe PaymentIntents mit Idempotency-Keys, Dead-Letter-Queue für fehlgeschlagene Webhooks mit Retry/Backoff (atomar per Lua-Skript), Audit-Log

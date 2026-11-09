@@ -55,9 +55,13 @@ Un sistema operativo per ristoranti realizzato in autonomia end-to-end – backe
 
 🔒 Repository privato (prodotto commerciale) · Walkthrough del codice su richiesta
 
+▶ **[Guarda il walkthrough (1 minuto)](https://cdn.jsdelivr.net/gh/MihaelaAghirculesei/MihaelaAghirculesei@main/media/dineos-demo.mp4)** – ordine con il QR code al tavolo, display della cucina in tempo reale, ogni passaggio in diretta sul telefono dell'ospite
+
 <details>
-<summary><b>Architettura, pagamenti e operatività</b></summary>
+<summary><b>Demo, architettura, pagamenti e operatività</b></summary>
 <br/>
+
+<a href="https://cdn.jsdelivr.net/gh/MihaelaAghirculesei/MihaelaAghirculesei@main/media/dineos-demo.mp4"><img src="imgs/dineos-demo.gif" width="800" alt="Un ospite al tavolo 4 ordina dal telefono, con una nota per la cucina. L'ordine compare subito sul display della cucina, e ogni passaggio della cucina appare in diretta sul telefono dell'ospite."/></a>
 
 - **Architettura:** backend FastAPI asincrono a strati Router → Service → Repository, SQLAlchemy 2.0 + asyncpg, 11 migrazioni Alembic, isolamento multi-tenant per `restaurant_id`
 - **Pagamenti:** Stripe PaymentIntents con chiavi di idempotenza, dead-letter queue per i webhook falliti con retry/backoff (atomica via script Lua), audit log

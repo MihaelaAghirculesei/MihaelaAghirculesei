@@ -55,9 +55,13 @@ A restaurant operating system built end-to-end on my own – back end, front end
 
 🔒 Private repository (commercial product) · Code walkthrough on request
 
+▶ **[Watch the walkthrough (1 minute)](https://cdn.jsdelivr.net/gh/MihaelaAghirculesei/MihaelaAghirculesei@main/media/dineos-demo.mp4)** – QR ordering at the table, a real-time kitchen display, every step live on the guest's phone
+
 <details>
-<summary><b>Architecture, payments & operations</b></summary>
+<summary><b>Demo, architecture, payments & operations</b></summary>
 <br/>
+
+<a href="https://cdn.jsdelivr.net/gh/MihaelaAghirculesei/MihaelaAghirculesei@main/media/dineos-demo.mp4"><img src="imgs/dineos-demo.gif" width="800" alt="A guest at table 4 orders from their phone, with a note for the kitchen. The order appears on the kitchen display at once, and every step in the kitchen shows up live on the guest's phone."/></a>
 
 - **Architecture:** async FastAPI back end layered Router → Service → Repository, SQLAlchemy 2.0 + asyncpg, 11 Alembic migrations, multi-tenant isolation by `restaurant_id`
 - **Payments:** Stripe PaymentIntents with idempotency keys, a dead-letter queue for failed webhooks with retry/backoff (atomic via Lua script), audit log
