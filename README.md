@@ -94,15 +94,15 @@ Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüf
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%" alt=""/>
 </div>
 
-### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG für deutsche technische Dokumentation ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
+### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG für deutsche technische Dokumentation
 RAG-Assistent für deutschsprachige technische Dokumentation (Lastenhefte, UNECE-Regelungen, Handbücher), der mit überprüfbaren Quellenzitaten antwortet – und sich lieber enthält, als zu halluzinieren.
 
 - **Retrieval:** hybride Suche aus Vektorsuche (pgvector, HNSW-Index), deutscher Volltextsuche und Trigramm-Fallback, fusioniert per Reciprocal Rank Fusion, danach Cross-Encoder-Reranking
 - **Generierung:** Zitatvalidierung (erfundene Quellen werden verworfen), Konfidenz-Gate vor dem LLM-Aufruf, Streaming per SSE, Kosten- und Latenz-Logging pro Anfrage
 - **Evaluation:** handgeschriebenes deutsches Eval-Set mit 50 Fragen, LLM-as-Judge kalibriert gegen menschliche Bewertung
-- **Qualität:** 356 Tests (Integrationstests mit Testcontainers), CI, austauschbare Adapter für Embeddings, LLM und Reranker
+- **Qualität:** über 700 Tests in CI (Backend mit Testcontainers, eigene Security-Suite, Frontend), austauschbare Adapter für Embeddings, LLM und Reranker; Angular-Frontend mit aus OpenAPI generierten Typen
 
-**Tech:** Python • FastAPI • PostgreSQL + pgvector • Alembic • Docker • Pytest • Testcontainers
+**Tech:** Python • FastAPI • PostgreSQL + pgvector • Alembic • Docker • Pytest • Testcontainers • Angular 22 • Vitest
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%" alt=""/>

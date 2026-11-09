@@ -94,15 +94,15 @@ A CLI that scans an entire website for WCAG 2.1 AA violations and maps every fin
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%" alt=""/>
 </div>
 
-### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG for German technical documentation ![In Development](https://img.shields.io/badge/🚧_In_Development-FFC107?style=flat-square)
+### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG for German technical documentation
 A RAG assistant for German-language technical documentation (requirement specs, UNECE regulations, manuals) that answers with verifiable source citations – and abstains rather than hallucinates.
 
 - **Retrieval:** hybrid search combining vector search (pgvector, HNSW index), German full-text search and a trigram fallback, fused with Reciprocal Rank Fusion, then cross-encoder reranking
 - **Generation:** citation validation (invented sources are dropped), a confidence gate before the LLM call, SSE streaming, per-request cost and latency logging
 - **Evaluation:** a hand-written 50-question German eval set, LLM-as-judge calibrated against human scoring
-- **Quality:** 356 tests (integration tests with Testcontainers), CI, swappable adapters for embeddings, LLM and reranker
+- **Quality:** over 700 tests in CI (back end with Testcontainers, a dedicated security suite, front end), swappable adapters for embeddings, LLM and reranker; Angular front end with types generated from OpenAPI
 
-**Tech:** Python • FastAPI • PostgreSQL + pgvector • Alembic • Docker • Pytest • Testcontainers
+**Tech:** Python • FastAPI • PostgreSQL + pgvector • Alembic • Docker • Pytest • Testcontainers • Angular 22 • Vitest
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%" alt=""/>
