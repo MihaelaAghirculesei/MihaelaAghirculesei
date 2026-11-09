@@ -97,6 +97,10 @@ Production-grade portfolio website for a photographer – built end-to-end on my
 
 </details>
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🍽️ dineos · Real-time ordering system for restaurants ![In Development](https://img.shields.io/badge/🚧_In_Development-FFC107?style=flat-square)
 A restaurant operating system built end-to-end on my own – back end, front end, infrastructure and deploy pipeline. Guests order and pay from a QR code at the table, the kitchen sees new orders instantly over WebSocket, and managers run tables, staff and the menu from a dashboard.
 
@@ -118,6 +122,10 @@ A restaurant operating system built end-to-end on my own – back end, front end
 
 </details>
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Open-source npm package
 A CLI that scans an entire website for WCAG 2.1 AA violations and maps every finding to the EN 301 549 / BFSG clause it breaches – producing a citeable conformance report in JSON/HTML/PDF. Built as a series of small, individually reviewed pull requests; the key architecture decisions each captured in an architecture decision record.
 
@@ -138,6 +146,10 @@ A CLI that scans an entire website for WCAG 2.1 AA violations and maps every fin
 - **Engine:** sitemap + robots.txt-aware breadth-first crawl, concurrency pool with per-host rate limiting, real Chromium via Playwright + axe-core
 
 </details>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
 
 ### More projects
 

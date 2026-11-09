@@ -97,6 +97,10 @@ Produktionsreife Portfolio-Website für eine Fotografin – eigenverantwortlich 
 
 </details>
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 🍽️ dineos · Echtzeit-Bestellsystem für die Gastronomie ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
 Restaurant-Betriebssystem, allein end-to-end entwickelt – Backend, Frontend, Infrastruktur und Deploy-Pipeline. Gäste bestellen und bezahlen per QR-Code am Tisch, die Küche sieht neue Bestellungen sofort über WebSocket, Manager steuern Tische, Personal und Speisekarte über ein Dashboard.
 
@@ -118,6 +122,10 @@ Restaurant-Betriebssystem, allein end-to-end entwickelt – Backend, Frontend, I
 
 </details>
 
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
+
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Open-Source npm-Paket
 Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüft und jeden Fund der EN-301-549-/BFSG-Klausel zuordnet, gegen die er verstößt – als zitierfähigen Konformitätsbericht in JSON/HTML/PDF. Entwickelt in klein geschnittenen, einzeln reviewten Pull Requests; die zentralen Architekturentscheidungen jeweils mit einem Architecture Decision Record.
 
@@ -138,6 +146,10 @@ Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüf
 - **Engine:** Sitemap- + robots.txt-bewusster Breadth-First-Crawl, Concurrency-Pool mit Per-Host-Rate-Limit, echtes Chromium via Playwright + axe-core
 
 </details>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=600" width="600"/>
+</div>
 
 ### Weitere Projekte
 
