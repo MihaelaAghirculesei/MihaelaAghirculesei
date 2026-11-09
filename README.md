@@ -35,7 +35,7 @@ Ich entwickle Web-Anwendungen end-to-end – vom asynchronen FastAPI-Backend bis
 
 Softwareentwicklerin mit Bachelor in Wirtschaftswissenschaften (Wirtschaftsinformatik) und AZAV-zertifizierter Qualifizierung. Ich entwickle Web-Anwendungen end-to-end: **Backends mit Python/FastAPI, PostgreSQL und Redis** und **Frontends mit Angular & TypeScript** (auch Next.js / React und Vue / Nuxt) – inklusive Tests, CI/CD und Monitoring. Mehrere Anwendungen laufen im Live-Betrieb – darunter eine Kundenwebsite, die ich eigenverantwortlich von der Architektur bis zum Deployment umgesetzt habe.
 
-Davor mehrere Jahre **Projektkoordination** in Automotive- und IT-Entwicklungsprojekten: Anforderungsmanagement, Jira/DMS, Freigabeprozesse und Moderation von Abstimmungsrunden mit bis zu 150 Teilnehmenden. Diese Doppelperspektive – Umsetzung **und** Koordination – bringe ich in jedes Team ein.
+Davor **Projektkoordination** in Automotive- und IT-Entwicklungsprojekten: Anforderungsmanagement, Jira/DMS, Freigabeprozesse und Moderation von Abstimmungsrunden mit bis zu 150 Teilnehmenden. Diese Doppelperspektive – Umsetzung **und** Koordination – bringe ich in jedes Team ein.
 
 - 🗣️ Rumänisch & Italienisch (Muttersprache) · Deutsch fließend · Englisch B1 (Lesen/Schreiben)
 - ♿ Schwerpunkt Barrierefreiheit (WCAG 2.1 AA / BFSG) und automatisierte Qualitätssicherung

@@ -35,7 +35,7 @@ Realizzo applicazioni web end-to-end – dal backend FastAPI asincrono al fronte
 
 Sviluppatrice software con laurea triennale in Scienze economiche (Informatica per l'economia) e una qualifica certificata AZAV. Realizzo applicazioni web end-to-end: **backend con Python/FastAPI, PostgreSQL e Redis** e **frontend con Angular & TypeScript** (anche Next.js / React e Vue / Nuxt) – inclusi test, CI/CD e monitoring. Diverse applicazioni sono in produzione – tra cui un sito per un cliente che ho realizzato dall'architettura al deployment, in autonomia.
 
-In precedenza, diversi anni di **coordinamento di progetto** in ambito automotive e IT: gestione dei requisiti, Jira/DMS, processi di rilascio e moderazione di riunioni di allineamento con fino a 150 partecipanti. Porto in ogni team questa doppia prospettiva – realizzazione **e** coordinamento.
+In precedenza, **coordinamento di progetto** in ambito automotive e IT: gestione dei requisiti, Jira/DMS, processi di rilascio e moderazione di riunioni di allineamento con fino a 150 partecipanti. Porto in ogni team questa doppia prospettiva – realizzazione **e** coordinamento.
 
 - 🗣️ Rumeno & Italiano (madrelingua) · Tedesco fluente · Inglese B1 (lettura/scrittura)
 - ♿ Focus su accessibilità (WCAG 2.1 AA / BFSG) e controllo qualità automatizzato

@@ -35,7 +35,7 @@ I build web applications end-to-end – from async FastAPI back ends to accessib
 
 Software developer with a bachelor's degree in economics (business informatics) and an AZAV-certified qualification. I build web applications end-to-end: **back ends with Python/FastAPI, PostgreSQL and Redis** and **front ends with Angular & TypeScript** (also Next.js / React and Vue / Nuxt) – including tests, CI/CD and monitoring. Several applications are live in production – including a client website I built end-to-end, from architecture to deployment, on my own.
 
-Before that, several years in **project coordination** on automotive and IT development projects: requirements management, Jira/DMS, release processes, and facilitating alignment meetings with up to 150 participants. I bring that dual perspective – delivery **and** coordination – to every team.
+Before that, **project coordination** on automotive and IT development projects: requirements management, Jira/DMS, release processes, and facilitating alignment meetings with up to 150 participants. I bring that dual perspective – delivery **and** coordination – to every team.
 
 - 🗣️ Romanian & Italian (native) · German (fluent) · English B1 (reading/writing)
 - ♿ Focus on accessibility (WCAG 2.1 AA / BFSG) and automated quality assurance
