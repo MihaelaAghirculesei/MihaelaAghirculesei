@@ -44,12 +44,12 @@ Davor **Projektkoordination** in Automotive- und IT-Entwicklungsprojekten: Anfor
 
 ## 🎨 Ausgewählte Projekte
 
-### 🍽️ dineos · Echtzeit-Bestellsystem für die Gastronomie ![In Entwicklung](https://img.shields.io/badge/🚧_In_Entwicklung-FFC107?style=flat-square)
+### 🍽️ dineos · Echtzeit-Bestellsystem für die Gastronomie
 Restaurant-Betriebssystem, allein end-to-end entwickelt – Backend, Frontend, Infrastruktur und Deploy-Pipeline. Gäste bestellen und bezahlen per QR-Code am Tisch, die Küche sieht neue Bestellungen sofort über WebSocket, Manager steuern Tische, Personal und Speisekarte über ein Dashboard.
 
 - **Echtzeit:** WebSocket-Fan-out über Redis Pub/Sub (mehrere Instanzen), Verbindungslimits pro IP, Heartbeat für tote Verbindungen
 - **Sicherheit:** JWT mit Refresh-Token und Revocation, 4 Rollen, Rate-Limiting – im eigenen Security-Review ein Cross-Tenant-Datenleck gefunden und mit Regressionstests geschlossen
-- **Qualität:** 376 Backend-Tests (pytest gegen echtes PostgreSQL + Redis in CI), `mypy --strict`, Ruff, Coverage-Gate, 6 Architecture Decision Records
+- **Qualität:** über 380 Backend-Tests (pytest gegen echtes PostgreSQL + Redis in CI) und über 350 Frontend-Tests, `mypy --strict`, Ruff, Coverage-Gate, 7 Architecture Decision Records
 
 **Tech:** Python • FastAPI • SQLAlchemy 2.0 (async) • Alembic • PostgreSQL • Redis • WebSocket • Stripe • Docker • OpenTelemetry • Prometheus • Grafana • Angular 21 • NgRx
 
@@ -96,6 +96,8 @@ Kommandozeilen-Tool, das eine komplette Website auf WCAG-2.1-AA-Verstöße prüf
 
 ### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG für deutsche technische Dokumentation
 RAG-Assistent für deutschsprachige technische Dokumentation (Lastenhefte, UNECE-Regelungen, Handbücher), der mit überprüfbaren Quellenzitaten antwortet – und sich lieber enthält, als zu halluzinieren.
+
+🌐 **Live-Demo:** [normeon.onrender.com](https://normeon.onrender.com) – „Als Gast ansehen“ · Free Tier: der erste Aufruf kann bis zu einer Minute dauern
 
 - **Retrieval:** hybride Suche aus Vektorsuche (pgvector, HNSW-Index), deutscher Volltextsuche und Trigramm-Fallback, fusioniert per Reciprocal Rank Fusion, danach Cross-Encoder-Reranking
 - **Generierung:** Zitatvalidierung (erfundene Quellen werden verworfen), Konfidenz-Gate vor dem LLM-Aufruf, Streaming per SSE, Kosten- und Latenz-Logging pro Anfrage

@@ -44,12 +44,12 @@ Before that, **project coordination** on automotive and IT development projects:
 
 ## 🎨 Featured Projects
 
-### 🍽️ dineos · Real-time ordering system for restaurants ![In Development](https://img.shields.io/badge/🚧_In_Development-FFC107?style=flat-square)
+### 🍽️ dineos · Real-time ordering system for restaurants
 A restaurant operating system built end-to-end on my own – back end, front end, infrastructure and deploy pipeline. Guests order and pay from a QR code at the table, the kitchen sees new orders instantly over WebSocket, and managers run tables, staff and the menu from a dashboard.
 
 - **Real time:** WebSocket fan-out via Redis Pub/Sub (multi-instance), per-IP connection caps, heartbeat to reclaim dead sockets
 - **Security:** JWT with refresh tokens and revocation, 4 roles, rate limiting – my own security review found a cross-tenant data leak, fixed and locked down with regression tests
-- **Quality:** 376 back-end tests (pytest against real PostgreSQL + Redis in CI), `mypy --strict`, Ruff, coverage gate, 6 architecture decision records
+- **Quality:** over 380 back-end tests (pytest against real PostgreSQL + Redis in CI) and over 350 front-end tests, `mypy --strict`, Ruff, coverage gate, 7 architecture decision records
 
 **Tech:** Python • FastAPI • SQLAlchemy 2.0 (async) • Alembic • PostgreSQL • Redis • WebSocket • Stripe • Docker • OpenTelemetry • Prometheus • Grafana • Angular 21 • NgRx
 
@@ -96,6 +96,8 @@ A CLI that scans an entire website for WCAG 2.1 AA violations and maps every fin
 
 ### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG for German technical documentation
 A RAG assistant for German-language technical documentation (requirement specs, UNECE regulations, manuals) that answers with verifiable source citations – and abstains rather than hallucinates.
+
+🌐 **Live demo:** [normeon.onrender.com](https://normeon.onrender.com) – „Als Gast ansehen“ (view as guest) · free tier: the first request can take up to a minute
 
 - **Retrieval:** hybrid search combining vector search (pgvector, HNSW index), German full-text search and a trigram fallback, fused with Reciprocal Rank Fusion, then cross-encoder reranking
 - **Generation:** citation validation (invented sources are dropped), a confidence gate before the LLM call, SSE streaming, per-request cost and latency logging

@@ -44,12 +44,12 @@ In precedenza, **coordinamento di progetto** in ambito automotive e IT: gestione
 
 ## 🎨 Progetti in Evidenza
 
-### 🍽️ dineos · Sistema di ordinazione in tempo reale per la ristorazione ![In Sviluppo](https://img.shields.io/badge/🚧_In_Sviluppo-FFC107?style=flat-square)
+### 🍽️ dineos · Sistema di ordinazione in tempo reale per la ristorazione
 Un sistema operativo per ristoranti realizzato in autonomia end-to-end – backend, frontend, infrastruttura e pipeline di deploy. Gli ospiti ordinano e pagano da un QR code al tavolo, la cucina vede i nuovi ordini all'istante via WebSocket, i manager gestiscono tavoli, personale e menu da una dashboard.
 
 - **Tempo reale:** fan-out WebSocket tramite Redis Pub/Sub (multi-istanza), limiti di connessione per IP, heartbeat per chiudere le connessioni morte
 - **Sicurezza:** JWT con refresh token e revoca, 4 ruoli, rate limiting – in una security review interna ho trovato una fuga di dati tra tenant, corretta e blindata con test di regressione
-- **Qualità:** 376 test backend (pytest su PostgreSQL + Redis reali in CI), `mypy --strict`, Ruff, gate di coverage, 6 architecture decision record
+- **Qualità:** oltre 380 test backend (pytest su PostgreSQL + Redis reali in CI) e oltre 350 test frontend, `mypy --strict`, Ruff, gate di coverage, 7 architecture decision record
 
 **Tech:** Python • FastAPI • SQLAlchemy 2.0 (async) • Alembic • PostgreSQL • Redis • WebSocket • Stripe • Docker • OpenTelemetry • Prometheus • Grafana • Angular 21 • NgRx
 
@@ -96,6 +96,8 @@ CLI che analizza un intero sito web per violazioni WCAG 2.1 AA e mappa ogni risc
 
 ### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG per documentazione tecnica tedesca
 Assistente RAG per documentazione tecnica in lingua tedesca (capitolati, regolamenti UNECE, manuali) che risponde con citazioni verificabili delle fonti – e preferisce astenersi piuttosto che inventare.
+
+🌐 **Demo live:** [normeon.onrender.com](https://normeon.onrender.com) – „Als Gast ansehen“ (accesso ospite) · piano gratuito: la prima richiesta può richiedere fino a un minuto
 
 - **Retrieval:** ricerca ibrida che combina ricerca vettoriale (pgvector, indice HNSW), full-text search tedesca e fallback a trigrammi, fusi con Reciprocal Rank Fusion, poi reranking con cross-encoder
 - **Generazione:** validazione delle citazioni (le fonti inventate vengono scartate), gate di confidenza prima della chiamata all'LLM, streaming SSE, log di costi e latenza per ogni richiesta
