@@ -37,7 +37,6 @@ Sviluppatrice software con laurea triennale in Scienze economiche (Informatica p
 
 In precedenza, **coordinamento di progetto** in ambito automotive e IT: gestione dei requisiti, Jira/DMS, processi di rilascio e moderazione di riunioni di allineamento con fino a 150 partecipanti. Porto in ogni team questa doppia prospettiva – realizzazione **e** coordinamento.
 
-- 🗣️ Rumeno & Italiano (madrelingua) · Tedesco fluente · Inglese B1 (lettura/scrittura)
 - ♿ Focus su accessibilità (WCAG 2.1 AA / BFSG) e controllo qualità automatizzato
 - 🤝 Contributo open source: [MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) – nota nella documentazione per i framework SSR basati su Vite (Nuxt, SvelteKit, Astro), [PR #8766](https://github.com/maplibre/maplibre-gl-js/pull/8766) mergiata
 
@@ -67,7 +66,7 @@ Un sistema operativo per ristoranti realizzato in autonomia end-to-end – backe
 </details>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%" alt=""/>
 </div>
 
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Pacchetto npm open-source
@@ -92,7 +91,7 @@ CLI che analizza un intero sito web per violazioni WCAG 2.1 AA e mappa ogni risc
 </details>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%" alt=""/>
 </div>
 
 ### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG per documentazione tecnica tedesca ![In Sviluppo](https://img.shields.io/badge/🚧_In_Sviluppo-FFC107?style=flat-square)
@@ -106,7 +105,7 @@ Assistente RAG per documentazione tecnica in lingua tedesca (capitolati, regolam
 **Tech:** Python • FastAPI • PostgreSQL + pgvector • Alembic • Docker • Pytest • Testcontainers
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%" alt=""/>
 </div>
 
 ### Altri progetti
@@ -134,19 +133,19 @@ Assistente RAG per documentazione tecnica in lingua tedesca (capitolati, regolam
 
 <table>
   <tr>
-    <td width="33%" align="center"><a href="https://alina-moments-photography.vercel.app"><img src="imgs/alina-moments.png" alt="Screenshot: Alina Moments Photography"/></a><br/><sub>Alina Moments Photography</sub></td>
-    <td width="33%" align="center"><a href="https://charge-hub-one.vercel.app/de"><img src="imgs/chargehub.png" alt="Screenshot: ChargeHub"/></a><br/><sub>ChargeHub</sub></td>
-    <td width="33%" align="center"><a href="https://birthday-reminder-aghirculesei.pages.dev/"><img src="imgs/birthday-memories.png" alt="Screenshot: Birthday Reminder Pro"/></a><br/><sub>Birthday Reminder Pro</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://alina-moments-photography.vercel.app"><img src="imgs/thumbs/alina-moments.jpg" alt="Screenshot: Alina Moments Photography"/></a><br/><sub>Alina Moments Photography</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://charge-hub-one.vercel.app/de"><img src="imgs/thumbs/chargehub.jpg" alt="Screenshot: ChargeHub"/></a><br/><sub>ChargeHub</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://birthday-reminder-aghirculesei.pages.dev/"><img src="imgs/thumbs/birthday-memories.jpg" alt="Screenshot: Birthday Reminder Pro"/></a><br/><sub>Birthday Reminder Pro</sub></td>
   </tr>
   <tr>
-    <td width="33%" align="center"><a href="https://mihaelaaghirculesei.github.io/intelligent-family-calendar/"><img src="imgs/intelligent-family-calendar.png" alt="Screenshot: Intelligent Family Calendar"/></a><br/><sub>Intelligent Family Calendar</sub></td>
-    <td width="33%" align="center"><a href="https://github.com/MihaelaAghirculesei/secure-notes-lab"><img src="imgs/secure-notes-lab.png" alt="Screenshot: SecureNotes Lab"/></a><br/><sub>SecureNotes Lab</sub></td>
-    <td width="33%" align="center"><a href="https://todo-frontend-aghirculesei.onrender.com"><img src="imgs/todo-api.png" alt="Screenshot: Todo API"/></a><br/><sub>Todo API</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://mihaelaaghirculesei.github.io/intelligent-family-calendar/"><img src="imgs/thumbs/intelligent-family-calendar.jpg" alt="Screenshot: Intelligent Family Calendar"/></a><br/><sub>Intelligent Family Calendar</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://github.com/MihaelaAghirculesei/secure-notes-lab"><img src="imgs/thumbs/secure-notes-lab.jpg" alt="Screenshot: SecureNotes Lab"/></a><br/><sub>SecureNotes Lab</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://todo-frontend-aghirculesei.onrender.com"><img src="imgs/thumbs/todo-api.jpg" alt="Screenshot: Todo API"/></a><br/><sub>Todo API</sub></td>
   </tr>
   <tr>
-    <td width="33%" align="center"><a href="https://pokedex-aghirculesei.pages.dev/"><img src="imgs/pokedex.png" alt="Screenshot: Pokédex"/></a><br/><sub>Pokédex</sub></td>
-    <td width="33%" align="center"><a href="https://join-aghirculesei.pages.dev/"><img src="imgs/join-board.png" alt="Screenshot: Join Kanban Board"/></a><br/><sub>Join Kanban Board</sub></td>
-    <td width="33%" align="center"><a href="https://el-pollo-loco-aghirculesei.pages.dev/"><img src="imgs/el-pollo-loco.png" alt="Screenshot: El Pollo Loco"/></a><br/><sub>El Pollo Loco</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://pokedex-aghirculesei.pages.dev/"><img src="imgs/thumbs/pokedex.jpg" alt="Screenshot: Pokédex"/></a><br/><sub>Pokédex</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://join-aghirculesei.pages.dev/"><img src="imgs/thumbs/join-board.jpg" alt="Screenshot: Join Kanban Board"/></a><br/><sub>Join Kanban Board</sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://el-pollo-loco-aghirculesei.pages.dev/"><img src="imgs/thumbs/el-pollo-loco.jpg" alt="Screenshot: El Pollo Loco"/></a><br/><sub>El Pollo Loco</sub></td>
   </tr>
 </table>
 
@@ -231,16 +230,16 @@ Assistente RAG per documentazione tecnica in lingua tedesca (capitolati, regolam
 
 ## 💼 Percorso
 
-**Sviluppo web & app freelance** — Libera professionista · da 10/2025
+**Sviluppo web & app freelance** — Libera professionista · da 10/2025<br/>
 Sviluppo end-to-end di applicazioni web – dalla raccolta dei requisiti al deployment, con focus su sistemi di prenotazione appuntamenti e soluzioni di comunicazione automatizzate.
 
-**Qualifica certificata AZAV come sviluppatrice software** — Developer Akademie GmbH · 10/2024 – 10/2025
+**Qualifica certificata AZAV come sviluppatrice software** — Developer Akademie GmbH · 10/2024 – 10/2025<br/>
 18 moduli, oltre 12 progetti – diversi in team secondo SCRUM/Kanban. Focus: Angular, TypeScript, API REST, Firebase, automazione dei test, UI/UX (Figma).
 
-**Coordinamento di progetto – Automotive & IT** — Ferchau Automotive, jSERVICE · 2023 – 2024
+**Coordinamento di progetto – Automotive & IT** — Ferchau Automotive, jSERVICE · 2023 – 2024<br/>
 Gestione dei requisiti, controllo dei work package e delle scadenze in Jira/DMS, coordinamento dei processi di rilascio internazionali per i sistemi di assistenza alla guida, moderazione di riunioni di allineamento con fino a 150 partecipanti.
 
-**Laurea triennale in Scienze economiche (Informatica per l'economia)** — Università George Bacovia, Bacău (RO)
+**Laurea triennale in Scienze economiche (Informatica per l'economia)** — Università George Bacovia, Bacău (RO)<br/>
 Titolo originale: Economist licențiat, specializzazione Contabilitate și informatică de gestiune (Contabilità e informatica gestionale). Riconosciuto da KMK/ZAB come equivalente a una laurea triennale tedesca.
 
 ---
@@ -254,7 +253,7 @@ Titolo originale: Economist licențiat, specializzazione Contabilitate și infor
 
 <div align="center">
 
-<img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=7&exclude_repo=github-readme-streak-stats,github-readme-stats&hide=java,php" width="480" alt="Linguaggi più utilizzati"/>
+<img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=7&exclude_repo=github-readme-streak-stats,github-readme-stats&hide=java,php&custom_title=Linguaggi%20pi%C3%B9%20utilizzati" width="480" alt="Linguaggi più utilizzati"/>
 
 </div>
 
@@ -273,10 +272,10 @@ Titolo originale: Economist licențiat, specializzazione Contabilitate și infor
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-aghirculesei.de-FF5722?style=for-the-badge)](https://aghirculesei.de/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connettiti-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
-[![E-mail](https://img.shields.io/badge/E--mail-Scrivimi-D14836?style=for-the-badge&logo=gmail)](mailto:aghirculesei@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-aghirculesei.de-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://aghirculesei.de/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profilo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
+[![E-mail](https://img.shields.io/badge/E--mail-Scrivimi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aghirculesei@gmail.com)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt=""/>
 
 </div>
