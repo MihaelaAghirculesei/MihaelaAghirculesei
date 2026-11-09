@@ -203,7 +203,7 @@ App Todo fullstack con API RESTful e frontend React, sviluppata in team (84 comm
 </div>
 
 ### 🔒 [SecureNotes Lab](https://github.com/MihaelaAghirculesei/secure-notes-lab) · Vetrina di sicurezza
-App di note costruita **due volte**: una con 4 vulnerabilità OWASP Top 10 introdotte volontariamente (SQL Injection, Stored XSS, IDOR, password in chiaro) più 1 bonus (CSRF), una completamente corretta — ogni vulnerabilità documentata come vulnerability report con passaggi di exploit, ogni fix dimostrato da un test di regressione automatico.
+App di note costruita **due volte**: una con 4 vulnerabilità OWASP Top 10:2025 introdotte volontariamente (SQL Injection, Stored XSS, IDOR, password in chiaro) più 1 bonus (CSRF), una completamente corretta — ogni vulnerabilità documentata come vulnerability report con passaggi di exploit, i fix per SQL Injection, XSS, IDOR e CSRF dimostrati da test di regressione automatici.
 
 <img src="imgs/secure-notes-lab.png" width="800"/>
 
