@@ -73,6 +73,25 @@ A restaurant operating system built end-to-end on my own – back end, front end
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%" alt=""/>
 </div>
 
+### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG for German technical documentation
+A RAG assistant for German-language technical documentation (regulations, requirement specs, manuals) that answers with verifiable source citations – and abstains rather than hallucinates.
+
+🌐 **Live demo:** [normeon.onrender.com](https://normeon.onrender.com) – „Als Gast ansehen“ (view as guest) · free tier: the first request can take up to a minute
+
+▶ **[Watch the walkthrough (2 minutes)](https://cdn.jsdelivr.net/gh/MihaelaAghirculesei/normeon-german-technical-rag@main/docs/video/normeon-demo.mp4)** – a cited answer with its PDF page, a version conflict, a declined question and tenant isolation
+
+- **Retrieval:** hybrid search combining vector search (pgvector, HNSW index), German full-text search and a trigram fallback, fused with Reciprocal Rank Fusion, with optional cross-encoder reranking
+- **Generation:** citation validation (invented sources are dropped), a confidence gate before the LLM call, SSE streaming, per-request cost and latency logging
+- **Evaluation:** a hand-written 50-question German eval set, LLM-as-judge calibrated against human scoring; the demo configuration finds a correct source in the top five for 39 of 40 answerable questions and declines all 10 unanswerable ones
+- **Tenant isolation:** enforced twice – in the application's queries and by PostgreSQL row-level security under a non-superuser role, behind JWT sign-in
+- **Quality:** over 700 tests in CI (back end with Testcontainers, a dedicated security suite, front end), swappable adapters for embeddings, LLM and reranker; Angular front end with types generated from OpenAPI
+
+**Tech:** Python • FastAPI • PostgreSQL + pgvector • Alembic • Docker • Pytest • Testcontainers • Angular 22 • Vitest
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%" alt=""/>
+</div>
+
 ### 📦 [bfsg-scanner](https://www.npmjs.com/package/bfsg-scanner) · Open-source npm package
 A CLI that scans an entire website for WCAG 2.1 AA violations and maps every finding to the EN 301 549 / BFSG clause it breaches – producing a citeable conformance report in JSON/HTML/PDF. Built as a series of small, individually reviewed pull requests; the key architecture decisions each captured in an architecture decision record.
 
@@ -93,22 +112,6 @@ A CLI that scans an entire website for WCAG 2.1 AA violations and maps every fin
 - **Engine:** sitemap + robots.txt-aware breadth-first crawl, concurrency pool with per-host rate limiting, real Chromium via Playwright + axe-core
 
 </details>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%" alt=""/>
-</div>
-
-### 📚 [normeon](https://github.com/MihaelaAghirculesei/normeon-german-technical-rag) · RAG for German technical documentation
-A RAG assistant for German-language technical documentation (requirement specs, UNECE regulations, manuals) that answers with verifiable source citations – and abstains rather than hallucinates.
-
-🌐 **Live demo:** [normeon.onrender.com](https://normeon.onrender.com) – „Als Gast ansehen“ (view as guest) · free tier: the first request can take up to a minute
-
-- **Retrieval:** hybrid search combining vector search (pgvector, HNSW index), German full-text search and a trigram fallback, fused with Reciprocal Rank Fusion, then cross-encoder reranking
-- **Generation:** citation validation (invented sources are dropped), a confidence gate before the LLM call, SSE streaming, per-request cost and latency logging
-- **Evaluation:** a hand-written 50-question German eval set, LLM-as-judge calibrated against human scoring
-- **Quality:** over 700 tests in CI (back end with Testcontainers, a dedicated security suite, front end), swappable adapters for embeddings, LLM and reranker; Angular front end with types generated from OpenAPI
-
-**Tech:** Python • FastAPI • PostgreSQL + pgvector • Alembic • Docker • Pytest • Testcontainers • Angular 22 • Vitest
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=10&width=1200" width="100%" alt=""/>
