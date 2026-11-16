@@ -261,6 +261,8 @@ Originaltitel: Economist licențiat, Fachrichtung Contabilitate și informatică
 
 <img src="https://github-readme-stats-iota-gray-47.vercel.app/api/top-langs/?username=MihaelaAghirculesei&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=7&exclude_repo=github-readme-streak-stats,github-readme-stats&hide=java,php&custom_title=Meistgenutzte%20Sprachen" width="480" alt="Meistgenutzte Sprachen"/>
 
+<img src="https://github-readme-streak-stats-blush-zeta.vercel.app/?user=MihaelaAghirculesei&theme=radical&hide_border=true" width="480" alt="GitHub Streak"/>
+
 </div>
 
 ---
