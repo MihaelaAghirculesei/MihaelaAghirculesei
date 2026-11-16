@@ -53,7 +53,7 @@ def color_for(v):
     return "#39d353"
 
 
-def draw_row(ax, m_slice, v_slice, l_slice, value_fontsize, tick_labelsize, bar_width):
+def draw_row(ax, v_slice, l_slice, value_fontsize, tick_labelsize, bar_width):
     colors = [color_for(v) for v in v_slice]
     bars = ax.bar(l_slice, v_slice, color=colors, edgecolor="none", width=bar_width)
     for bar, v in zip(bars, v_slice):
@@ -76,7 +76,7 @@ def draw_row(ax, m_slice, v_slice, l_slice, value_fontsize, tick_labelsize, bar_
 # bar labels and ~24px for the title after that shrink, the source
 # fonts need to be ~2.5x those pixel targets (in points, at 150 dpi).
 fig, ax = plt.subplots(figsize=(16.5, 5.2), facecolor="#0d1117")
-draw_row(ax, months, values, labels, value_fontsize=20, tick_labelsize=20, bar_width=0.6)
+draw_row(ax, values, labels, value_fontsize=20, tick_labelsize=20, bar_width=0.6)
 ax.set_title(f"{range_label} · {total} commits", color="#e6edf3", fontsize=28, pad=18, loc="left")
 ax.set_ylabel("Commits / month", color="#8b949e", fontsize=19)
 plt.tight_layout()
@@ -91,7 +91,7 @@ plt.close(fig)
 # in the README, so the desktop version above is untouched.
 PER_ROW = 4
 rows = [
-    (months[i:i + PER_ROW], values[i:i + PER_ROW], labels[i:i + PER_ROW])
+    (values[i:i + PER_ROW], labels[i:i + PER_ROW])
     for i in range(0, len(months), PER_ROW)
 ]
 n_rows = len(rows)
@@ -103,8 +103,8 @@ if n_rows == 1:
 # right above this image.
 fig.suptitle(f"{range_label} · {total} commits",
              color="#e6edf3", fontsize=60, x=0.02, ha="left", y=0.99)
-for ax, (m_slice, v_slice, l_slice) in zip(axes, rows):
-    draw_row(ax, m_slice, v_slice, l_slice, value_fontsize=44, tick_labelsize=40, bar_width=0.5)
+for ax, (v_slice, l_slice) in zip(axes, rows):
+    draw_row(ax, v_slice, l_slice, value_fontsize=44, tick_labelsize=40, bar_width=0.5)
 axes[0].set_ylabel("Commits / month", color="#8b949e", fontsize=40)
 plt.tight_layout(rect=[0, 0, 1, 0.96])
 plt.savefig(MOBILE_PATH, dpi=150, facecolor=fig.get_facecolor())
