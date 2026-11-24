@@ -12,7 +12,7 @@ Realizzo applicazioni web end-to-end – dal backend FastAPI asincrono al fronte
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-aghirculesei.de-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://aghirculesei.de/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profilo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
-[![E-mail](https://img.shields.io/badge/E--mail-Scrivimi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aghirculesei@gmail.com)
+[![E-mail](https://img.shields.io/badge/E--mail-Scrivimi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kontakt@aghirculesei.de)
 
 🟢 **Disponibile per un'assunzione** · Wolfsburg · Remote (UE) · cittadina UE, nessuna sponsorizzazione necessaria
 
@@ -284,7 +284,7 @@ Titolo originale: Economist licențiat, specializzazione Contabilitate și infor
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-aghirculesei.de-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://aghirculesei.de/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profilo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mihaela-aghirculesei-84147a23b/)
-[![E-mail](https://img.shields.io/badge/E--mail-Scrivimi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aghirculesei@gmail.com)
+[![E-mail](https://img.shields.io/badge/E--mail-Scrivimi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kontakt@aghirculesei.de)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt=""/>
 
